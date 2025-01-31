@@ -7,7 +7,8 @@
 │── README.md                # Documentation file
 │── tasks/                   # Contains individual tasks
 │   │── <task_id>/           # Task-specific directory (e.g., 303992)
-│   │   │── test_model.cpp   # Unit tests for this task
+│   │   │── test.cpp         # Unit tests for this task
+│   │   │── base.cpp         # base code
 │   │   │── solution.cpp     # The main solution file for this task
 │   │   │── logs.txt         # Log file for test output (generated dynamically)
 │   │   │── CMakeLists.txt   # CMake file for building alternate responses
@@ -18,7 +19,6 @@
 │   │   │   │── C.cpp
 │   │   │   │── ...
 │   │   │   │── incorrect.cpp
-│   │   │   │── base.cpp
 │   │── <task_id>/           # Another task (same structure)
 │   │── <task_id>/           # Another task (same structure)
 ```
@@ -56,40 +56,47 @@ cd Tester_cpp_codebench
 
 ## **How to Use**
 
-### **Run Tests for `solution.cpp`** (Without CMake)
+### **Run Tests for `solution.cpp`**
+#### **Command:**
+```bash
+./code_runner.sh <task_id> solution
+```
+#### **Description:**
+This compiles `solution.cpp` directly and runs tests from `test_model.cpp` for a specific task.
+### **Run Tests for `base.cpp`**
+#### **Command:**
+```bash
+./code_runner.sh <task_id> base
+```
+#### **Description:**
+This runs `base.cpp` in the same way as `solution.cpp` for a specific task.
 #### **Give execute permission to the script:**
 ```bash
 chmod +x code_runner.sh
 ```
-#### **Run this command from the project root (`Tester_cpp_codebench/`):
 #### **Run this command from the project root (`Tester_cpp_codebench/`):**
 ```bash
 ./code_runner.sh <task_id> solution
 ```
 This compiles `solution.cpp` directly and runs tests from `test_model.cpp`.
-
-### **Run Tests for All Alternate Responses** (Using CMake)
-#### **Give execute permission to the script:**
 ```bash
-chmod +x code_runner.sh
+./code_runner.sh <task_id> base
 ```
-#### **Run this command from the project root (`Tester_cpp_codebench/`):
-#### **Run this command from the project root (`Tester_cpp_codebench/`):**
+This runs `base.cpp` in the same way as `solution.cpp`.
+
+### **Run Tests for All Alternate Responses**
+#### **Command:**
 ```bash
 ./code_runner.sh <task_id> alternate
 ```
-This compiles and tests all implementations inside `alternate_responses/` using CMake.
+#### **Description:**
+This compiles and tests all implementations inside `alternate_responses/` using CMake for a specific task.
+### **Run Tests for All Tasks**
+#### **Command:**
+```bash
+./code_runner.sh run_all
+```
+#### **Description:**
+This runs `solution.cpp` for all tasks inside `tasks/` and stores the results in `all_solution_logs.txt`.
 
 ---
-
-## **Testing Process**
-
-### **1. Solution File (`solution.cpp`)**
-- The script directly compiles `solution.cpp` and runs tests against `test_model.cpp`.
-
-### **2. Alternate Responses (`alternate_responses/` Directory)**
-- CMake is used to build and run tests for each `.cpp` file inside `alternate_responses/`.
-- The script replaces `#include "solution.cpp"` with `#include WRAPPER_FILE` in `test_model.cpp` before running.
-- After tests, the original include statement is restored.
-
-# meta_codebench_cpp_tester_new
