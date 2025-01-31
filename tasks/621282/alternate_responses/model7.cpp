@@ -22,8 +22,3 @@ int calculateScore(const std::string& s) {
 // Test the function
 #include <iostream>
 
-int main() {
-    std::string input = "(()(()))";
-    std::cout << "Score: " << calculateScore(input) << std::endl;
-    return 0;
-}

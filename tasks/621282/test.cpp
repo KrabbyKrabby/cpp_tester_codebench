@@ -1,4 +1,5 @@
 #include "solution.cpp"
+
 #include <vector>
 #include <gtest/gtest.h>
 #include <stack>
@@ -53,6 +54,3 @@ int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
-
-
-#endif // WRAPPER_H

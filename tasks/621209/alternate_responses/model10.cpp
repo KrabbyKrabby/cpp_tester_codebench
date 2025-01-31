@@ -18,16 +18,3 @@ int countDays(int days, vector<vector<int>>& tasks) {
     return ans;
 }
 
-int main() {
-    int days = 10;
-    vector<vector<int>> tasks = {
-        {1, 2},
-        {4, 5},
-        {7, 8}
-    };
-
-    int result = countDays(days, tasks);
-    cout << "Number of days without tasks: " << result << endl;
-
-    return 0;
-}

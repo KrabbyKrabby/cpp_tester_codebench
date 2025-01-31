@@ -1,0 +1,1065 @@
+Start testing: Jan 31 22:21 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"incorrect_solution_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Jan 31 22:21 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model1_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+[       OK ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[       OK ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Jan 31 22:21 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model10_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 31 22:21 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model2_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+[       OK ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[       OK ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Jan 31 22:21 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model3_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 15 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 31 22:21 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model4_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+[       OK ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[       OK ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Jan 31 22:21 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model5_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 40) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:145: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 30) }
+  expectedIndividual
+    Which is: { (10, 20), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (1 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.BackToBackAllocations
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Jan 31 22:21 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model6_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Jan 31 22:21 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model7_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 31 22:21 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model8_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 20), (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 20), (15, 35), (30, 40) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 30) }
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (10, 30) }
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (10, 20), (50, 60) }
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (10, 20), (50, 60) }
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Jan 31 22:21 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build
+"model9_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from LandUsageManagerTest
+[ RUN      ] LandUsageManagerTest.Constructor
+[       OK ] LandUsageManagerTest.Constructor (0 ms)
+[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
+[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.SimpleAllocation
+[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
+[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:47: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 25) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 25) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:51: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 25) }
+  expectedMerged
+    Which is: { (10, 25) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:67: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: { (15, 35) }
+  expectedIndividual
+    Which is: { (10, 15), (15, 35), (35, 40) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:71: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: { (15, 35) }
+  expectedMerged
+    Which is: { (10, 40) }
+
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
+[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
+[ RUN      ] LandUsageManagerTest.PartialRelease
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:89: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (20, 30) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:93: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (20, 30) }
+
+[  FAILED  ] LandUsageManagerTest.PartialRelease (0 ms)
+[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:110: Failure
+Expected equality of these values:
+  manager.getIndividualAllocations()
+    Which is: {}
+  expectedIndividual
+    Which is: { (10, 15), (55, 60) }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473647/test.cpp:114: Failure
+Expected equality of these values:
+  manager.getMergedAllocations()
+    Which is: {}
+  expectedMerged
+    Which is: { (10, 15), (55, 60) }
+
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
+[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
+[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
+[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.BackToBackAllocations
+[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
+[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
+[ RUN      ] LandUsageManagerTest.LargeAllocations
+[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAllocation
+[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
+[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
+[ RUN      ] LandUsageManagerTest.InvalidRelease
+[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
+[----------] 17 tests from LandUsageManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocation
+[  FAILED  ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
+[  FAILED  ] LandUsageManagerTest.PartialRelease
+[  FAILED  ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 31 22:21 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:21 +06

@@ -1,0 +1,671 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+1: Test timeout computed to be: 5
+1: [==========] Running 9 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 9 tests from FindNearestCommonAncestorTest
+1: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+1: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+1: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:59: Failure
+1: Expected equality of these values:
+1:   result->name
+1:     Which is: "Mammal"
+1:   "Ancestor"
+1: 
+1: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+1: Expected equality of these values:
+1:   result->name
+1:     Which is: "Human"
+1:   "Mammal"
+1: 
+1: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:71: Failure
+1: Expected equality of these values:
+1:   result
+1:     Which is: 0x149608480
+1:   nullptr
+1:     Which is: (nullptr)
+1: 
+1: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+1: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:83: Failure
+1: Expected equality of these values:
+1:   result
+1:     Which is: 0x149607fd0
+1:   nullptr
+1:     Which is: (nullptr)
+1: 
+1: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+1: Expected equality of these values:
+1:   result
+1:     Which is: 0x149608000
+1:   nullptr
+1:     Which is: (nullptr)
+1: 
+1: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+1: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+1: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+1: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 9 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 4 tests.
+1: [  FAILED  ] 5 tests, listed below:
+1: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase
+1: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+1: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree
+1: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+1: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+1: 
+1:  5 FAILED TESTS
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.34 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+2: Test timeout computed to be: 5
+2: [==========] Running 9 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 9 tests from FindNearestCommonAncestorTest
+2: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+2: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+2: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+2: [       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+2: [       OK ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+2: [       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+2: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+2: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+2: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+2: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+2: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+2: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 9 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 9 tests.
+ 2/11 Test  #2: model1_tests .....................   Passed    0.31 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+3: Test timeout computed to be: 5
+3: [==========] Running 9 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 9 tests from FindNearestCommonAncestorTest
+3: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+3: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+3: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:59: Failure
+3: Expected equality of these values:
+3:   result->name
+3:     Which is: "Mammal"
+3:   "Ancestor"
+3: 
+3: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+3: Expected equality of these values:
+3:   result->name
+3:     Which is: "Human"
+3:   "Mammal"
+3: 
+3: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:71: Failure
+3: Expected equality of these values:
+3:   result
+3:     Which is: 0x1287045f0
+3:   nullptr
+3:     Which is: (nullptr)
+3: 
+3: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+3: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:83: Failure
+3: Expected equality of these values:
+3:   result
+3:     Which is: 0x128704c70
+3:   nullptr
+3:     Which is: (nullptr)
+3: 
+3: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+3: Expected equality of these values:
+3:   result
+3:     Which is: 0x128704ca0
+3:   nullptr
+3:     Which is: (nullptr)
+3: 
+3: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+3: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+3: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+3: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 9 tests from 1 test suite ran. (0 ms total)
+3: [  PASSED  ] 4 tests.
+3: [  FAILED  ] 5 tests, listed below:
+3: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase
+3: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+3: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree
+3: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+3: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+3: 
+3:  5 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    0.32 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+4: Test timeout computed to be: 5
+4: [==========] Running 9 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 9 tests from FindNearestCommonAncestorTest
+4: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+4: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+4: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+4: [       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+4: Expected equality of these values:
+4:   result->name
+4:     Which is: "Human"
+4:   "Mammal"
+4: 
+4: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+4: [       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+4: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+4: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+4: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+ 4/11 Test  #4: model2_tests .....................***Exception: SegFault  0.36 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+5: Test timeout computed to be: 5
+5: [==========] Running 9 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 9 tests from FindNearestCommonAncestorTest
+5: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+5: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+5: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+5: [       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+5: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+5: Expected equality of these values:
+5:   result->name
+5:     Which is: "Human"
+5:   "Mammal"
+5: 
+5: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+5: [       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+5: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+5: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+5: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+5: Expected equality of these values:
+5:   result
+5:     Which is: 0x1266086c0
+5:   nullptr
+5:     Which is: (nullptr)
+5: 
+5: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+5: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+5: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+5: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 9 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 7 tests.
+5: [  FAILED  ] 2 tests, listed below:
+5: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+5: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+5: 
+5:  2 FAILED TESTS
+ 5/11 Test  #5: model3_tests .....................***Failed    0.51 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+6: Test timeout computed to be: 5
+6: [==========] Running 9 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 9 tests from FindNearestCommonAncestorTest
+6: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+6: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+6: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+6: [       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+6: [       OK ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+6: [       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+6: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+6: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+6: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+6: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+6: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+6: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 9 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 9 tests.
+ 6/11 Test  #6: model4_tests .....................   Passed    0.32 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+7: Test timeout computed to be: 5
+7: [==========] Running 9 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 9 tests from FindNearestCommonAncestorTest
+7: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+7: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+7: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+7: [       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+7: [       OK ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+7: [       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+7: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+7: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+7: [       OK ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+7: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+7: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+7: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 9 tests from 1 test suite ran. (0 ms total)
+7: [  PASSED  ] 9 tests.
+ 7/11 Test  #7: model5_tests .....................   Passed    0.33 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+8: Test timeout computed to be: 5
+8: [==========] Running 9 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 9 tests from FindNearestCommonAncestorTest
+8: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+8: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+8: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:59: Failure
+8: Expected equality of these values:
+8:   result->name
+8:     Which is: "Mammal"
+8:   "Ancestor"
+8: 
+8: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+8: Expected equality of these values:
+8:   result->name
+8:     Which is: "Human"
+8:   "Mammal"
+8: 
+8: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:71: Failure
+8: Expected equality of these values:
+8:   result
+8:     Which is: 0x14ae08470
+8:   nullptr
+8:     Which is: (nullptr)
+8: 
+8: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+8: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:83: Failure
+8: Expected equality of these values:
+8:   result
+8:     Which is: 0x14ae07fc0
+8:   nullptr
+8:     Which is: (nullptr)
+8: 
+8: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+8: Expected equality of these values:
+8:   result
+8:     Which is: 0x14ae07ff0
+8:   nullptr
+8:     Which is: (nullptr)
+8: 
+8: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+8: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+8: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+8: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 9 tests from 1 test suite ran. (0 ms total)
+8: [  PASSED  ] 4 tests.
+8: [  FAILED  ] 5 tests, listed below:
+8: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase
+8: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+8: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree
+8: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+8: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+8: 
+8:  5 FAILED TESTS
+ 8/11 Test  #8: model6_tests .....................***Failed    0.34 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+9: Test timeout computed to be: 5
+9: [==========] Running 9 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 9 tests from FindNearestCommonAncestorTest
+9: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+9: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+9: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:59: Failure
+9: Expected equality of these values:
+9:   result->name
+9:     Which is: "Mammal"
+9:   "Ancestor"
+9: 
+9: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+9: Expected equality of these values:
+9:   result->name
+9:     Which is: "Human"
+9:   "Mammal"
+9: 
+9: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:71: Failure
+9: Expected equality of these values:
+9:   result
+9:     Which is: 0x15b608470
+9:   nullptr
+9:     Which is: (nullptr)
+9: 
+9: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+9: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:83: Failure
+9: Expected equality of these values:
+9:   result
+9:     Which is: 0x15b607fc0
+9:   nullptr
+9:     Which is: (nullptr)
+9: 
+9: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+9: Expected equality of these values:
+9:   result
+9:     Which is: 0x15b607ff0
+9:   nullptr
+9:     Which is: (nullptr)
+9: 
+9: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+9: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+9: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+9: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 9 tests from 1 test suite ran. (0 ms total)
+9: [  PASSED  ] 4 tests.
+9: [  FAILED  ] 5 tests, listed below:
+9: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase
+9: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+9: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree
+9: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+9: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+9: 
+9:  5 FAILED TESTS
+ 9/11 Test  #9: model7_tests .....................***Failed    0.32 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+10: Test timeout computed to be: 5
+10: [==========] Running 9 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 9 tests from FindNearestCommonAncestorTest
+10: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
+10: [       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
+10: [       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:59: Failure
+10: Expected equality of these values:
+10:   result->name
+10:     Which is: "Mammal"
+10:   "Ancestor"
+10: 
+10: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.SameSpecies
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:65: Failure
+10: Expected equality of these values:
+10:   result->name
+10:     Which is: "Human"
+10:   "Mammal"
+10: 
+10: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:71: Failure
+10: Expected equality of these values:
+10:   result
+10:     Which is: 0x11ce08470
+10:   nullptr
+10:     Which is: (nullptr)
+10: 
+10: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
+10: [       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:83: Failure
+10: Expected equality of these values:
+10:   result
+10:     Which is: 0x11ce07fc0
+10:   nullptr
+10:     Which is: (nullptr)
+10: 
+10: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/test.cpp:89: Failure
+10: Expected equality of these values:
+10:   result
+10:     Which is: 0x11ce07ff0
+10:   nullptr
+10:     Which is: (nullptr)
+10: 
+10: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
+10: [ RUN      ] FindNearestCommonAncestorTest.NullRoot
+10: [       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
+10: [----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+10: 
+10: [----------] Global test environment tear-down
+10: [==========] 9 tests from 1 test suite ran. (0 ms total)
+10: [  PASSED  ] 4 tests.
+10: [  FAILED  ] 5 tests, listed below:
+10: [  FAILED  ] FindNearestCommonAncestorTest.DirectDescendantCase
+10: [  FAILED  ] FindNearestCommonAncestorTest.SameSpecies
+10: [  FAILED  ] FindNearestCommonAncestorTest.SpeciesNotInTrUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ee
+10: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
+10: [  FAILED  ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
+10: 
+10:  5 FAILED TESTS
+10/11 Test #10: model8_tests .....................***Failed    0.34 sec
+test 11
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+
+11: Test command: 
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =   3.52 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (SEGFAULT)
+	  5 - model3_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Not Run)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.01 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................   Passed    0.01 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    0.01 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................***Exception: SegFault  0.02 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................***Failed    0.00 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................   Passed    0.00 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................   Passed    0.00 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Failed    0.00 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Failed    0.00 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Failed    0.00 sec
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Development/model9_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/model9_tests
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =   0.06 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (SEGFAULT)
+	  5 - model3_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Not Run)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473613/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

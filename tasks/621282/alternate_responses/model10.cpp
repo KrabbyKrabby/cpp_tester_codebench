@@ -25,8 +25,3 @@ int calculateScore(const string& s) {
     return score;
 }
 
-int main() {
-    string s = "(()(()))";
-    cout << calculateScore(s) << endl;
-    return 0;
-}

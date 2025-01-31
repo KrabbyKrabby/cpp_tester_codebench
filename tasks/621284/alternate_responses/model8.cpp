@@ -44,8 +44,3 @@ std::string longestPalindromeSubstring(const std::string& dna) {
     return longest_palindrome_substring;
 }
 
-int main() {
-    std::string dna_sequence = "ATCGTACGTA";
-    std::cout << "Longest complementary palindromic substring: " << longestPalindromeSubstring(dna_sequence) << std::endl;
-    return 0;
-}

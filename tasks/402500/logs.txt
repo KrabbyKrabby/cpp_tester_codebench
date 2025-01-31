@@ -1,0 +1,640 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+1: Test timeout computed to be: 5
+1: [==========] Running 12 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 12 tests from DecodeMessageTest
+1: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+1: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (1 ms)
+1: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+1: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+1: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+1: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+1: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+1: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+1: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+1: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+1: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+1: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+1: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+1: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+1: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+1: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+1: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+1: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+1: [ RUN      ] DecodeMessageTest.LargeInput
+1: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+1: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+1: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+1: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:55: Failure
+1: Expected equality of these values:
+1:   decipherMessage("   abcd   efgh   ")
+1:     Which is: "abcd efgh "
+1:   "abcd efgh"
+1: 
+1: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+1: [----------] 12 tests from DecodeMessageTest (1 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 12 tests from 1 test suite ran. (1 ms total)
+1: [  PASSED  ] 11 tests.
+1: [  FAILED  ] 1 test, listed below:
+1: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces
+1: 
+1:  1 FAILED TEST
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.40 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+2: Test timeout computed to be: 5
+2: [==========] Running 12 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 12 tests from DecodeMessageTest
+2: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+2: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+2: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+2: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+2: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+2: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+2: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+2: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+2: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+2: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+2: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+2: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+2: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+2: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+2: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+2: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+2: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+2: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+2: [ RUN      ] DecodeMessageTest.LargeInput
+2: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+2: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+2: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+2: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+2: [       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+2: [----------] 12 tests from DecodeMessageTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 12 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 12 tests.
+ 2/11 Test  #2: model1_tests .....................   Passed    0.32 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+3: Test timeout computed to be: 5
+3: [==========] Running 12 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 12 tests from DecodeMessageTest
+3: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:12: Failure
+3: Expected equality of these values:
+3:   decipherMessage("abcd")
+3:     Which is: "dcba"
+3:   "abcd"
+3: 
+3: [  FAILED  ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+3: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:16: Failure
+3: Expected equality of these values:
+3:   decipherMessage("aabbcc")
+3:     Which is: "cba"
+3:   "abc"
+3: 
+3: [  FAILED  ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+3: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:20: Failure
+3: Expected equality of these values:
+3:   decipherMessage("abcd efgh ijkl")
+3:     Which is: "dcba hgfe lkji"
+3:   "abcd efgh ijkl"
+3: 
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+3: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:24: Failure
+3: Expected equality of these values:
+3:   decipherMessage("aabbcc ddee ffgg")
+3:     Which is: "cba ed gf"
+3:   "abc de fg"
+3: 
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+3: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:28: Failure
+3: Expected equality of these values:
+3:   decipherMessage("zyx")
+3:     Which is: "zyx"
+3:   "xyz"
+3: 
+3: [  FAILED  ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+3: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:32: Failure
+3: Expected equality of these values:
+3:   decipherMessage("abc")
+3:     Which is: "cba"
+3:   "abc"
+3: 
+3: [  FAILED  ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+3: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:36: Failure
+3: Expected equality of these values:
+3:   decipherMessage("zyxwvutsrqponmlkjihgfedcba")
+3:     Which is: "zyxwvutsrqponmlkjihgfedcba"
+3:   "abcdefghijklmnopqrstuvwxyz"
+3: 
+3: [  FAILED  ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+3: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:40: Failure
+3: Expected equality of these values:
+3:   decipherMessage("wxyz abcd pqrs")
+3:     Which is: "zyxw dcba srqp"
+3:   "wxyz abcd pqrs"
+3: 
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+3: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:44: Failure
+3: Expected equality of these values:
+3:   decipherMessage("wwoorlldd")
+3:     Which is: "wrold"
+3:   "dlorw"
+3: 
+3: [  FAILED  ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+3: [ RUN      ] DecodeMessageTest.LargeInput
+3: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+3: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:51: Failure
+3: Expected equality of these values:
+3:   decipherMessage("     ")
+3:     Which is: "     "
+3:   ""
+3: 
+3: [  FAILED  ] DecodeMessageTest.WhitespacesOnly (0 ms)
+3: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:55: Failure
+3: Expected equality of these values:
+3:   decipherMessage("   abcd   efgh   ")
+3:     Which is: "   dcba   hgfe   "
+3:   "abcd efgh"
+3: 
+3: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+3: [----------] 12 tests from DecodeMessageTest (0 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 12 tests from 1 test suite ran. (0 ms total)
+3: [  PASSED  ] 1 test.
+3: [  FAILED  ] 11 tests, listed below:
+3: [  FAILED  ] DecodeMessageTest.SingleWordUniqueCharacters
+3: [  FAILED  ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+3: [  FAILED  ] DecodeMessageTest.AllCharactersInDescendingOrder
+3: [  FAILED  ] DecodeMessageTest.AllCharactersInAscendingOrder
+3: [  FAILED  ] DecodeMessageTest.AllCharactersOfAlphabet
+3: [  FAILED  ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+3: [  FAILED  ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+3: [  FAILED  ] DecodeMessageTest.WhitespacesOnly
+3: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces
+3: 
+3: 11 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    0.32 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+4: Test timeout computed to be: 5
+4: [==========] Running 12 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 12 tests from DecodeMessageTest
+4: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+4: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+4: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+4: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+4: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+4: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+4: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+4: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+4: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+4: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+4: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+4: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+4: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+4: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+4: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+4: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+4: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+4: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+4: [ RUN      ] DecodeMessageTest.LargeInput
+4: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+4: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+4: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+4: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+4: [       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+4: [----------] 12 tests from DecodeMessageTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 12 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 12 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.32 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+5: Test timeout computed to be: 5
+5: [==========] Running 12 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 12 tests from DecodeMessageTest
+5: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+5: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+5: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+5: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+5: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+5: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+5: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+5: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+5: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+5: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+5: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+5: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+5: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+5: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+5: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+5: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+5: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+5: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+5: [ RUN      ] DecodeMessageTest.LargeInput
+5: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+5: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+5: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+5: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+5: [       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+5: [----------] 12 tests from DecodeMessageTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 12 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 12 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.32 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+6: Test timeout computed to be: 5
+6: [==========] Running 12 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 12 tests from DecodeMessageTest
+6: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+6: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+6: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+6: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+6: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+6: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+6: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+6: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+6: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+6: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+6: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+6: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+6: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+6: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+6: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+6: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+6: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+6: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+6: [ RUN      ] DecodeMessageTest.LargeInput
+6: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+6: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+6: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+6: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+6: [       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+6: [----------] 12 tests from DecodeMessageTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 12 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 12 tests.
+ 6/11 Test  #6: model4_tests .....................   Passed    0.32 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+7: Test timeout computed to be: 5
+7: [==========] Running 12 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 12 tests from DecodeMessageTest
+7: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+7: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+7: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+7: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+7: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+7: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+7: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+7: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+7: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+7: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+7: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+7: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+7: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+7: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+7: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+7: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+7: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+7: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+7: [ RUN      ] DecodeMessageTest.LargeInput
+7: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+7: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+7: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+7: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+7: [       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+7: [----------] 12 tests from DecodeMessageTest (0 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 12 tests from 1 test suite ran. (0 ms total)
+7: [  PASSED  ] 12 tests.
+ 7/11 Test  #7: model5_tests .....................   Passed    0.45 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+8: Test timeout computed to be: 5
+8: [==========] Running 12 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 12 tests from DecodeMessageTest
+8: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+8: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+8: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+8: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+8: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+8: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+8: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+8: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+8: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+8: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+8: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+8: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+8: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+8: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+8: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+8: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+8: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+8: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+8: [ RUN      ] DecodeMessageTest.LargeInput
+8: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+8: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:51: Failure
+8: Expected equality of these values:
+8:   decipherMessage("     ")
+8:     Which is: "     "
+8:   ""
+8: 
+8: [  FAILED  ] DecodeMessageTest.WhitespacesOnly (0 ms)
+8: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:55: Failure
+8: Expected equality of these values:
+8:   decipherMessage("   abcd   efgh   ")
+8:     Which is: "   abcd   efgh   "
+8:   "abcd efgh"
+8: 
+8: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+8: [----------] 12 tests from DecodeMessageTest (0 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 12 tests from 1 test suite ran. (0 ms total)
+8: [  PASSED  ] 10 tests.
+8: [  FAILED  ] 2 tests, listed below:
+8: [  FAILED  ] DecodeMessageTest.WhitespacesOnly
+8: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces
+8: 
+8:  2 FAILED TESTS
+ 8/11 Test  #8: model6_tests .....................***Failed    0.32 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+9: Test timeout computed to be: 5
+9: [==========] Running 12 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 12 tests from DecodeMessageTest
+9: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+9: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+9: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+9: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+9: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+9: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+9: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+9: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+9: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+9: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+9: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+9: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+9: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+9: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+9: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+9: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+9: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+9: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+9: [ RUN      ] DecodeMessageTest.LargeInput
+9: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+9: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:51: Failure
+9: Expected equality of these values:
+9:   decipherMessage("     ")
+9:     Which is: "     "
+9:   ""
+9: 
+9: [  FAILED  ] DecodeMessageTest.WhitespacesOnly (0 ms)
+9: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:55: Failure
+9: Expected equality of these values:
+9:   decipherMessage("   abcd   efgh   ")
+9:     Which is: "   abcd   efgh   "
+9:   "abcd efgh"
+9: 
+9: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+9: [----------] 12 tests from DecodeMessageTest (0 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 12 tests from 1 test suite ran. (0 ms total)
+9: [  PASSED  ] 10 tests.
+9: [  FAILED  ] 2 tests, listed below:
+9: [  FAILED  ] DecodeMessageTest.WhitespacesOnly
+9: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces
+9: 
+9:  2 FAILED TESTS
+ 9/11 Test  #9: model7_tests .....................***Failed    0.39 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+10: Test timeout computed to be: 5
+10: [==========] Running 12 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 12 tests from DecodeMessageTest
+10: [ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
+10: [       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
+10: [ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
+10: [       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
+10: [ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
+10: [       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
+10: [ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
+10: [       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
+10: [ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
+10: [       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
+10: [ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
+10: [       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
+10: [ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
+10: [       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
+10: [ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
+10: [       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
+10: [ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
+10: [       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
+10: [ RUN      ] DecodeMessageTest.LargeInput
+10: [       OK ] DecodeMessageTest.LargeInput (0 ms)
+10: [ RUN      ] DecodeMessageTest.WhitespacesOnly
+10: [       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
+10: [ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/test.cpp:55: Failure
+10: Expected equality of these values:
+10:   decipherMessage("   abcd   efgh   ")
+10:     Which is: "abcd efgh "
+10:   "abcd efgh"
+10: 
+10: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
+10: [----------] 12 tests from DecodeMessageTest (0 ms total)
+10: 
+10: [----------] Global test environment tear-down
+10: [==========] 12 tests from 1 test suite ran. (0 ms total)
+10: [  PASSED  ] 11 tests.
+10:Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ [  FAILED  ] 1 test, listed below:
+10: [  FAILED  ] DecodeMessageTest.LeadingAndTrailingSpaces
+10: 
+10:  1 FAILED TEST
+10/11 Test #10: model8_tests .....................***Failed    0.32 sec
+test 11
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+
+11: Test command: 
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =   3.48 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Not Run)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.01 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................   Passed    0.01 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    0.01 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.00 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.00 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................   Passed    0.00 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................   Passed    0.00 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Failed    0.00 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Failed    0.00 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Failed    0.00 sec
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Development/model9_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/model9_tests
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =   0.05 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Not Run)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/402500/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

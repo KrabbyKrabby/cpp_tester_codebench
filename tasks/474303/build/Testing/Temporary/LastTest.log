@@ -1,0 +1,359 @@
+Start testing: Jan 31 22:27 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Jan 31 22:27 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model1_tests" start time: Jan 31 22:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
+[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
+[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
+[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
+[ RUN      ] TaskSchedulerTest.RunAllConcurrently
+[       OK ] TaskSchedulerTest.RunAllConcurrently (105 ms)
+[ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
+[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (254 ms)
+[ RUN      ] TaskSchedulerTest.CancelPendingTask
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:173: Failure
+Value of: ranB
+  Actual: false
+Expected: true
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:174: Failure
+Expected equality of these values:
+  scheduler.getTaskStatus(idB)
+    Which is: 4-byte object <00-00 00-00>
+  TaskStatus::COMPLETED
+    Which is: 4-byte object <02-00 00-00>
+
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask (0 ms)
+[ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
+[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (204 ms)
+[ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:224: Failure
+Expected: scheduler.getTaskStatus(9999) throws an exception of type std::out_of_range.
+  Actual: it throws std::runtime_error with description "Task ID not found".
+
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId (1 ms)
+[----------] 7 tests from TaskSchedulerTest (566 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (566 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Jan 31 22:27 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model10_tests
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model10_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model10_tests" end time: Jan 31 22:27 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model2_tests" start time: Jan 31 22:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
+[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
+[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
+[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
+[ RUN      ] TaskSchedulerTest.RunAllConcurrently
+[       OK ] TaskSchedulerTest.RunAllConcurrently (105 ms)
+[ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
+[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (250 ms)
+[ RUN      ] TaskSchedulerTest.CancelPendingTask
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:173: Failure
+Value of: ranB
+  Actual: false
+Expected: true
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:174: Failure
+Expected equality of these values:
+  scheduler.getTaskStatus(idB)
+    Which is: 4-byte object <00-00 00-00>
+  TaskStatus::COMPLETED
+    Which is: 4-byte object <02-00 00-00>
+
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask (0 ms)
+[ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
+[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (205 ms)
+[ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:224: Failure
+Expected: scheduler.getTaskStatus(9999) throws an exception of type std::out_of_range.
+  Actual: it throws std::runtime_error with description "Task ID not found".
+
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId (0 ms)
+[----------] 7 tests from TaskSchedulerTest (562 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (562 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Jan 31 22:27 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model3_tests" start time: Jan 31 22:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
+[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
+[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
+[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
+[ RUN      ] TaskSchedulerTest.RunAllConcurrently
+[       OK ] TaskSchedulerTest.RunAllConcurrently (206 ms)
+[ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
+[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (254 ms)
+[ RUN      ] TaskSchedulerTest.CancelPendingTask
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:173: Failure
+Value of: ranB
+  Actual: false
+Expected: true
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:174: Failure
+Expected equality of these values:
+  scheduler.getTaskStatus(idB)
+    Which is: 4-byte object <00-00 00-00>
+  TaskStatus::COMPLETED
+    Which is: 4-byte object <02-00 00-00>
+
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask (0 ms)
+[ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
+[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (201 ms)
+[ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:224: Failure
+Expected: scheduler.getTaskStatus(9999) throws an exception of type std::out_of_range.
+  Actual: it throws std::runtime_error with description "Task not found".
+
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId (0 ms)
+[----------] 7 tests from TaskSchedulerTest (662 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (662 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 31 22:27 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model4_tests" start time: Jan 31 22:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
+[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
+[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
+[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
+[ RUN      ] TaskSchedulerTest.RunAllConcurrently
+[       OK ] TaskSchedulerTest.RunAllConcurrently (117 ms)
+[ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
+[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (253 ms)
+[ RUN      ] TaskSchedulerTest.CancelPendingTask
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:173: Failure
+Value of: ranB
+  Actual: false
+Expected: true
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:174: Failure
+Expected equality of these values:
+  scheduler.getTaskStatus(idB)
+    Which is: 4-byte object <00-00 00-00>
+  TaskStatus::COMPLETED
+    Which is: 4-byte object <02-00 00-00>
+
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask (0 ms)
+[ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
+[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (217 ms)
+[ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/test.cpp:224: Failure
+Expected: scheduler.getTaskStatus(9999) throws an exception of type std::out_of_range.
+  Actual: it throws std::runtime_error with description "Task not found".
+
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId (0 ms)
+[----------] 7 tests from TaskSchedulerTest (589 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (589 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] TaskSchedulerTest.CancelPendingTask
+[  FAILED  ] TaskSchedulerTest.GetTaskStatusInvalidId
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Jan 31 22:27 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model5_tests" start time: Jan 31 22:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
+[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
+[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
+[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
+[ RUN      ] TaskSchedulerTest.RunAllConcurrently
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Jan 31 22:27 +06
+"model5_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model6_tests
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model6_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Jan 31 22:27 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model7_tests
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model7_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model7_tests" end time: Jan 31 22:27 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Jan 31 22:27 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build/model9_tests
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/474303/build
+"model9_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model9_tests" end time: Jan 31 22:27 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:27 +06

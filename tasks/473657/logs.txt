@@ -1,0 +1,643 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+1: Test timeout computed to be: 5
+1: [==========] Running 10 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 10 tests from SequenceAlignmentTest
+1: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+1: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+1: Expected equality of these values:
+1:   SequenceAllignment(dna1, dna2)
+1:     Which is: "GACGT"
+1:   "ACGTG"
+1: 
+1: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+1: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+1: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+1: Expected equality of these values:
+1:   SequenceAllignment(dna1, dna2)
+1:     Which is: "GACGT"
+1:   "ACGTG"
+1: 
+1: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+1: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+1: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+1: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+1: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+1: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+1: Expected equality of these values:
+1:   SequenceAllignment(dna1, dna2)
+1:     Which is: "ACGTA"
+1:   "ACGTC"
+1: 
+1: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+1: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 10 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 7 tests.
+1: [  FAILED  ] 3 tests, listed below:
+1: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+1: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+1: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+1: 
+1:  3 FAILED TESTS
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.34 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+2: Test timeout computed to be: 5
+2: [==========] Running 10 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 10 tests from SequenceAlignmentTest
+2: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+2: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+2: [       OK ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+2: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+2: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+2: [       OK ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+2: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+2: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+2: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+2: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+2: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+2: [       OK ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+2: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 10 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 10 tests.
+ 2/11 Test  #2: model1_tests .....................   Passed    0.33 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+3: Test timeout computed to be: 5
+3: [==========] Running 10 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 10 tests from SequenceAlignmentTest
+3: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+3: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+3: Expected equality of these values:
+3:   SequenceAllignment(dna1, dna2)
+3:     Which is: "GACGT"
+3:   "ACGTG"
+3: 
+3: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+3: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+3: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+3: Expected equality of these values:
+3:   SequenceAllignment(dna1, dna2)
+3:     Which is: "GACGT"
+3:   "ACGTG"
+3: 
+3: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+3: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+3: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+3: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+3: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+3: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+3: Expected equality of these values:
+3:   SequenceAllignment(dna1, dna2)
+3:     Which is: "ACGTA"
+3:   "ACGTC"
+3: 
+3: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+3: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 10 tests from 1 test suite ran. (0 ms total)
+3: [  PASSED  ] 7 tests.
+3: [  FAILED  ] 3 tests, listed below:
+3: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+3: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+3: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+3: 
+3:  3 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    0.34 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+4: Test timeout computed to be: 5
+4: [==========] Running 10 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 10 tests from SequenceAlignmentTest
+4: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+4: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+4: [       OK ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+4: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+4: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+4: [       OK ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+4: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+4: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+4: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+4: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+4: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+4: [       OK ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+4: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 10 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 10 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.32 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+5: Test timeout computed to be: 5
+5: [==========] Running 10 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 10 tests from SequenceAlignmentTest
+5: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+5: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+5: [       OK ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+5: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+5: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+5: [       OK ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+5: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+5: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+5: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+5: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+5: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+5: [       OK ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+5: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 10 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 10 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.40 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+6: Test timeout computed to be: 5
+6: [==========] Running 10 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 10 tests from SequenceAlignmentTest
+6: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+6: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+6: Expected equality of these values:
+6:   SequenceAllignment(dna1, dna2)
+6:     Which is: "GACGT"
+6:   "ACGTG"
+6: 
+6: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+6: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+6: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+6: Expected equality of these values:
+6:   SequenceAllignment(dna1, dna2)
+6:     Which is: "GACGT"
+6:   "ACGTG"
+6: 
+6: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+6: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+6: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+6: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+6: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+6: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+6: Expected equality of these values:
+6:   SequenceAllignment(dna1, dna2)
+6:     Which is: "ACGTA"
+6:   "ACGTC"
+6: 
+6: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+6: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 10 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 7 tests.
+6: [  FAILED  ] 3 tests, listed below:
+6: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+6: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+6: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+6: 
+6:  3 FAILED TESTS
+ 6/11 Test  #6: model4_tests .....................***Failed    0.41 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+7: Test timeout computed to be: 5
+7: [==========] Running 10 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 10 tests from SequenceAlignmentTest
+7: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+7: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+7: Expected equality of these values:
+7:   SequenceAllignment(dna1, dna2)
+7:     Which is: "GACGT"
+7:   "ACGTG"
+7: 
+7: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+7: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+7: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+7: Expected equality of these values:
+7:   SequenceAllignment(dna1, dna2)
+7:     Which is: "GACGT"
+7:   "ACGTG"
+7: 
+7: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+7: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+7: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+7: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+7: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+7: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+7: Expected equality of these values:
+7:   SequenceAllignment(dna1, dna2)
+7:     Which is: "ACGTA"
+7:   "ACGTC"
+7: 
+7: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+7: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 10 tests from 1 test suite ran. (0 ms total)
+7: [  PASSED  ] 7 tests.
+7: [  FAILED  ] 3 tests, listed below:
+7: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+7: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+7: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+7: 
+7:  3 FAILED TESTS
+ 7/11 Test  #7: model5_tests .....................***Failed    0.42 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+8: Test timeout computed to be: 5
+8: [==========] Running 10 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 10 tests from SequenceAlignmentTest
+8: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+8: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+8: Expected equality of these values:
+8:   SequenceAllignment(dna1, dna2)
+8:     Which is: "GACGT"
+8:   "ACGTG"
+8: 
+8: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+8: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+8: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+8: Expected equality of these values:
+8:   SequenceAllignment(dna1, dna2)
+8:     Which is: "GACGT"
+8:   "ACGTG"
+8: 
+8: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+8: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+8: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+8: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+8: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+8: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+8: Expected equality of these values:
+8:   SequenceAllignment(dna1, dna2)
+8:     Which is: "ACGTA"
+8:   "ACGTC"
+8: 
+8: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+8: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 10 tests from 1 test suite ran. (0 ms total)
+8: [  PASSED  ] 7 tests.
+8: [  FAILED  ] 3 tests, listed below:
+8: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+8: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+8: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+8: 
+8:  3 FAILED TESTS
+ 8/11 Test  #8: model6_tests .....................***Failed    0.41 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+9: Test timeout computed to be: 5
+9: [==========] Running 10 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 10 tests from SequenceAlignmentTest
+9: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+9: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+9: Expected equality of these values:
+9:   SequenceAllignment(dna1, dna2)
+9:     Which is: "GACGT"
+9:   "ACGTG"
+9: 
+9: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+9: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+9: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+9: Expected equality of these values:
+9:   SequenceAllignment(dna1, dna2)
+9:     Which is: "GACGT"
+9:   "ACGTG"
+9: 
+9: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+9: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+9: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+9: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+9: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+9: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+9: Expected equality of these values:
+9:   SequenceAllignment(dna1, dna2)
+9:     Which is: "ACGTA"
+9:   "ACGTC"
+9: 
+9: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+9: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 10 tests from 1 test suite ran. (0 ms total)
+9: [  PASSED  ] 7 tests.
+9: [  FAILED  ] 3 tests, listed below:
+9: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+9: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+9: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+9: 
+9:  3 FAILED TESTS
+ 9/11 Test  #9: model7_tests .....................***Failed    0.32 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+10: Test timeout computed to be: 5
+10: [==========] Running 10 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 10 tests from SequenceAlignmentTest
+10: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+10: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+10: Expected equality of these values:
+10:   SequenceAllignment(dna1, dna2)
+10:     Which is: "GACGT"
+10:   "ACGTG"
+10: 
+10: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+10: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+10: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+10: Expected equality of these values:
+10:   SequenceAllignment(dna1, dna2)
+10:     Which is: "GACGT"
+10:   "ACGTG"
+10: 
+10: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+10: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+10: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+10: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+10: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+10: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+10: Expected equality of these values:
+10:   SequenceAllignment(dna1, dna2)
+10:     Which is: "ACGTA"
+10:   "ACGTC"
+10: 
+10: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+10: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+10: 
+10: [----------] Global test environment tear-down
+10: [==========] 10 tests from 1 test suite ran. (0 ms total)
+10: [  PASSED  ] 7 tests.
+10: [  FAILED  ] 3 tests, listed below:
+10: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+10: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+10: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+10: 
+10:  3 FAILED TESTS
+10/11 Test #10: model8_tests .....................***Failed    0.33 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+11: Test timeout computed to be: 5
+11: [==========] Running 10 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 10 tests from SequenceAlignmentTest
+11: [ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
+11: [       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:17: Failure
+11: Expected equality of these values:
+11:   SequenceAllignment(dna1, dna2)
+11:     Which is: "GACGT"
+11:   "ACGTG"
+11: 
+11: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.OneEmptySequence
+11: [       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.BothEmptySequences
+11: [       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
+11: /UseErrors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+rs/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:38: Failure
+11: Expected equality of these values:
+11:   SequenceAllignment(dna1, dna2)
+11:     Which is: "GACGT"
+11:   "ACGTG"
+11: 
+11: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
+11: [       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
+11: [       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.IdenticalSequences
+11: [       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.SubsequenceCase
+11: [       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
+11: [ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/test.cpp:73: Failure
+11: Expected equality of these values:
+11:   SequenceAllignment(dna1, dna2)
+11:     Which is: "ACGTA"
+11:   "ACGTC"
+11: 
+11: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
+11: [----------] 10 tests from SequenceAlignmentTest (0 ms total)
+11: 
+11: [----------] Global test environment tear-down
+11: [==========] 10 tests from 1 test suite ran. (0 ms total)
+11: [  PASSED  ] 7 tests.
+11: [  FAILED  ] 3 tests, listed below:
+11: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSequences
+11: [  FAILED  ] SequenceAlignmentTest.CaseInsensitiveAlignment
+11: [  FAILED  ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
+11: 
+11:  3 FAILED TESTS
+11/11 Test #11: model9_tests .....................***Failed    0.36 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =   3.97 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Failed)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.01 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................   Passed    0.01 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    0.01 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.00 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.00 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Failed    0.00 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Failed    0.00 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Failed    0.00 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Failed    0.00 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Failed    0.00 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Failed    0.00 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =   0.06 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  3 - model10_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Failed)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473657/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

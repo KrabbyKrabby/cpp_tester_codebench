@@ -20,8 +20,3 @@ int calculateScore(const std::string& s) {
     return stack.empty() ? score : 0;  // Return score only if string is balanced
 }
 
-int main() {
-    std::string s = "(()(()))";
-    std::cout << calculateScore(s) << std::endl;
-    return 0;
-}

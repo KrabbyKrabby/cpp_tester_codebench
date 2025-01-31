@@ -39,9 +39,3 @@ int longestUniqueSubstr(const std::string& s, std::unordered_map<char, int>& wei
     return maxLength;
 }
 
-int main() {
-    std::string s = "abeioub";
-    std::unordered_map<char, int> weights = {{'a', 2}, {'e', 1}, {'i', 1}, {'o', 1}, {'u', 1}, {'b', 1}};
-    std::cout << longestUniqueSubstr(s, weights) << std::endl;  // Output: 7
-    return 0;
-}

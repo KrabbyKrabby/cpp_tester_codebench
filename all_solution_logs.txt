@@ -24,7 +24,7 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [       OK ] GaussianEliminationTests.EmptyMatrix (0 ms)
 [ RUN      ] GaussianEliminationTests.NonSquareMatrix
 [       OK ] GaussianEliminationTests.NonSquareMatrix (0 ms)
-[----------] 10 tests from GaussianEliminationTests (0 ms total)
+[----------] 10 tests from GaussianEliminationTests (1 ms total)
 
 [----------] Global test environment tear-down
 [==========] 10 tests from 1 test suite ran. (1 ms total)
@@ -83,10 +83,10 @@ Compiling and running solution.cpp for Task 307577...
 [       OK ] MatrixTest.DeterminantOverflow (0 ms)
 [ RUN      ] MatrixTest.Determinant4x4Overflow
 [       OK ] MatrixTest.Determinant4x4Overflow (0 ms)
-[----------] 12 tests from MatrixTest (0 ms total)
+[----------] 12 tests from MatrixTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 12 tests from 1 test suite ran. (0 ms total)
+[==========] 12 tests from 1 test suite ran. (1 ms total)
 [  PASSED  ] 12 tests.
 Completed Task 307577
 ----------------------
@@ -216,17 +216,17 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
 [       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
 [ RUN      ] LandUsageManagerTest.LargeAllocations
-[       OK ] LandUsageManagerTest.LargeAllocations (0 ms)
+[       OK ] LandUsageManagerTest.LargeAllocations (1 ms)
 [ RUN      ] LandUsageManagerTest.InvalidAllocation
 [       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
 [ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
 [       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
 [ RUN      ] LandUsageManagerTest.InvalidRelease
 [       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
-[----------] 17 tests from LandUsageManagerTest (0 ms total)
+[----------] 17 tests from LandUsageManagerTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 17 tests from 1 test suite ran. (0 ms total)
+[==========] 17 tests from 1 test suite ran. (2 ms total)
 [  PASSED  ] 17 tests.
 Completed Task 473647
 ----------------------
@@ -385,17 +385,17 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] XMLToJSONConverterTest.SpecialCharactersInNode
 [       OK ] XMLToJSONConverterTest.SpecialCharactersInNode (0 ms)
 [ RUN      ] XMLToJSONConverterTest.LargeTree
-[       OK ] XMLToJSONConverterTest.LargeTree (1 ms)
+[       OK ] XMLToJSONConverterTest.LargeTree (2 ms)
 [ RUN      ] XMLToJSONConverterTest.NestedXMLWithChildren
 [       OK ] XMLToJSONConverterTest.NestedXMLWithChildren (0 ms)
 [ RUN      ] XMLToJSONConverterTest.NodeWithEmptyNameAndValue
 [       OK ] XMLToJSONConverterTest.NodeWithEmptyNameAndValue (0 ms)
 [ RUN      ] XMLToJSONConverterTest.SpecialCharacterInValue
 [       OK ] XMLToJSONConverterTest.SpecialCharacterInValue (0 ms)
-[----------] 11 tests from XMLToJSONConverterTest (1 ms total)
+[----------] 11 tests from XMLToJSONConverterTest (3 ms total)
 
 [----------] Global test environment tear-down
-[==========] 11 tests from 1 test suite ran. (1 ms total)
+[==========] 11 tests from 1 test suite ran. (3 ms total)
 [  PASSED  ] 11 tests.
 Completed Task 473660
 ----------------------
@@ -502,17 +502,17 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] CacheBufferTest.DuplicateKeyHandling
 [       OK ] CacheBufferTest.DuplicateKeyHandling (0 ms)
 [ RUN      ] CacheBufferTest.BufferUnderLoad
-[       OK ] CacheBufferTest.BufferUnderLoad (1 ms)
+[       OK ] CacheBufferTest.BufferUnderLoad (3 ms)
 [ RUN      ] CacheBufferTest.MergeBuffers
 [       OK ] CacheBufferTest.MergeBuffers (0 ms)
 [ RUN      ] CacheBufferTest.BackupAndRestore
 [       OK ] CacheBufferTest.BackupAndRestore (0 ms)
 [ RUN      ] CacheBufferTest.RestoreWithoutBackup
 [       OK ] CacheBufferTest.RestoreWithoutBackup (0 ms)
-[----------] 7 tests from CacheBufferTest (1 ms total)
+[----------] 7 tests from CacheBufferTest (4 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (1 ms total)
+[==========] 7 tests from 1 test suite ran. (4 ms total)
 [  PASSED  ] 7 tests.
 Completed Task 473688
 ----------------------
@@ -608,17 +608,17 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] TaskSchedulerTest.RunAllConcurrently
 [       OK ] TaskSchedulerTest.RunAllConcurrently (105 ms)
 [ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
-[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (254 ms)
+[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (251 ms)
 [ RUN      ] TaskSchedulerTest.CancelPendingTask
 [       OK ] TaskSchedulerTest.CancelPendingTask (0 ms)
 [ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
-[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (202 ms)
+[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (205 ms)
 [ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
 [       OK ] TaskSchedulerTest.GetTaskStatusInvalidId (0 ms)
-[----------] 7 tests from TaskSchedulerTest (562 ms total)
+[----------] 7 tests from TaskSchedulerTest (563 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (562 ms total)
+[==========] 7 tests from 1 test suite ran. (563 ms total)
 [  PASSED  ] 7 tests.
 Completed Task 474303
 ----------------------
@@ -686,7 +686,7 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] LRUCacheTest.UsageOrderCheck
 [       OK ] LRUCacheTest.UsageOrderCheck (0 ms)
 [ RUN      ] LRUCacheTest.ExpirationTime_NoExpirationIfZero
-[       OK ] LRUCacheTest.ExpirationTime_NoExpirationIfZero (54 ms)
+[       OK ] LRUCacheTest.ExpirationTime_NoExpirationIfZero (55 ms)
 [ RUN      ] LRUCacheTest.ExpirationTime_BasicExpiry
 Completed Task 621208
 ----------------------
@@ -755,27 +755,47 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] CompanyTest.GetEmployeesInDepartment
 [       OK ] CompanyTest.GetEmployeesInDepartment (0 ms)
 [ RUN      ] CompanyTest.ThreadSafetyAddAndRemove
-[       OK ] CompanyTest.ThreadSafetyAddAndRemove (1 ms)
-[----------] 5 tests from CompanyTest (1 ms total)
+[       OK ] CompanyTest.ThreadSafetyAddAndRemove (2 ms)
+[----------] 5 tests from CompanyTest (2 ms total)
 
 [----------] Global test environment tear-down
-[==========] 5 tests from 1 test suite ran. (1 ms total)
+[==========] 5 tests from 1 test suite ran. (2 ms total)
 [  PASSED  ] 5 tests.
 Completed Task 621280
 ----------------------
 Running solution.cpp for Task 621282...
 Compiling and running solution.cpp for Task 621282...
-tasks/621282/test.cpp:53:5: error: conflicting types for 'main'
-   53 | int main(int argc, char** argv) {
-      |     ^
-tasks/621282/solution.cpp:25:5: note: previous definition is here
-   25 | int main() {
-      |     ^
-tasks/621282/test.cpp:59:2: error: #endif without #if
-   59 | #endif // WRAPPER_H
-      |  ^
-2 errors generated.
-Compilation failed for Task 621282
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+Completed Task 621282
 ----------------------
 Running solution.cpp for Task 621283...
 Compiling and running solution.cpp for Task 621283...
@@ -868,10 +888,10 @@ Compiling and running solution.cpp for Task 621291...
 [       OK ] DESTest.EmptyKeyTest (0 ms)
 [ RUN      ] DESTest.SymmetryTest
 [       OK ] DESTest.SymmetryTest (0 ms)
-[----------] 8 tests from DESTest (1 ms total)
+[----------] 8 tests from DESTest (3 ms total)
 
 [----------] Global test environment tear-down
-[==========] 8 tests from 1 test suite ran. (1 ms total)
+[==========] 8 tests from 1 test suite ran. (4 ms total)
 [  PASSED  ] 8 tests.
 Completed Task 621291
 ----------------------

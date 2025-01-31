@@ -200,6 +200,19 @@ run_all_solutions() {
     echo "All tasks processed. Logs saved in $log_file."
 }
 
+run_all_alternates() {
+    echo "Running all alternate responses for all tasks..."
+
+    for task_dir in tasks/*; do
+        if [ -d "$task_dir" ]; then
+            task_id=$(basename "$task_dir")
+            echo "Running alternate responses for Task $task_id..."
+            ./code_runner.sh "$task_id" alternate
+        fi
+    done
+
+    echo "All alternate responses have been tested."
+}
 
 
 # Main script logic
@@ -209,6 +222,10 @@ if [ -z "$1" ]; then
 
 elif [ "$1" == "run_all" ]; then
     run_all_solutions
+    exit 0
+# Modify the main script logic to include the new option
+elif [ "$1" == "run_all_alternate" ]; then
+    run_all_alternates
     exit 0
 else
     task_id=$1

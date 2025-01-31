@@ -1,0 +1,18 @@
+incorrect_solution_tests 0 0
+model1_tests 0 0
+model10_tests 0 0
+model2_tests 2 0.00393815
+model3_tests 2 0.00333662
+model4_tests 2 0.00311523
+model5_tests 2 0.00278679
+model6_tests 0 0
+model7_tests 0 0
+model8_tests 2 0.00248542
+model9_tests 0 0
+---
+incorrect_solution_tests
+model1_tests
+model10_tests
+model6_tests
+model7_tests
+model9_tests

@@ -1,0 +1,742 @@
+Start testing: Jan 31 22:30 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"incorrect_solution_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 6
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 5
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 9000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Jan 31 22:30 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model1_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 6
+  8
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 7000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Jan 31 22:30 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model10_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 16
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 18
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:19: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 150
+  30
+
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 15000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:61: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 60
+  0
+
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 31 22:30 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model2_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 7
+  8
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 10000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Jan 31 22:30 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model3_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 6
+  8
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 7000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 31 22:30 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model4_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 7
+  8
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 9000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Jan 31 22:30 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model5_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 6
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 5
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 9000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Jan 31 22:30 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model6_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 15
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 18
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:19: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 150
+  30
+
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:33: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 0
+  150
+
+[  FAILED  ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 15000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:54: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 0
+  1
+
+[  FAILED  ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel
+[  FAILED  ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+[  FAILED  ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+
+ 5 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Jan 31 22:30 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model7_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 6
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 6
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:19: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 25
+  30
+
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 8500000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:61: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 60
+  0
+
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 31 22:30 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model8_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 14
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 18
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:19: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 150
+  30
+
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 15000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:61: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 60
+  0
+
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+[  FAILED  ] CalculateMaxChannelQualityTest.ZeroChannels
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Jan 31 22:30 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build
+"model9_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from CalculateMaxChannelQualityTest
+[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:8: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_1, numChannels_1)
+    Which is: 13
+  8
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:12: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes_2, numChannels_2)
+    Which is: 18
+  7
+
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:19: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 150
+  30
+
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
+[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
+[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621293/test.cpp:40: Failure
+Expected equality of these values:
+  calculateMaxChannelQuality(packetSizes, numChannels)
+    Which is: 12000000
+  11000000
+
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
+[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
+[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
+[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
+[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
+[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] CalculateMaxChannelQualityTest.BasicTests
+[  FAILED  ] CalculateMaxChannelQualityTest.SingleChannel
+[  FAILED  ] CalculateMaxChannelQualityTest.LargePacketSizes
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 31 22:30 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:30 +06

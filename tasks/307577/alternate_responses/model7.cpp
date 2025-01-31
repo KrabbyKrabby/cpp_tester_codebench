@@ -103,28 +103,3 @@ public:
     }
 };
 
-int main() {
-    try {
-        Matrix matrix1(2, 2);
-        matrix1.setValue(0, 0, 1);
-        matrix1.setValue(0, 1, 2);
-        matrix1.setValue(1, 0, 3);
-        matrix1.setValue(1, 1, 4);
-
-        Matrix matrix2(2, 2);
-        matrix2.setValue(0, 0, 5);
-        matrix2.setValue(0, 1, 6);
-        matrix2.setValue(1, 0, 7);
-        matrix2.setValue(1, 1, 8);
-
-        Matrix result = matrix1.multiply(matrix2);
-        result.display();
-
-        std::cout << "Determinant of matrix1: " << matrix1.determinant() << std::endl;
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
-        return 1;
-    }
-
-    return 0;
-}

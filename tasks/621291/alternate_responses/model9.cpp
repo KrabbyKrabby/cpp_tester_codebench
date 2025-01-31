@@ -235,13 +235,3 @@ public:
     }
 };
 
-int main() {
-    DES des;
-    bitset<64> plaintext(0x1234567890abcdef);
-    bitset<64> key(0x0000000000000000);
-    bitset<64> ciphertext = des.encrypt(plaintext, key);
-    cout << "Ciphertext: " << hex << ciphertext.to_ullong() << endl;
-    bitset<64> decrypted = des.decrypt(ciphertext, key);
-    cout << "Decrypted: " << hex << decrypted.to_ullong() << endl;
-    return 0;
-}

@@ -1,0 +1,837 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+1: Test timeout computed to be: 5
+1: [==========] Running 8 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 8 tests from FindMissingBandwidthPackagesTest
+1: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+1: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+1: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+1: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+1: [       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+1: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+1: [       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+1: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+1: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+1: unknown file: Failure
+1: C++ exception with description "vector" thrown in the test body.
+1: 
+1: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+1: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 8 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 7 tests.
+1: [  FAILED  ] 1 test, listed below:
+1: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+1: 
+1:  1 FAILED TEST
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.38 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+2: Test timeout computed to be: 5
+2: [==========] Running 8 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 8 tests from FindMissingBandwidthPackagesTest
+2: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+2: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+2: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+2: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+2: [       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+2: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+2: [       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+2: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+2: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+ 2/11 Test  #2: model1_tests .....................***Exception: SegFault  0.33 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+3: Test timeout computed to be: 5
+3: [==========] Running 8 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 8 tests from FindMissingBandwidthPackagesTest
+3: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:13: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 4
+3:   1
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:14: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 2, 4, 5, 6 }
+3:   std::vector<int>({2})
+3:     Which is: { 2 }
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:23: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 4
+3:   1
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:24: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 2, 4, 5, 6 }
+3:   std::vector<int>({2})
+3:     Which is: { 2 }
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:33: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 4
+3:   0
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:34: Failure
+3: Value of: result.second.empty()
+3:   Actual: false
+3: Expected: true
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 49
+3:   6
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, ... }
+3:   std::vector<int>({1, 2, 4, 8, 16, 32})
+3:     Which is: { 1, 2, 4, 8, 16, 32 }
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:53: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 3
+3:   1
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:54: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 3, 4, 5 }
+3:   std::vector<int>({5})
+3:     Which is: { 5 }
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 5
+3:   3
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 1, 2, 3, 4, 5 }
+3:   std::vector<int>({1, 2, 4})
+3:     Which is: { 1, 2, 4 }
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:74: Failure
+3: Expected equality of these values:
+3:   result.first
+3:     Which is: 3
+3:   0
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:75: Failure
+3: Expected equality of these values:
+3:   result.second
+3:     Which is: { 3, 4, 5 }
+3:   std::vector<int>({})
+3:     Which is: {}
+3: 
+3: [  FAILED  ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+3: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.02 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+4: Test timeout computed to be: 5
+4: [==========] Running 8 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 8 tests from FindMissingBandwidthPackagesTest
+4: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+4: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+4: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+4: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+4: [       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+4: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+4: [       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+4: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+4: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+4: unknown file: Failure
+4: C++ exception with description "vector" thrown in the test body.
+4: 
+4: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+4: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 8 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 7 tests.
+4: [  FAILED  ] 1 test, listed below:
+4: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+4: 
+4:  1 FAILED TEST
+ 4/11 Test  #4: model2_tests .....................***Failed    0.33 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+5: Test timeout computed to be: 5
+5: [==========] Running 8 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 8 tests from FindMissingBandwidthPackagesTest
+5: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+5: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+5: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+5: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+5: [       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+5: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+5: [       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+5: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+5: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+5: unknown file: Failure
+5: C++ exception with description "vector" thrown in the test body.
+5: 
+5: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+5: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 8 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 7 tests.
+5: [  FAILED  ] 1 test, listed below:
+5: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+5: 
+5:  1 FAILED TEST
+ 5/11 Test  #5: model3_tests .....................***Failed    0.33 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+6: Test timeout computed to be: 5
+6: [==========] Running 8 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 8 tests from FindMissingBandwidthPackagesTest
+6: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+6: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+6: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+6: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+6: Expected equality of these values:
+6:   result.first
+6:     Which is: 1
+6:   6
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+6: Expected equality of these values:
+6:   result.second
+6:     Which is: { 1 }
+6:   std::vector<int>({1, 2, 4, 8, 16, 32})
+6:     Which is: { 1, 2, 4, 8, 16, 32 }
+6: 
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+6: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+6: Expected equality of these values:
+6:   result.first
+6:     Which is: 1
+6:   3
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+6: Expected equality of these values:
+6:   result.second
+6:     Which is: { 1 }
+6:   std::vector<int>({1, 2, 4})
+6:     Which is: { 1, 2, 4 }
+6: 
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+6: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+6: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+6: unknown file: Failure
+6: C++ exception with description "vector" thrown in the test body.
+6: 
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+6: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 8 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 5 tests.
+6: [  FAILED  ] 3 tests, listed below:
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+6: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+6: 
+6:  3 FAILED TESTS
+ 6/11 Test  #6: model4_tests .....................***Failed    0.50 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+7: Test timeout computed to be: 5
+7: [==========] Running 8 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 8 tests from FindMissingBandwidthPackagesTest
+7: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+7: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+7: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+7: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+7: [       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+7: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+7: [       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+7: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+7: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+7: unknown file: Failure
+7: C++ exception with description "vector" thrown in the test body.
+7: 
+7: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+7: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 8 tests from 1 test suite ran. (0 ms total)
+7: [  PASSED  ] 7 tests.
+7: [  FAILED  ] 1 test, listed below:
+7: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+7: 
+7:  1 FAILED TEST
+ 7/11 Test  #7: model5_tests .....................***Failed    0.43 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+8: Test timeout computed to be: 5
+8: [==========] Running 8 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 8 tests from FindMissingBandwidthPackagesTest
+8: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:13: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 4
+8:   1
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:14: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 2, 4, 5, 6 }
+8:   std::vector<int>({2})
+8:     Which is: { 2 }
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:23: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 4
+8:   1
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:24: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 2, 4, 5, 6 }
+8:   std::vector<int>({2})
+8:     Which is: { 2 }
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:33: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 4
+8:   0
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:34: Failure
+8: Value of: result.second.empty()
+8:   Actual: false
+8: Expected: true
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 49
+8:   6
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, ... }
+8:   std::vector<int>({1, 2, 4, 8, 16, 32})
+8:     Which is: { 1, 2, 4, 8, 16, 32 }
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:53: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 3
+8:   1
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:54: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 3, 4, 5 }
+8:   std::vector<int>({5})
+8:     Which is: { 5 }
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 5
+8:   3
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 1, 2, 3, 4, 5 }
+8:   std::vector<int>({1, 2, 4})
+8:     Which is: { 1, 2, 4 }
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:74: Failure
+8: Expected equality of these values:
+8:   result.first
+8:     Which is: 3
+8:   0
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:75: Failure
+8: Expected equality of these values:
+8:   result.second
+8:     Which is: { 3, 4, 5 }
+8:   std::vector<int>({})
+8:     Which is: {}
+8: 
+8: [  FAILED  ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+8: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.04 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+9: Test timeout computed to be: 5
+9: [==========] Running 8 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 8 tests from FindMissingBandwidthPackagesTest
+9: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:13: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 4
+9:   1
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:14: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 2, 4, 5, 6 }
+9:   std::vector<int>({2})
+9:     Which is: { 2 }
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:23: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 4
+9:   1
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:24: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 2, 4, 5, 6 }
+9:   std::vector<int>({2})
+9:     Which is: { 2 }
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:33: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 4
+9:   0
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:34: Failure
+9: Value of: result.second.empty()
+9:   Actual: false
+9: Expected: true
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 49
+9:   6
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, ... }
+9:   std::vector<int>({1, 2, 4, 8, 16, 32})
+9:     Which is: { 1, 2, 4, 8, 16, 32 }
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:53: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 3
+9:   1
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:54: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 3, 4, 5 }
+9:   std::vector<int>({5})
+9:     Which is: { 5 }
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 5
+9:   3
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 1, 2, 3, 4, 5 }
+9:   std::vector<int>({1, 2, 4})
+9:     Which is: { 1, 2, 4 }
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:74: Failure
+9: Expected equality of these values:
+9:   result.first
+9:     Which is: 3
+9:   0
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:75: Failure
+9: Expected equality of these values:
+9:   result.second
+9:     Which is: { 3, 4, 5 }
+9:   std::vector<int>({})
+9:     Which is: {}
+9: 
+9: [  FAILED  ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+9: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.02 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+10: Test timeout computed to be: 5
+10: [==========] Running 8 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 8 tests from FindMissingBandwidthPackagesTest
+10: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+10: [       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+10: [       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+10: [       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+10: Expected equality of these values:
+10:   result.first
+10:     Which is: 1
+10:   6
+10: 
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+10: Expected equality of these values:
+10:   result.second
+10:     Which is: { 1 }
+10:   std::vector<int>({1, 2, 4, 8, 16, 32})
+10:     Which is: { 1, 2, 4, 8, 16, 32 }
+10: 
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+10: [       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+10: Expected equality of these values:
+10:   result.first
+10:     Which is: 1
+10:   3
+10: 
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+10: Expected equality of these values:
+10:   result.second
+10:     Which is: { 1 }
+10:   std::vector<int>({1, 2, 4})
+10:     Which is: { 1, 2, 4 }
+10: 
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+10: [       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+10: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+10: unknown file: Failure
+10: C++ exception with description "vector" thrown in the test body.
+10: 
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
+10: [----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
+10: 
+10: [----------] Global test environment tear-down
+10: [==========] 8 tests from 1 test suite ran. (0 ms total)
+10: [  PASSED  ] 5 tests.
+10: [  FAILED  ] 3 tests, listed below:
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+10: [  FAILED  ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+10: 
+10:  3 FAILED TESTS
+10/11 Test #10: model8_tests .....................***Failed    0.38 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+11: Test timeout computed to be: 5
+11: [==========] Running 8 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 8 tests from FindMissingBandwidthPackagesTest
+11: [ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:13: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 4
+11:   1
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:14: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 2, 4, 5, 6 }
+11:   std::vector<int>({2})
+11:     Which is: { 2 }
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:23: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 4
+11:   1
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:24: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 2, 4, 5, 6 }
+11:   std::vector<int>({2})
+11:     Which is: { 2 }
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:33: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 4
+11:   0
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:34: Failure
+11: Value of: result.second.empty()
+11:   Actual: false
+11: Expected: true
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:43: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 49
+11:   6
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:44: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, ... }
+11:   std::vector<int>({1, 2, 4, 8, 16, 32})
+11:     Which is: { 1, 2, 4, 8, 16, 32 }
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:53: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 3
+11:   1
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:54: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 3, 4, 5 }
+11:   std::vector<int>({5})
+11:     Which is: { 5 }
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:63: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 5
+11:   3
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:64: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 1, 2, 3, 4, 5 }
+11:   std::vector<int>({1, 2, 4})
+11:     Which is: { 1, 2, 4 }
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:74: Failure
+11: Expected equality of these values:
+11:   result.first
+11:     Which is: 3
+11:   0
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/test.cpp:75: Failure
+11: Expected equality of these values:
+11:   result.second
+11:     Which is: { 3, 4, 5 }
+11:   std::vector<int>({})
+11:     Which is: {}
+11: 
+11: [  FAILED  ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
+11: [ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
+11/11 Test #11: model9_tests .....................***Timeout   5.03 sec
+
+0% tests passed, 11 tests failed out of 11
+
+Total Test time (real) =  22.80 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  2 - model1_tests (SEGFAULT)
+	  3 - model10_tests (Timeout)
+	  4 - model2_tests (Failed)
+	  5 - model3_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Failed)
+	 11 - model9_tesErrors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ts (Timeout)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.01 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Exception: SegFault  0.02 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.03 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................***Failed    0.01 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................***Failed    0.01 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Failed    0.01 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Failed    0.01 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.05 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.02 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Failed    0.01 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Timeout   5.02 sec
+
+0% tests passed, 11 tests failed out of 11
+
+Total Test time (real) =  20.18 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  2 - model1_tests (SEGFAULT)
+	  3 - model10_tests (Timeout)
+	  4 - model2_tests (Failed)
+	  5 - model3_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Failed)
+	 11 - model9_tests (Timeout)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473681/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

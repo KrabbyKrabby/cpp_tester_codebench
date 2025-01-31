@@ -32,8 +32,3 @@ string decipherMessage(string str) {
     return result;
 }
 
-int main() {
-    string str = "hello olleh world wworld";
-    cout << decipherMessage(str) << endl;
-    return 0;
-}

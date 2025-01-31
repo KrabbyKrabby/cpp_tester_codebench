@@ -1,0 +1,520 @@
+Start testing: Jan 31 22:21 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Jan 31 22:21 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model1_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Jan 31 22:21 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model10_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:17: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Ali")
+    Which is: {}
+  expected
+    Which is: { ("Alice", 1), ("Alicia", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:48: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "alice")
+    Which is: { ("alice", 1), ("alice", 2) }
+  expected
+    Which is: { ("Alice", 1), ("aLICE", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:60: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "  Alice  ")
+    Which is: { ("alice", 1) }
+  expected
+    Which is: { ("Alice", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:72: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Al!c")
+    Which is: {}
+  expected
+    Which is: { ("Al!ce", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FindMatchingContactsTest.BasicMatching
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 31 22:21 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model2_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Jan 31 22:21 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model3_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:48: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "alice")
+    Which is: { ("Alice", 1), ("Alice", 1), ("Alice", 1), ("aLICE", 2) }
+  expected
+    Which is: { ("Alice", 1), ("aLICE", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:60: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "  Alice  ")
+    Which is: { ("Alice", 1), ("Alice", 1), ("Alice", 1), ("Alice", 1), ("aLICE", 2) }
+  expected
+    Which is: { ("Alice", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 31 22:21 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model4_tests
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model4_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Jan 31 22:21 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model5_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Jan 31 22:21 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model6_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:17: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Ali")
+    Which is: {}
+  expected
+    Which is: { ("Alice", 1), ("Alicia", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:48: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "alice")
+    Which is: { ("alice", 1), ("alice", 2) }
+  expected
+    Which is: { ("Alice", 1), ("aLICE", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:60: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "  Alice  ")
+    Which is: { ("alice", 1) }
+  expected
+    Which is: { ("Alice", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:72: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Al!c")
+    Which is: {}
+  expected
+    Which is: { ("Al!ce", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FindMatchingContactsTest.BasicMatching
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Jan 31 22:21 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model7_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:17: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Ali")
+    Which is: {}
+  expected
+    Which is: { ("Alice", 1), ("Alicia", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:48: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "alice")
+    Which is: { ("alice", 1), ("alice", 2) }
+  expected
+    Which is: { ("Alice", 1), ("aLICE", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:60: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "  Alice  ")
+    Which is: { ("alice", 1) }
+  expected
+    Which is: { ("Alice", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:72: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Al!c")
+    Which is: {}
+  expected
+    Which is: { ("Al!ce", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FindMatchingContactsTest.BasicMatching
+[  FAILED  ] FindMatchingContactsTest.CaseInsensitiveMatching
+[  FAILED  ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 31 22:21 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model8_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Jan 31 22:21 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build
+"model9_tests" start time: Jan 31 22:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from FindMatchingContactsTest
+[ RUN      ] FindMatchingContactsTest.BasicMatching
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:17: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Ali")
+    Which is: {}
+  expected
+    Which is: { ("Alice", 1), ("Alicia", 2) }
+
+[  FAILED  ] FindMatchingContactsTest.BasicMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.ResultIsSorted
+[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
+[ RUN      ] FindMatchingContactsTest.EmptyQuery
+[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
+[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
+[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
+[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
+[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473608/test.cpp:72: Failure
+Expected equality of these values:
+  findMatchingContacts(contacts, "Al!c")
+    Which is: {}
+  expected
+    Which is: { ("Al!ce", 1) }
+
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
+[ RUN      ] FindMatchingContactsTest.NoMatches
+[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
+[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] FindMatchingContactsTest.BasicMatching
+[  FAILED  ] FindMatchingContactsTest.SpecialCharacterSupport
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 31 22:21 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:21 +06

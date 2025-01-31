@@ -1,0 +1,563 @@
+Start testing: Jan 31 22:30 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Jan 31 22:30 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model1_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+[       OK ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+[       OK ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+[       OK ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+[       OK ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+[       OK ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+[       OK ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+[       OK ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Jan 31 22:30 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model10_tests
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model10_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model10_tests" end time: Jan 31 22:30 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model2_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+[       OK ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+[       OK ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+[       OK ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+[       OK ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+[       OK ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+[       OK ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+[       OK ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Jan 31 22:30 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model3_tests
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model3_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Jan 31 22:30 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model4_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+[       OK ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+[       OK ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+[       OK ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+[       OK ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+[       OK ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+[       OK ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+[       OK ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Jan 31 22:30 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model5_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+[       OK ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+[       OK ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+[       OK ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+[       OK ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+[       OK ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+[       OK ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+[       OK ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Jan 31 22:30 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model6_tests
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model6_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Jan 31 22:30 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model7_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:12: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1011000111100010110100110100011001010011101001010100000101001111
+  expectedCiphertext
+    Which is: 0111011100101100010000000010110110111111001010111010000100110100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:15: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0001100100111101100001101110000011011110001110100111110111110010
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:25: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1001000101000010001110101000010110110110000100010011000111111100
+  expectedCiphertext
+    Which is: 0011101000111011110001100110011111011010000000110011110000100110
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:28: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0101110111011101000010101001011000000011100111011000011100111111
+  plaintext
+    Which is: 0000000000000000000000000000000000000000000000000000000000000000
+
+[  FAILED  ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:38: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1000111001110101100011101111101001010110000111001101101110101110
+  expectedCiphertext
+    Which is: 1100010111000100001110011001100000100101111111001100001111011001
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:41: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1001001110001000100010010010001010110110111110010010001011100100
+  plaintext
+    Which is: 1111111111111111111111111111111111111111111111111111111111111111
+
+[  FAILED  ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:51: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1001100010100110001101111000011111100011001011000101100000000111
+  expectedCiphertext
+    Which is: 1101100001011111001100011110000110000110100010000011111011101110
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:54: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0001011111101000101011101011100100110110011111001101000010000000
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:64: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1100001001101101011101110011100111010000000101010011010001000001
+  expectedCiphertext
+    Which is: 0010010100010100010100111001101100101000010000111111111010000101
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:67: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1011000011001111111111011110110110000111000111001100111111111100
+  plaintext
+    Which is: 1111111011011100101110101001100001110110010101000011001000010000
+
+[  FAILED  ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:77: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0001110011100011110101100011000000110100000111000100011100110000
+  expectedCiphertext
+    Which is: 0011000100000010000011111000111101110100100101101010110110111100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:80: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1110000111001110011011111001000001111001111100000101000100111011
+  plaintext
+    Which is: 0110101001101111011001110111000001110000011011000110010101101000
+
+[  FAILED  ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:90: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1100110100101000101000100111101001010101010010001001001001001011
+  expectedCiphertext
+    Which is: 0110000111011111101010111000011111011010000101011110011111111010
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:93: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1001010010110011111001000110111111011100101001010101111011011010
+  plaintext
+    Which is: 1111111111111111111111111111111111111111111111111111111111111110
+
+[  FAILED  ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:103: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0010000100000111000100101100111110100110101111000111110111110100
+  expectedCiphertext
+    Which is: 1110101101101010001101101110011001110100100001110001001110110011
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:106: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1110101110000011100100001101101100001111010110011010101000001000
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 8 tests, listed below:
+[  FAILED  ] DESTest.StandardTest
+[  FAILED  ] DESTest.AllZerosTest
+[  FAILED  ] DESTest.AllOnesTest
+[  FAILED  ] DESTest.PlaintextEqualsKeyTest
+[  FAILED  ] DESTest.MinimalKeyTest
+[  FAILED  ] DESTest.RandomTest
+[  FAILED  ] DESTest.EmptyKeyTest
+[  FAILED  ] DESTest.SymmetryTest
+
+ 8 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 31 22:30 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Jan 31 22:30 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/build
+"model9_tests" start time: Jan 31 22:30 +06
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:12: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1000101100110100100100010110101011110100101001111100100110101010
+  expectedCiphertext
+    Which is: 0111011100101100010000000010110110111111001010111010000100110100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:15: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0101111110000101101000010000001111100001111110011011110001101000
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:25: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1100001110100001010001000001110000101010000001011001101001100001
+  expectedCiphertext
+    Which is: 0011101000111011110001100110011111011010000000110011110000100110
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:28: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1011000100110011111111110001000101000000110110101111011001101110
+  plaintext
+    Which is: 0000000000000000000000000000000000000000000000000000000000000000
+
+[  FAILED  ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:38: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0011110001011110101110111110001111010101111110100110010110011110
+  expectedCiphertext
+    Which is: 1100010111000100001110011001100000100101111111001100001111011001
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:41: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0100111011001100000000001110111010111111001001010000100110010001
+  plaintext
+    Which is: 1111111111111111111111111111111111111111111111111111111111111111
+
+[  FAILED  ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:51: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0101101110011001011101100101011011110110111110111011101110111001
+  expectedCiphertext
+    Which is: 1101100001011111001100011110000110000110100010000011111011101110
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:54: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1100100100100010000001111110111110011010011010100111001111110100
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:64: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0011010100001101100011000011101111111100101011110100101100011011
+  expectedCiphertext
+    Which is: 0010010100010100010100111001101100101000010000111111111010000101
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:67: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0110011101100100101001100100101000011010011111000110111011010101
+  plaintext
+    Which is: 1111111011011100101110101001100001110110010101000011001000010000
+
+[  FAILED  ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:77: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1111111000010011001011000010101001001111111001111111010001100101
+  expectedCiphertext
+    Which is: 0011000100000010000011111000111101110100100101101010110110111100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:80: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1110101111110111000101011010010101011010000100110100001101111001
+  plaintext
+    Which is: 0110101001101111011001110111000001110000011011000110010101101000
+
+[  FAILED  ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:90: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 1101101001110101111001011111101011111011101000011000111100000001
+  expectedCiphertext
+    Which is: 0110000111011111101010111000011111011010000101011110011111111010
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:93: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 0101010000111011100001000010111000000011111010000010011000100111
+  plaintext
+    Which is: 1111111111111111111111111111111111111111111111111111111111111110
+
+[  FAILED  ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:103: Failure
+Expected equality of these values:
+  ciphertext
+    Which is: 0111000011111001110001100101100101010100001111100011110101101000
+  expectedCiphertext
+    Which is: 1110101101101010001101101110011001110100100001110001001110110011
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621291/test.cpp:106: Failure
+Expected equality of these values:
+  decryptedText
+    Which is: 1011111101011110010001001001010000010110001001100011001110010101
+  plaintext
+    Which is: 0000000100100011010001010110011110001001101010111100110111101111
+
+[  FAILED  ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 8 tests, listed below:
+[  FAILED  ] DESTest.StandardTest
+[  FAILED  ] DESTest.AllZerosTest
+[  FAILED  ] DESTest.AllOnesTest
+[  FAILED  ] DESTest.PlaintextEqualsKeyTest
+[  FAILED  ] DESTest.MinimalKeyTest
+[  FAILED  ] DESTest.RandomTest
+[  FAILED  ] DESTest.EmptyKeyTest
+[  FAILED  ] DESTest.SymmetryTest
+
+ 8 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 31 22:30 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:30 +06

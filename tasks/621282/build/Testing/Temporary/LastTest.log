@@ -1,0 +1,688 @@
+Start testing: Jan 31 22:43 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"incorrect_solution_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:10: Failure
+Expected equality of these values:
+  calculateScore("()")
+    Which is: 0
+  1
+
+[  FAILED  ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:14: Failure
+Expected equality of these values:
+  calculateScore("()()")
+    Which is: 0
+  2
+
+[  FAILED  ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:18: Failure
+Expected equality of these values:
+  calculateScore("(())")
+    Which is: 0
+  2
+
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:22: Failure
+Expected equality of these values:
+  calculateScore("(()(()))")
+    Which is: 0
+  6
+
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:26: Failure
+Expected equality of these values:
+  calculateScore("((((()))))")
+    Which is: 0
+  16
+
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:30: Failure
+Expected equality of these values:
+  calculateScore("()()()()()")
+    Which is: 0
+  5
+
+[  FAILED  ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:38: Failure
+Expected equality of these values:
+  calculateScore("((((())())))")
+    Which is: 0
+  24
+
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:42: Failure
+Expected equality of these values:
+  calculateScore("()()()()()()()()()()")
+    Which is: 0
+  10
+
+[  FAILED  ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:46: Failure
+Expected equality of these values:
+  calculateScore("(((((((((((((((((())))))))))))))))))")
+    Which is: 0
+  131072
+
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 9 tests, listed below:
+[  FAILED  ] ParenthesesScoreTests.TestMinimumLength
+[  FAILED  ] ParenthesesScoreTests.TestSimpleNonNested
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested
+[  FAILED  ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure
+[  FAILED  ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength
+
+ 9 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Jan 31 22:43 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model1_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:34: Failure
+Expected equality of these values:
+  calculateScore("((()())")
+    Which is: 4
+  0
+
+[  FAILED  ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ParenthesesScoreTests.TestNonBalanced
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Jan 31 22:43 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model10_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:10: Failure
+Expected equality of these values:
+  calculateScore("()")
+    Which is: 0
+  1
+
+[  FAILED  ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:14: Failure
+Expected equality of these values:
+  calculateScore("()()")
+    Which is: 0
+  2
+
+[  FAILED  ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:18: Failure
+Expected equality of these values:
+  calculateScore("(())")
+    Which is: 0
+  2
+
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:22: Failure
+Expected equality of these values:
+  calculateScore("(()(()))")
+    Which is: 0
+  6
+
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:26: Failure
+Expected equality of these values:
+  calculateScore("((((()))))")
+    Which is: 0
+  16
+
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:30: Failure
+Expected equality of these values:
+  calculateScore("()()()()()")
+    Which is: 0
+  5
+
+[  FAILED  ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:38: Failure
+Expected equality of these values:
+  calculateScore("((((())())))")
+    Which is: 0
+  24
+
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:42: Failure
+Expected equality of these values:
+  calculateScore("()()()()()()()()()()")
+    Which is: 0
+  10
+
+[  FAILED  ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:46: Failure
+Expected equality of these values:
+  calculateScore("(((((((((((((((((())))))))))))))))))")
+    Which is: 0
+  131072
+
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 9 tests, listed below:
+[  FAILED  ] ParenthesesScoreTests.TestMinimumLength
+[  FAILED  ] ParenthesesScoreTests.TestSimpleNonNested
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested
+[  FAILED  ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure
+[  FAILED  ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength
+
+ 9 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 31 22:43 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model2_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Jan 31 22:43 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model3_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:34: Failure
+Expected equality of these values:
+  calculateScore("((()())")
+    Which is: 4
+  0
+
+[  FAILED  ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ParenthesesScoreTests.TestNonBalanced
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 31 22:43 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model4_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Jan 31 22:43 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model5_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Jan 31 22:43 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model6_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Jan 31 22:43 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model7_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model7_tests" end time: Jan 31 22:43 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model8_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Jan 31 22:43 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/build
+"model9_tests" start time: Jan 31 22:43 +06
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ParenthesesScoreTests
+[ RUN      ] ParenthesesScoreTests.TestMinimumLength
+[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
+[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:18: Failure
+Expected equality of these values:
+  calculateScore("(())")
+    Which is: 3
+  2
+
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:22: Failure
+Expected equality of these values:
+  calculateScore("(()(()))")
+    Which is: 9
+  6
+
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:26: Failure
+Expected equality of these values:
+  calculateScore("((((()))))")
+    Which is: 31
+  16
+
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
+[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestNonBalanced
+[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:38: Failure
+Expected equality of these values:
+  calculateScore("((((())())))")
+    Which is: 39
+  24
+
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
+[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestMaximumLength
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/621282/test.cpp:46: Failure
+Expected equality of these values:
+  calculateScore("(((((((((((((((((())))))))))))))))))")
+    Which is: 262143
+  131072
+
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength (0 ms)
+[ RUN      ] ParenthesesScoreTests.TestEmpty
+[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
+[----------] 11 tests from ParenthesesScoreTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] ParenthesesScoreTests.TestNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestMultipleNestedParentheses
+[  FAILED  ] ParenthesesScoreTests.TestDeeplyNested
+[  FAILED  ] ParenthesesScoreTests.TestLongNestedStructure
+[  FAILED  ] ParenthesesScoreTests.TestMaximumLength
+
+ 5 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 31 22:43 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 22:43 +06

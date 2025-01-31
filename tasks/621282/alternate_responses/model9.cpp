@@ -28,8 +28,3 @@ int calculateScore(const std::string& s) {
     return score;
 }
 
-int main() {
-    std::string s = "(()(()))";
-    std::cout << calculateScore(s) << std::endl; // output: 6
-    return 0;
-}

@@ -21,11 +21,3 @@ int calculateScore(const std::string& s) {
     
     return stack.size() == 1 ? stack.top() : 0; // Return the final score if the string is balanced
 }
-
-int main() {
-    // Two test cases
-    cout << "Score of '()': " << calculateScore("()") << endl;           // Output: 1
-    cout << "Score of '(()(()))': " << calculateScore("(()(()))") << endl; // Output: 6
-
-    return 0;
-}

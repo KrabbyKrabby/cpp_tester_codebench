@@ -72,31 +72,3 @@ public:
     }
 };
 
-int main() {
-    try {
-        // Create valid nodes
-        XMLNode* root = new XMLNode("root");
-        XMLNode* child1 = new XMLNode("child1", "value1");
-        XMLNode* child2 = new XMLNode("child2");
-
-        // Add child nodes
-        root->addChild(child1);
-        root->addChild(child2);
-
-        // Validate the XML structure
-        if (XMLValidator::isValid(root)) {
-            std::cout << "XML structure is valid." << std::endl;
-        } else {
-            std::cout << "XML structure is invalid." << std::endl;
-        }
-
-        // Clean up
-        delete root;
-
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
-        return 1;
-    }
-
-    return 0;
-}

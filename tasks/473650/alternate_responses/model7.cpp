@@ -104,20 +104,3 @@ private:
 };
 
 // Example usage:
-int main() {
-    FlowNetwork network(6);
-    network.addEdge(0, 1, 16);
-    network.addEdge(0, 2, 13);
-    network.addEdge(1, 2, 10);
-    network.addEdge(1, 3, 12);
-    network.addEdge(2, 1, 4);
-    network.addEdge(2, 4, 14);
-    network.addEdge(3, 2, 9);
-    network.addEdge(3, 5, 20);
-    network.addEdge(4, 3, 7);
-    network.addEdge(4, 5, 4);
-
-    std::cout << "Maximum flow: " << network.edmondsKarp(0, 5) << std::endl;
-
-    return 0;
-}

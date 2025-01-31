@@ -1,0 +1,344 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+1: Test timeout computed to be: 5
+1: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+1: [==========] Running 9 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 9 tests from FlowNetworkTest
+1: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+1: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+1: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+1: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+1: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.01 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+2: Test timeout computed to be: 5
+2: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 9 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 9 tests from FlowNetworkTest
+2: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+ 2/11 Test  #2: model1_tests .....................***Timeout   5.02 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+3: Test timeout computed to be: 5
+3: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+3: [==========] Running 9 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 9 tests from FlowNetworkTest
+3: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+3: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+3: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+3: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+3: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.01 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+4: Test timeout computed to be: 5
+4: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+4: [==========] Running 9 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 9 tests from FlowNetworkTest
+4: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+4: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+4: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+4: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+4: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+4: [       OK ] FlowNetworkTest.CornerSingleNodeGraph (0 ms)
+4: [ RUN      ] FlowNetworkTest.EdgeZeroCapacityEdges
+4: [       OK ] FlowNetworkTest.EdgeZeroCapacityEdges (0 ms)
+4: [ RUN      ] FlowNetworkTest.PositiveComplexFlow
+4: [       OK ] FlowNetworkTest.PositiveComplexFlow (0 ms)
+4: [ RUN      ] FlowNetworkTest.EdgeMultipleParallelEdges
+4: [       OK ] FlowNetworkTest.EdgeMultipleParallelEdges (0 ms)
+4: [ RUN      ] FlowNetworkTest.CornerNoEdges
+4: [       OK ] FlowNetworkTest.CornerNoEdges (0 ms)
+4: [ RUN      ] FlowNetworkTest.EdgeLargeSparseGraph
+4: [       OK ] FlowNetworkTest.EdgeLargeSparseGraph (0 ms)
+4: [ RUN      ] FlowNetworkTest.EdgeCircularFlow
+4: [       OK ] FlowNetworkTest.EdgeCircularFlow (0 ms)
+4: [----------] 9 tests from FlowNetworkTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 9 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 9 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.33 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+5: Test timeout computed to be: 5
+5: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+5: [==========] Running 9 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 9 tests from FlowNetworkTest
+5: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+5: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+5: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+5: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+5: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+5: [       OK ] FlowNetworkTest.CornerSingleNodeGraph (0 ms)
+5: [ RUN      ] FlowNetworkTest.EdgeZeroCapacityEdges
+5: [       OK ] FlowNetworkTest.EdgeZeroCapacityEdges (0 ms)
+5: [ RUN      ] FlowNetworkTest.PositiveComplexFlow
+5: [       OK ] FlowNetworkTest.PositiveComplexFlow (0 ms)
+5: [ RUN      ] FlowNetworkTest.EdgeMultipleParallelEdges
+5: [       OK ] FlowNetworkTest.EdgeMultipleParallelEdges (0 ms)
+5: [ RUN      ] FlowNetworkTest.CornerNoEdges
+5: [       OK ] FlowNetworkTest.CornerNoEdges (0 ms)
+5: [ RUN      ] FlowNetworkTest.EdgeLargeSparseGraph
+5: [       OK ] FlowNetworkTest.EdgeLargeSparseGraph (0 ms)
+5: [ RUN      ] FlowNetworkTest.EdgeCircularFlow
+5: [       OK ] FlowNetworkTest.EdgeCircularFlow (0 ms)
+5: [----------] 9 tests from FlowNetworkTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 9 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 9 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.38 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+6: Test timeout computed to be: 5
+6: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+6: [==========] Running 9 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 9 tests from FlowNetworkTest
+6: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+ 6/11 Test  #6: model4_tests .....................***Timeout   5.01 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+7: Test timeout computed to be: 5
+7: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+7: [==========] Running Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+9 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 9 tests from FlowNetworkTest
+7: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+ 7/11 Test  #7: model5_tests .....................***Timeout   5.01 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+8: Test timeout computed to be: 5
+8: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+8: [==========] Running 9 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 9 tests from FlowNetworkTest
+8: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+8: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+8: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+8: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+8: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.01 sec
+test 9
+      Start  9: model7_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+
+9: Test command: 
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+ 9/11 Test  #9: model7_tests .....................***Not Run   0.00 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+10: Test timeout computed to be: 5
+10: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/_deps/googletest-src/googletest/src/gtest_main.cc
+10: [==========] Running 9 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 9 tests from FlowNetworkTest
+10: [ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
+10: [       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
+10: [ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
+10: [       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
+10: [ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
+10/11 Test #10: model8_tests .....................***Timeout   5.01 sec
+test 11
+      Start 11: model9_tests
+Could nUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ot find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+
+11: Test command: 
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+18% tests passed, 9 tests failed out of 11
+
+Total Test time (real) =  35.81 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  2 - model1_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  6 - model4_tests (Timeout)
+	  7 - model5_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Not Run)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Not Run)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.01 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Timeout   5.01 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.01 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.01 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.01 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Timeout   5.01 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Timeout   5.01 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.01 sec
+      Start  9: model7_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model7_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model7_tests
+ 9/11 Test  #9: model7_tests .....................***Not Run   0.00 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Timeout   5.02 sec
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Development/model9_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/model9_tests
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+18% tests passed, 9 tests failed out of 11
+
+Total Test time (real) =  35.12 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  2 - model1_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  6 - model4_tests (Timeout)
+	  7 - model5_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Not Run)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Not Run)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473650/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

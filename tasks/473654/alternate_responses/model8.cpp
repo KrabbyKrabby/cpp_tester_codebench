@@ -128,13 +128,3 @@ public:
     }
 };
 
-int main() {
-    Protocol protocol;
-    protocol.start();
-
-    // Simulate receiving a packet
-    uint8_t data[] = {0x12, 0x34, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x04, 0x01, 0x02, 0x03, 0x04};
-    protocol.receivePacket(data, sizeof(data));
-
-    return 0;
-}
