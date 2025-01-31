@@ -1,0 +1,8 @@
+{
+    "time_to_develop_prompt": "20 - 30",
+    "programming_language": "C++",
+    "task_type": "Completion",
+    "difficulty": "3",
+    "estimated_skill_requirements": "Software Engineering Best Practices,Data Structure and Algorithms",
+    "user_prompt": "provide your prompt using the following format:\n\nBase Code:\n```cpp\nint calculateScore(const string& s) {\n}\n```\n\nPrompt:\n\nI have a string S consisting only of opening and closing parenthesis ( and ), the task is to compute the score of the string based on the following rule:\n() has a score of 1.\nAB (two balanced strings concatenated) has a score of A + B.\n(A) (a balanced string enclosed within parentheses) has a score of 2 * A.\n\nNote : \nIf string S is not balanced return score as 0; \nString S can be empty.\nAdd All needed headers and libraries. \n\nConstraints: \n- 2<=Size of S<=50\n\nInput : (()(()))\noutput 6\n"
+}

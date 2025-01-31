@@ -1,0 +1,8 @@
+{
+    "time_to_develop_prompt": "20 - 30",
+    "programming_language": "C++",
+    "task_type": "Completion",
+    "difficulty": "4",
+    "estimated_skill_requirements": "Language-Specific Features,Data Structure and Algorithms,Knowledge of a Specialized Software Area,Library Feature",
+    "user_prompt": "provide your prompt using the following format:\n\nBase Code:\n```cpp\n#include <iostream>\n\nclass DES\n{\n   /*Your code goes here*/ \n};\n```\n\nPrompt:\nPlease, complete the class definition by implementing the full standard DES algorithm for both encryption and decryption.\n\nThe class must include two public functions as follows:\n\n1- `encrypt` function that takes the plaintext and the key as parameters and returns the ciphertext.\n2- `decrypt` function that takes the ciphertext and the key as parameters and returns the original plaintext.\n\nNote: all the parameters and return values are of type `bitset<64>`.\n\nPlease, make sure to provide the full complete code, don't use any placeholders, include all necessary libraries and namespaces, and feel free to define any needed helper functions or data to provide the full completion implementation of the DES encryption and decryption."
+}

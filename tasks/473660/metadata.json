@@ -1,0 +1,8 @@
+{
+    "time_to_develop_prompt": "20 - 30",
+    "programming_language": "C++",
+    "task_type": "Bug Fix",
+    "difficulty": "3",
+    "estimated_skill_requirements": "Language-Specific Features,Knowledge of a Specialized Software Area,Software Engineering Best Practices",
+    "user_prompt": "provide your prompt using the following format:\n\nBase Code:\n```cpp\n#include <iostream>\n#include <string>\n#include <unordered_map>\n#include <vector>\n\nclass XMLNode {\npublic:\n    std::string name;\n    std::string value;\n    std::vector<XMLNode*> children;\n\n    XMLNode(const std::string& name, const std::string& value = \"\") : name(name), value(value) {}\n\n    void addChild(XMLNode* child) {      \n        children.push_back(child);\n    }\n};\n\nclass XMLToJSONConverter {\npublic:\n    static std::string convert(XMLNode* node) {\n        // BUG: Doesn't handle invalid XML properly or check for null pointers\n      \n};\n```\n\nPrompt:  C++ code for converting a valid XML structure into a JSON format. The code includes common mistakes such as failing to handle null pointers, allowing circular references in the XML tree, leaving trailing commas in the JSON output, and unsafe attempts to remove them. The conversion logic should also ignore proper JSON formatting rules and fail to handle edge cases like empty nodes or duplicate children. Use raw pointers for node management, leading to memory leaks, and include overly simplistic error-prone logic for attribute and child node handling. Use the same function, class names should also match the input parameters.\n"
+}

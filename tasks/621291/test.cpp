@@ -1,7 +1,6 @@
+#include "solution.cpp"
 #include <gtest/gtest.h>
 using namespace std;
-
-#include "solution.cpp"
 
 TEST(DESTest, StandardTest) {
     DES des;

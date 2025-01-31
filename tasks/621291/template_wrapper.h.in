@@ -4,3 +4,4 @@
 #include "../alternate_responses/@IMPL_NAME@.cpp" // Use relative path to src directory
 
 #endif // WRAPPER_H
+    

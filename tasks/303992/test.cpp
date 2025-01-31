@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include <vector>
+
 using namespace std;
 
 #include "solution.cpp"

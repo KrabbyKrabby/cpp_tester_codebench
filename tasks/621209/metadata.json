@@ -1,0 +1,8 @@
+{
+    "time_to_develop_prompt": "10 - 20",
+    "programming_language": "C++",
+    "task_type": "Bug Fix",
+    "difficulty": "3",
+    "estimated_skill_requirements": "Language-Specific Features",
+    "user_prompt": "Base Code:\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint countDays(int days, vector<vector<int>>& tasks) {\n    int ans = 0;\n    for (int i = 1; i < tasks.size(); i++) {\n        if (tasks[i][0] > tasks[i - 1][1]) {\n            ans += (tasks[i][0] - tasks[i - 1][1] - 1);\n        }\n    }\n    ans += (days - tasks.back()[1]);\n    return ans;\n}\n\nint main() {\n    int days = 10;\n    vector<vector<int>> tasks = {\n        {1, 2},\n        {4, 5},\n        {7, 8}\n    };\n\n    int result = countDays(days, tasks);\n    cout << \"Number of days without tasks: \" << result << endl;\n\n    return 0;\n}\n\n```\nPrompt:\nI am working in a company. I have a list of tasks that has to be completed in a particular given days. The list contains a pair of values that represents starting day and ending day of task completion period.\n- I have a list of paired values where, first pair value represent starting day of task and second value represents ending day of task.\n- I have a total number of days in which all tasks should be done.\n- List does not contain negative numbers.\nI have to count how many days where there is no task to do.  But this code fails to provide correct answers. Fix the code with the same function name and add all the needed headers and libraries. "
+}

@@ -9,6 +9,23 @@ remove_logs() {
     fi
 }
 
+# Function to remove the main function from a given file
+remove_main_from_file() {
+    cpp_file=$1
+
+    if [ -f "$cpp_file" ]; then
+        echo "Removing main function from $cpp_file..."
+        awk '
+BEGIN { in_main = 0; braces = 0 }
+/^[ \t]*int[ \t]+main[ \t]*\(.*\)/ { in_main = 1; braces = 0 }
+/^[ \t]*{/ { if (in_main) braces++ }
+/^[ \t]*}/ { if (in_main && --braces == 0) { in_main = 0; next } }
+!in_main { print }
+' "$cpp_file" > "${cpp_file}.tmp" && mv "${cpp_file}.tmp" "$cpp_file"
+    fi
+}
+
+
 # Function to remove the main function from all .cpp files in the alternate_responses directory
 remove_main_from_alternate_responses() {
     task_id=$1
@@ -122,12 +139,12 @@ run_solution() {
     fi
 
     echo "Compiling and running solution.cpp..."
-    g++ -std=c++14 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
 }
 
 run_base() {
     task_id=$1
-    echo "Running tests for base.cpp in task $task_id..."
+    echo "Running tests for base_code.cpp in task $task_id..."
 
     test_file="tasks/$task_id/test.cpp"
 
@@ -136,12 +153,12 @@ run_base() {
         exit 1
     fi
 
-    # Replace #include "solution.cpp" with #include "base.cpp"
-    echo "Replacing #include \"solution.cpp\" with #include \"base.cpp\" in $test_file..."
-    sed -i.bak -E 's|#include[[:space:]]*"solution.cpp"|#include "base.cpp"|' "$test_file"
+    # Replace #include "solution.cpp" with #include "base_code.cpp"
+    echo "Replacing #include \"solution.cpp\" with #include \"base_code.cpp\" in $test_file..."
+    sed -i.bak -E 's|#include[[:space:]]*"solution.cpp"|#include "base_code.cpp"|' "$test_file"
 
     echo "Compiling and running base.cpp..."
-    g++ -std=c++14 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
 
     # Restore original include
     echo "Restoring original test.cpp..."
@@ -162,7 +179,7 @@ run_all_solutions() {
 
             if [ -f "$test_file" ]; then
                 echo "Compiling and running solution.cpp for Task $task_id..." | tee -a "$log_file"
-                g++ -std=c++14 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+                g++ -std=c++17 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
 
                 if [ $? -eq 0 ]; then
                     ./temp_test >> "$log_file" 2>&1
@@ -189,12 +206,10 @@ run_all_solutions() {
 if [ -z "$1" ]; then
     echo "Usage: $0 <task_id> [solution|alternate|base] OR $0 run_all"
     exit 1
-fi
 
-if [ "$1" == "run_all" ]; then
+elif [ "$1" == "run_all" ]; then
     run_all_solutions
     exit 0
-fi
 else
     task_id=$1
     mode=$2

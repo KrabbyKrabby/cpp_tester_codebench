@@ -1,0 +1,308 @@
+Start testing: Jan 31 20:00 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"incorrect_solution_tests" start time: Jan 31 20:00 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+<end of output>
+Test time =   5.01 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Jan 31 20:00 +06
+"incorrect_solution_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model1_tests" start time: Jan 31 20:00 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+[       OK ] AVLTreeTest.DeleteNodeWithTwoChildren (0 ms)
+[----------] 5 tests from AVLTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Jan 31 20:00 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model10_tests" start time: Jan 31 20:00 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+<end of output>
+Test time =   5.02 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 31 20:01 +06
+"model10_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model2_tests
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model2_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Jan 31 20:01 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model3_tests" start time: Jan 31 20:01 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+[       OK ] AVLTreeTest.DeleteNodeWithTwoChildren (0 ms)
+[----------] 5 tests from AVLTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Jan 31 20:01 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model4_tests" start time: Jan 31 20:01 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/test.cpp:87: Failure
+Value of: newRoot != root
+  Actual: false
+Expected: true
+
+[  FAILED  ] AVLTreeTest.DeleteNodeWithTwoChildren (0 ms)
+[----------] 5 tests from AVLTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AVLTreeTest.DeleteNodeWithTwoChildren
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Jan 31 20:01 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model5_tests" start time: Jan 31 20:01 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+[       OK ] AVLTreeTest.DeleteNodeWithTwoChildren (0 ms)
+[----------] 5 tests from AVLTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Jan 31 20:01 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model6_tests" start time: Jan 31 20:01 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Jan 31 20:01 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model7_tests" start time: Jan 31 20:01 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AVLTreeTest
+[ RUN      ] AVLTreeTest.RotLeftSimple
+[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
+[ RUN      ] AVLTreeTest.RotRightSimple
+[       OK ] AVLTreeTest.RotRightSimple (0 ms)
+[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
+[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
+[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
+[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
+[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 31 20:01 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Jan 31 20:01 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build/model9_tests
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304055/build
+"model9_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model9_tests" end time: Jan 31 20:01 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 31 20:01 +06

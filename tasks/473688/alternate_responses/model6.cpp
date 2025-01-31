@@ -1,0 +1,155 @@
+#ifndef __CACHE_BUFFER__
+#define __CACHE_BUFFER__
+
+#include <unordered_map>
+#include <map>
+#include <list>
+#include <stdexcept>
+#include <cstddef>
+#include <queue>
+#include <algorithm> 
+#include <vector>
+
+template <typename Key, typename Value>
+struct BufNode
+{
+    Key key;
+    Value value;
+    size_t frequency;
+    BufNode(const Key& k, const Value& v)
+        : key(k), value(v), frequency(1) {}
+};
+
+template <typename Key, typename Value>
+class CacheBuffer
+{
+public:
+    explicit CacheBuffer(std::size_t capacity)
+        : m_capacity(capacity)
+    {
+        if (capacity == 0) {
+            throw std::invalid_argument("CacheBuffer capacity must be > 0");
+        }
+    }
+
+    void put(const Key& key, const Value& value)
+    {
+        if (m_capacity <= 0) return;
+
+        auto it = m_map.find(key);
+        if (it != m_map.end()) {
+            it->second->value = value;
+            it->second->frequency++;
+            // Move to the front for better access locality
+            m_data.splice(m_data.begin(), m_data, it->second);
+            return;
+        }
+
+        if (size() >= m_capacity) {
+            evictNodes(1);
+        }
+
+        m_data.emplace_front(key, value);
+        m_map[key] = m_data.begin();
+    }
+
+    const Value& get(const Key& key)
+    {
+        auto it = m_map.find(key);
+        if (it == m_map.end()) {
+            throw std::runtime_error("Key not found in CacheBuffer");
+        }
+        it->second->frequency++;
+        return it->second->value;
+    }
+
+    void evictNodes(int n)
+    {
+        if (n <= 0) return;
+        if (n > static_cast<int>(size())) {
+            n = size();
+        }
+
+        std::vector<typename std::list<BufNode<Key, Value>>::iterator> to_remove;
+        for (auto it = m_data.begin(); it != m_data.end(); ++it) {
+            to_remove.push_back(it);
+        }
+
+        std::sort(to_remove.begin(), to_remove.end(),
+            [](const auto& a, const auto& b) {
+                if (a->frequency == b->frequency) {
+                    return a->value > b->value;
+                }
+                return a->frequency > b->frequency;
+            });
+
+        for (int i = 0; i < n && !to_remove.empty(); ++i) {
+            auto it = to_remove[to_remove.size() - 1];
+            m_map.erase(it->key);
+            m_data.erase(it);
+            to_remove.pop_back();
+        }
+    }
+
+    static CacheBuffer<Key, Value> mergeBuffers(const std::vector<CacheBuffer<Key, Value>>& buffers, size_t totalCapacity)
+    {
+        if (totalCapacity == 0) {
+            for (const auto& buffer : buffers) {
+                totalCapacity += buffer.capacity();
+            }
+        }
+
+        CacheBuffer<Key, Value> mergedBuffer(totalCapacity);
+
+        // Merge all buffers into one map
+        std::unordered_map<Key, BufNode<Key, Value>> mergedMap;
+        for (const auto& buffer : buffers) {
+            for (const auto& node : buffer.m_data) {
+                if (mergedMap.find(node.key) != mergedMap.end()) {
+                    mergedMap[node.key].frequency += node.frequency;
+                } else {
+                    mergedMap[node.key] = node;
+                }
+            }
+        }
+
+        // Add merged map to the buffer
+        for (const auto& pair : mergedMap) {
+            mergedBuffer.put(pair.first, pair.second.value);
+        }
+
+        return mergedBuffer;
+    }
+
+    void backup()
+    {
+        m_backup = *this;
+    }
+
+    void restore()
+    {
+        if (m_backup.m_capacity == 0) {
+            throw std::runtime_error("No backup data available");
+        }
+
+        *this = m_backup;
+    }
+
+    std::size_t size() const
+    {
+        return m_map.size();
+    }
+
+    std::size_t capacity() const
+    {
+        return m_capacity;
+    }
+
+private:
+    std::size_t m_capacity;
+    std::list<BufNode<Key, Value>> m_data;
+    std::unordered_map<Key, typename std::list<BufNode<Key, Value>>::iterator> m_map;
+    CacheBuffer m_backup;
+};
+
+#endif // __CACHE_BUFFER__
