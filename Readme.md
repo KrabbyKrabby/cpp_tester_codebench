@@ -55,6 +55,10 @@ cd Tester_cpp_codebench
 ---
 
 ## **How to Use**
+#### **Give execute permission to the script:**
+```bash
+chmod +x code_runner.sh
+```
 
 ### **Run Tests for `solution.cpp`**
 #### **Command:**
@@ -63,6 +67,7 @@ cd Tester_cpp_codebench
 ```
 #### **Description:**
 This compiles `solution.cpp` directly and runs tests from `test_model.cpp` for a specific task.
+
 ### **Run Tests for `base.cpp`**
 #### **Command:**
 ```bash
@@ -70,19 +75,6 @@ This compiles `solution.cpp` directly and runs tests from `test_model.cpp` for a
 ```
 #### **Description:**
 This runs `base.cpp` in the same way as `solution.cpp` for a specific task.
-#### **Give execute permission to the script:**
-```bash
-chmod +x code_runner.sh
-```
-#### **Run this command from the project root (`Tester_cpp_codebench/`):**
-```bash
-./code_runner.sh <task_id> solution
-```
-This compiles `solution.cpp` directly and runs tests from `test_model.cpp`.
-```bash
-./code_runner.sh <task_id> base
-```
-This runs `base.cpp` in the same way as `solution.cpp`.
 
 ### **Run Tests for All Alternate Responses**
 #### **Command:**
@@ -91,6 +83,7 @@ This runs `base.cpp` in the same way as `solution.cpp`.
 ```
 #### **Description:**
 This compiles and tests all implementations inside `alternate_responses/` using CMake for a specific task.
+
 ### **Run Tests for All Tasks**
 #### **Command:**
 ```bash
@@ -98,5 +91,4 @@ This compiles and tests all implementations inside `alternate_responses/` using 
 ```
 #### **Description:**
 This runs `solution.cpp` for all tasks inside `tasks/` and stores the results in `all_solution_logs.txt`.
-
 ---
