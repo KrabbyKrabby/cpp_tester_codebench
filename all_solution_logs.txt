@@ -1,0 +1,61 @@
+Running solution.cpp for Task 303992...
+Compiling and running solution.cpp for Task 303992...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from GaussianEliminationTests
+[ RUN      ] GaussianEliminationTests.Simple2x2
+[       OK ] GaussianEliminationTests.Simple2x2 (0 ms)
+[ RUN      ] GaussianEliminationTests.Simple3x3
+[       OK ] GaussianEliminationTests.Simple3x3 (0 ms)
+[ RUN      ] GaussianEliminationTests.SingularMatrix
+[       OK ] GaussianEliminationTests.SingularMatrix (0 ms)
+[ RUN      ] GaussianEliminationTests.InconsistentSystem
+[       OK ] GaussianEliminationTests.InconsistentSystem (0 ms)
+[ RUN      ] GaussianEliminationTests.OneByOneMatrix
+[       OK ] GaussianEliminationTests.OneByOneMatrix (0 ms)
+[ RUN      ] GaussianEliminationTests.ZeroMatrix
+[       OK ] GaussianEliminationTests.ZeroMatrix (0 ms)
+[ RUN      ] GaussianEliminationTests.SmallValues
+[       OK ] GaussianEliminationTests.SmallValues (0 ms)
+[ RUN      ] GaussianEliminationTests.LargeValues
+[       OK ] GaussianEliminationTests.LargeValues (0 ms)
+[ RUN      ] GaussianEliminationTests.EmptyMatrix
+[       OK ] GaussianEliminationTests.EmptyMatrix (0 ms)
+[ RUN      ] GaussianEliminationTests.NonSquareMatrix
+[       OK ] GaussianEliminationTests.NonSquareMatrix (0 ms)
+[----------] 10 tests from GaussianEliminationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+Completed Task 303992
+----------------------
+Running solution.cpp for Task 621291...
+Compiling and running solution.cpp for Task 621291...
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from DESTest
+[ RUN      ] DESTest.StandardTest
+[       OK ] DESTest.StandardTest (0 ms)
+[ RUN      ] DESTest.AllZerosTest
+[       OK ] DESTest.AllZerosTest (0 ms)
+[ RUN      ] DESTest.AllOnesTest
+[       OK ] DESTest.AllOnesTest (0 ms)
+[ RUN      ] DESTest.PlaintextEqualsKeyTest
+[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
+[ RUN      ] DESTest.MinimalKeyTest
+[       OK ] DESTest.MinimalKeyTest (0 ms)
+[ RUN      ] DESTest.RandomTest
+[       OK ] DESTest.RandomTest (0 ms)
+[ RUN      ] DESTest.EmptyKeyTest
+[       OK ] DESTest.EmptyKeyTest (0 ms)
+[ RUN      ] DESTest.SymmetryTest
+[       OK ] DESTest.SymmetryTest (0 ms)
+[----------] 8 tests from DESTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 8 tests.
+Completed Task 621291
+----------------------

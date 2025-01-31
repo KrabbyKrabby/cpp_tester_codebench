@@ -148,11 +148,53 @@ run_base() {
     mv "$test_file.bak" "$test_file"
 }
 
+run_all_solutions() {
+    log_file="all_solution_logs.txt"
+    echo "Running solution.cpp for all tasks and storing results in $log_file..."
+    > "$log_file"  # Clear the log file before writing
+
+    for task_dir in tasks/*; do
+        if [ -d "$task_dir" ]; then
+            task_id=$(basename "$task_dir")
+            echo "Running solution.cpp for Task $task_id..." | tee -a "$log_file"
+
+            test_file="tasks/$task_id/test.cpp"
+
+            if [ -f "$test_file" ]; then
+                echo "Compiling and running solution.cpp for Task $task_id..." | tee -a "$log_file"
+                g++ -std=c++14 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+
+                if [ $? -eq 0 ]; then
+                    ./temp_test >> "$log_file" 2>&1
+                    echo "Completed Task $task_id" | tee -a "$log_file"
+                else
+                    echo "Compilation failed for Task $task_id" | tee -a "$log_file"
+                fi
+
+                rm -f temp_test
+            else
+                echo "Skipping Task $task_id: test.cpp not found!" | tee -a "$log_file"
+            fi
+
+            echo "----------------------" | tee -a "$log_file"
+        fi
+    done
+
+    echo "All tasks processed. Logs saved in $log_file."
+}
+
+
 
 # Main script logic
-if [ -z "$1" ] || [ -z "$2" ]; then
-    echo "Usage: $0 <task_id> [solution|alternate]"
+if [ -z "$1" ]; then
+    echo "Usage: $0 <task_id> [solution|alternate|base] OR $0 run_all"
     exit 1
+fi
+
+if [ "$1" == "run_all" ]; then
+    run_all_solutions
+    exit 0
+fi
 else
     task_id=$1
     mode=$2
@@ -168,6 +210,8 @@ else
         run_task "$task_id"
     elif [ "$mode" == "base" ]; then
         run_base "$task_id"
+    elif [ "$mode" == "run_all" ]; then
+        run_all_solutions
     else
         echo "Invalid mode! Use 'solution' to test solution.cpp or 'alternate' to test all alternate_responses/*.cpp."
         exit 1
