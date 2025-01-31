@@ -1,4 +1,3 @@
-
 #include <gtest/gtest.h>
 #include "solution.cpp"
 #include <stdexcept>

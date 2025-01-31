@@ -1,142 +1,180 @@
-#ifndef __MEM_ALLOC__
-#define __MEM_ALLOC__
-
-#include <windows.h>
+#include <functional>
+#include <queue>
+#include <stdexcept>
+#include <vector>
 #include <iostream>
-#include <cstring>
+#include <thread>
 #include <mutex>
+#include <condition_variable>
+#include <map>
+#include <atomic>
+#include <chrono>
 
-class MemoryManager {
-public:
-    struct Header {
-        size_t size;
-        bool is_free;
-        Header* next;
-    };
-
-private:
-    static std::mutex mutex;
-    static Header* head;
-    static Header* tail;
-    static const size_t ALIGNMENT = sizeof(void*);
-    static const size_t HEADER_SIZE = sizeof(Header);
-
-public:
-    MemoryManager() = delete; // Disallow creating an instance
-
-    static void reset() {
-        std::lock_guard<std::mutex> lock(mutex);
-        head = nullptr;
-        tail = nullptr;
-        // Also consider releasing any allocated memory blocks if necessary
-    }
-
-    static void deallocate(void* block) {
-        if (!block) return;
-
-        std::lock_guard<std::mutex> lock(mutex);
-        Header* header = reinterpret_cast<Header*>(static_cast<char*>(block) - HEADER_SIZE);
-        header->is_free = true;
-
-        // Coalesce with next block if it's free
-        if (header->next && header->next->is_free) {
-            header->size += header->next->size + HEADER_SIZE;
-            header->next = header->next->next;
-        }
-
-        // Coalesce with previous block if it's free
-        Header* current = head;
-        while (current && current->next != header) {
-            current = current->next;
-        }
-        if (current && current->is_free) {
-            current->size += header->size + HEADER_SIZE;
-            current->next = header->next;
-        }
-    }
-
-    static void* allocate(size_t size) {
-        if (size == 0) return nullptr;
-
-        std::lock_guard<std::mutex> lock(mutex);
-        size_t aligned_size = (size + ALIGNMENT - 1) & ~(ALIGNMENT - 1);
-        
-        // Try to find a free block
-        Header* free_block = getFreeBlock(aligned_size);
-        if (free_block) {
-            free_block->is_free = false;
-            return reinterpret_cast<char*>(free_block) + HEADER_SIZE;
-        }
-
-        // Allocate new block
-        size_t total_size = HEADER_SIZE + aligned_size;
-        Header* new_block = reinterpret_cast<Header*>(HeapAlloc(GetProcessHeap(), 0, total_size));
-        if (!new_block) return nullptr;
-
-        new_block->size = aligned_size;
-        new_block->is_free = false;
-        new_block->next = nullptr;
-
-        // Update linked list
-        if (!head) {
-            head = new_block;
-        } else {
-            tail->next = new_block;
-        }
-        tail = new_block;
-
-        return reinterpret_cast<char*>(new_block) + HEADER_SIZE;
-    }
-
-    static void* reallocate(void* block, size_t size) {
-        if (!block) return allocate(size);
-        if (size == 0) {
-            deallocate(block);
-            return nullptr;
-        }
-
-        std::lock_guard<std::mutex> lock(mutex);
-        Header* header = reinterpret_cast<Header*>(static_cast<char*>(block) - HEADER_SIZE);
-        
-        // If current block is big enough, just return it
-        if (header->size >= size) return block;
-
-        // Allocate new block and copy data
-        void* new_block = allocate(size);
-        if (!new_block) return nullptr;
-
-        std::memcpy(new_block, block, header->size);
-        deallocate(block);
-        return new_block;
-    }
-
-    static void* zeroInitialize(size_t num, size_t size) {
-        size_t total_size = num * size;
-        if (num != 0 && total_size / num != size) return nullptr; // Check for overflow
-
-        void* block = allocate(total_size);
-        if (block) {
-            std::memset(block, 0, total_size);
-        }
-        return block;
-    }
-
-private:
-    static Header* getFreeBlock(size_t size) {
-        Header* curr = head;
-        while (curr) {
-            if (curr->is_free && curr->size >= size) {
-                return curr;
-            }
-            curr = curr->next;
-        }
-        return nullptr;
-    }
+enum class TaskStatus {
+    PENDING,
+    RUNNING,
+    COMPLETED,
+    CANCELED
 };
 
-// Static member initialization
-std::mutex MemoryManager::mutex;
-Header* MemoryManager::head = nullptr;
-Header* MemoryManager::tail = nullptr;
+struct Task {
+    size_t id;
+    std::function<void()> func;
+    std::chrono::system_clock::time_point scheduleTime;
+    TaskStatus status;
+    
+    Task(size_t id, const std::function<void()>& f, 
+         std::chrono::system_clock::time_point time = std::chrono::system_clock::now())
+        : id(id), func(f), scheduleTime(time), status(TaskStatus::PENDING) {}
+};
 
-#endif //__MEM_ALLOC__
+class TaskScheduler {
+public:
+    TaskScheduler(size_t threadCount = std::thread::hardware_concurrency())
+        : nextTaskId(0), isRunning(false) {
+        threadPoolSize = threadCount > 0 ? threadCount : 1;
+    }
+
+    ~TaskScheduler() {
+        stopThreadPool();
+    }
+
+    size_t addTask(const std::function<void()>& func) {
+        std::lock_guard<std::mutex> lock(mutex);
+        size_t taskId = nextTaskId++;
+        tasks.push(Task(taskId, func));
+        updateTaskStatus(taskId, TaskStatus::PENDING);
+        return taskId;
+    }
+
+    size_t scheduleTask(std::chrono::system_clock::time_point time, 
+                       std::function<void()> task) {
+        std::lock_guard<std::mutex> lock(mutex);
+        size_t taskId = nextTaskId++;
+        tasks.push(Task(taskId, task, time));
+        updateTaskStatus(taskId, TaskStatus::PENDING);
+        return taskId;
+    }
+
+    void runNext() {
+        std::lock_guard<std::mutex> lock(mutex);
+        if (tasks.empty()) return;
+
+        auto now = std::chrono::system_clock::now();
+        Task task = tasks.front();
+        
+        if (task.scheduleTime <= now && 
+            taskStatuses[task.id] == TaskStatus::PENDING) {
+            tasks.pop();
+            executeTask(task);
+        }
+    }
+
+    void runAllConcurrently() {
+        std::lock_guard<std::mutex> lock(mutex);
+        if (!isRunning) {
+            isRunning = true;
+            startThreadPool();
+        }
+        condition.notify_all();
+    }
+
+    void waitAll() {
+        std::unique_lock<std::mutex> lock(mutex);
+        waitCondition.wait(lock, [this]() {
+            return tasks.empty() && activeTaskCount == 0;
+        });
+    }
+
+    TaskStatus getTaskStatus(size_t taskId) const {
+        std::lock_guard<std::mutex> lock(mutex);
+        auto it = taskStatuses.find(taskId);
+        if (it == taskStatuses.end()) {
+            throw std::runtime_error("Task ID not found");
+        }
+        return it->second;
+    }
+
+    bool cancelTask(size_t taskId) {
+        std::lock_guard<std::mutex> lock(mutex);
+        auto it = taskStatuses.find(taskId);
+        if (it != taskStatuses.end() && it->second == TaskStatus::PENDING) {
+            it->second = TaskStatus::CANCELED;
+            return true;
+        }
+        return false;
+    }
+
+private:
+    std::queue<Task> tasks;
+    mutable std::mutex mutex;
+    std::condition_variable condition;
+    std::condition_variable waitCondition;
+    std::atomic<size_t> nextTaskId;
+    std::map<size_t, TaskStatus> taskStatuses;
+    std::vector<std::thread> threadPool;
+    size_t threadPoolSize;
+    std::atomic<bool> isRunning;
+    std::atomic<size_t> activeTaskCount{0};
+
+    void updateTaskStatus(size_t taskId, TaskStatus status) {
+        taskStatuses[taskId] = status;
+    }
+
+    void executeTask(Task& task) {
+        updateTaskStatus(task.id, TaskStatus::RUNNING);
+        activeTaskCount++;
+        
+        try {
+            task.func();
+            updateTaskStatus(task.id, TaskStatus::COMPLETED);
+        } catch (...) {
+            updateTaskStatus(task.id, TaskStatus::COMPLETED);
+        }
+        
+        activeTaskCount--;
+        waitCondition.notify_all();
+    }
+
+    void startThreadPool() {
+        for (size_t i = 0; i < threadPoolSize; ++i) {
+            threadPool.emplace_back([this]() {
+                while (isRunning) {
+                    std::unique_lock<std::mutex> lock(mutex);
+                    condition.wait(lock, [this]() {
+                        return !tasks.empty() || !isRunning;
+                    });
+
+                    if (!isRunning) break;
+
+                    auto now = std::chrono::system_clock::now();
+                    if (!tasks.empty() && 
+                        tasks.front().scheduleTime <= now && 
+                        taskStatuses[tasks.front().id] == TaskStatus::PENDING) {
+                        Task task = tasks.front();
+                        tasks.pop();
+                        lock.unlock();
+                        executeTask(task);
+                    } else {
+                        lock.unlock();
+                        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+                    }
+                }
+            });
+        }
+    }
+
+    void stopThreadPool() {
+        {
+            std::lock_guard<std::mutex> lock(mutex);
+            isRunning = false;
+        }
+        condition.notify_all();
+        for (auto& thread : threadPool) {
+            if (thread.joinable()) {
+                thread.join();
+            }
+        }
+        threadPool.clear();
+    }
+};

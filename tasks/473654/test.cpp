@@ -2,7 +2,6 @@
 #include <cstring>
 #include "solution.cpp"
 
-
 // Positive test cases
 TEST(PacketTest, SerializeAndDeserializePositive) {
     uint8_t payload[] = {0x01, 0x02, 0x03, 0x04};
@@ -38,7 +37,7 @@ TEST(PacketTest, DeserializeInvalidData) {
 
 // Corner and edge cases
 TEST(PacketTest, ZeroLengthPayload) {
-    uint8_t payload[] = {};
+    uint8_t payload[] = {0};
     uint32_t payloadLength = 0;
 
     Packet packet(0x01, 5678, payload, payloadLength);
@@ -82,7 +81,7 @@ TEST(PacketTest, MaxValues) {
 }
 
 TEST(PacketTest, MinValues) {
-    uint8_t payload[] = {};
+    uint8_t payload[] = {0};
     uint32_t payloadLength = 0;
 
     Packet packet(0x00, 0, payload, payloadLength);

@@ -3,32 +3,36 @@
 #include <unordered_map>
 #include <vector>
 #include <memory>
-#include <unordered_set>
 #include <sstream>
-#include <stdexcept>
+#include <unordered_set>
+#include <algorithm>
 
 class XMLNode {
 public:
     std::string name;
     std::string value;
+    std::unordered_map<std::string, std::string> attributes;
     std::vector<std::shared_ptr<XMLNode>> children;
     
     XMLNode(const std::string& name, const std::string& value = "") 
         : name(name), value(value) {}
     
     void addChild(std::shared_ptr<XMLNode> child) {
-        if (!child) {
-            throw std::invalid_argument("Cannot add null child node");
+        if (child) {
+            children.push_back(child);
         }
-        children.push_back(child);
+    }
+    
+    void addAttribute(const std::string& key, const std::string& value) {
+        attributes[key] = value;
     }
 };
 
 class XMLToJSONConverter {
 private:
-    static std::string escapeJSONString(const std::string& input) {
+    static std::string escapeJSON(const std::string& str) {
         std::ostringstream oss;
-        for (char c : input) {
+        for (char c : str) {
             switch (c) {
                 case '\"': oss << "\\\""; break;
                 case '\\': oss << "\\\\"; break;
@@ -39,7 +43,7 @@ private:
                 case '\t': oss << "\\t"; break;
                 default:
                     if ('\x00' <= c && c <= '\x1f') {
-                        oss << "\\u" << std::hex << std::setw(4) << std::setfill('0') << static_cast<int>(c);
+                        oss << "\\u" << std::hex << std::setw(4) << std::setfill('0') << (int)c;
                     } else {
                         oss << c;
                     }
@@ -48,57 +52,103 @@ private:
         return oss.str();
     }
 
-    static std::string convertNode(const std::shared_ptr<XMLNode>& node, 
-                                 std::unordered_set<const XMLNode*>& visited) {
+    static std::string convertNode(std::shared_ptr<XMLNode> node, 
+                                 std::unordered_set<std::shared_ptr<XMLNode>>& visited) {
         if (!node) {
             return "null";
         }
 
-        // Check for circular references
-        if (visited.find(node.get()) != visited.end()) {
+        // Check for circular reference
+        if (visited.find(node) != visited.end()) {
             throw std::runtime_error("Circular reference detected in XML structure");
         }
-        visited.insert(node.get());
+        visited.insert(node);
 
         std::ostringstream json;
         json << "{";
-        
-        // Add name
-        json << "\"nodeName\": \"" << escapeJSONString(node->name) << "\"";
 
-        // Add value if not empty
-        if (!node->value.empty()) {
-            json << ", \"nodeValue\": \"" << escapeJSONString(node->value) << "\"";
+        // Handle attributes
+        if (!node->attributes.empty()) {
+            json << "\"@attributes\":{";
+            bool firstAttr = true;
+            for (const auto& attr : node->attributes) {
+                if (!firstAttr) json << ",";
+                json << "\"" << escapeJSON(attr.first) << "\":\"" 
+                     << escapeJSON(attr.second) << "\"";
+                firstAttr = false;
+            }
+            json << "}";
+            if (!node->value.empty() || !node->children.empty()) {
+                json << ",";
+            }
         }
 
-        // Add children if any
-        if (!node->children.empty()) {
-            json << ", \"children\": [";
-            for (size_t i = 0; i < node->children.size(); ++i) {
-                if (i > 0) {
-                    json << ", ";
-                }
-                json << convertNode(node->children[i], visited);
+        // Handle value
+        if (!node->value.empty()) {
+            if (!node->children.empty()) {
+                json << "\"#text\":\"" << escapeJSON(node->value) << "\",";
+            } else {
+                json << "\"#text\":\"" << escapeJSON(node->value) << "\"";
             }
-            json << "]";
+        }
+
+        // Handle children
+        if (!node->children.empty()) {
+            std::unordered_map<std::string, std::vector<std::string>> childrenJson;
+            
+            for (const auto& child : node->children) {
+                if (child) {
+                    childrenJson[child->name].push_back(
+                        convertNode(child, visited)
+                    );
+                }
+            }
+
+            bool firstChild = true;
+            for (const auto& entry : childrenJson) {
+                if (!firstChild) json << ",";
+                json << "\"" << escapeJSON(entry.first) << "\":";
+                
+                if (entry.second.size() == 1) {
+                    json << entry.second[0];
+                } else {
+                    json << "[";
+                    for (size_t i = 0; i < entry.second.size(); ++i) {
+                        if (i > 0) json << ",";
+                        json << entry.second[i];
+                    }
+                    json << "]";
+                }
+                firstChild = false;
+            }
         }
 
         json << "}";
-        visited.erase(node.get());
+        visited.erase(node);
         return json.str();
     }
 
 public:
-    static std::string convert(std::shared_ptr<XMLNode> root) {
-        if (!root) {
-            throw std::invalid_argument("Root node cannot be null");
+    static std::string convert(XMLNode* node) {
+        if (!node) return "null";
+        
+        std::unordered_set<std::shared_ptr<XMLNode>> visited;
+        auto sharedNode = std::shared_ptr<XMLNode>(new XMLNode(node->name, node->value));
+        
+        // Copy attributes and children to shared_ptr version
+        sharedNode->attributes = node->attributes;
+        for (auto* child : node->children) {
+            if (child) {
+                sharedNode->addChild(std::shared_ptr<XMLNode>(
+                    new XMLNode(child->name, child->value)
+                ));
+            }
         }
-
+        
         try {
-            std::unordered_set<const XMLNode*> visited;
-            return convertNode(root, visited);
+            return convertNode(sharedNode, visited);
         } catch (const std::exception& e) {
-            throw std::runtime_error(std::string("JSON conversion failed: ") + e.what());
+            return "{\"error\":\"" + std::string(e.what()) + "\"}";
         }
     }
 };

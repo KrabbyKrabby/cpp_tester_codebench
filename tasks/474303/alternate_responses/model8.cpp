@@ -1,112 +1,113 @@
-#ifndef __MEM_ALLOC__
-#define __MEM_ALLOC__
-
-#include <windows.h>
+#include <functional>
+#include <queue>
+#include <stdexcept>
+#include <vector>
 #include <iostream>
-#include <cstring>
+#include <thread>
 #include <mutex>
+#include <condition_variable>
+#include <chrono>
+#include <atomic>
 
-class MemoryManager {
-public:
-    struct Header {
-        size_t size;
-        bool is_free;
-        Header* next;
-    };
+// A simple Task struct. Now, it holds a function, task ID, status, schedule time, and a flag for cancellation.
+struct Task {
+    std::function<void()> func;
+    size_t taskId;
+    std::atomic<TaskStatus> status;
+    std::chrono::system_clock::time_point scheduleTime;
+    std::atomic<bool> canceled;
 
-private:
-    static std::mutex mutex;
-    static Header* head;
-    static Header* tail;
-
-public:
-    MemoryManager() = delete; // Disallow creating an instance
-
-    static void reset() {
-        std::lock_guard<std::mutex> lock(mutex);
-        head = nullptr;
-        tail = nullptr;
-        // Also consider releasing any allocated memory blocks if necessary
-    }
-
-    static void deallocate(void* block) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (!block) return; // Check for nullptr
-
-        Header* header = static_cast<Header*>(static_cast<char*>(block) - sizeof(Header));
-        header->is_free = true;
-    }
-
-    static void* allocate(size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (size == 0) return nullptr; // Check for invalid size
-
-        Header* free_block = getFreeBlock(size);
-        if (free_block) {
-            free_block->is_free = false;
-            return static_cast<void*>(static_cast<char*>(free_block) + sizeof(Header));
-        }
-
-        // Allocate new memory block
-        Header* new_block = static_cast<Header*>(HeapAlloc(GetProcessHeap(), 0, size + sizeof(Header)));
-        if (!new_block) return nullptr; // Allocation failed
-
-        new_block->size = size;
-        new_block->is_free = false;
-        new_block->next = nullptr;
-
-        if (!head) {
-            head = new_block;
-            tail = new_block;
-        } else {
-            tail->next = new_block;
-            tail = new_block;
-        }
-
-        return static_cast<void*>(static_cast<char*>(new_block) + sizeof(Header));
-    }
-
-    static void* reallocate(void* block, size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (!block || size == 0) return nullptr; // Check for nullptr or invalid size
-
-        Header* header = static_cast<Header*>(static_cast<char*>(block) - sizeof(Header));
-        if (header->size >= size) {
-            return block; // No need to reallocate
-        }
-
-        void* new_block = allocate(size);
-        if (!new_block) return nullptr; // Allocation failed
-
-        std::memcpy(new_block, block, header->size);
-        deallocate(block);
-
-        return new_block;
-    }
-
-    static void* zeroInitialize(size_t num, size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (num == 0 || size == 0) return nullptr; // Check for invalid parameters
-
-        size_t total_size = num * size;
-        void* block = allocate(total_size);
-        if (!block) return nullptr; // Allocation failed
-
-        std::memset(block, 0, total_size);
-        return block;
-    }
-
-private:
-    static Header* getFreeBlock(size_t size) {
-        Header* curr = head;
-        while (curr) {
-            if (curr->is_free && curr->size >= size) {
-                return curr;
-            }
-            curr = curr->next;
-        }
-        return nullptr;
-    }
+    Task(std::function<void()> func, size_t taskId, std::chrono::system_clock::time_point scheduleTime)
+        : func(func), taskId(taskId), status(TaskStatus::PENDING), scheduleTime(scheduleTime), canceled(false) {}
 };
 
-#endif //__MEM_ALLOC__
+// A simple FIFO TaskScheduler that runs tasks one-by-one.
+class TaskScheduler {
+public:
+    TaskScheduler() = default;
+    ~TaskScheduler() = default;
+
+    // Add a task to the queue (returns the index in the queue, but isn't used for anything yet).
+    size_t addTask(const std::function<void()>& func) {
+        std::lock_guard<std::mutex> lock(mutex_);
+        Task task{func, tasks_.size(), std::chrono::system_clock::now()};
+        tasks_.push(task);
+        return tasks_.size() - 1; // simplistic; not truly an ID
+    }
+
+    // Runs the next task in the queue if one exists, then removes it from the queue.
+    void runNext() {
+        std::lock_guard<std::mutex> lock(mutex_);
+        if (tasks_.empty()) {
+            return;
+        }
+        Task t = tasks_.front();
+        tasks_.pop();
+        // Execute
+        t.func();
+    }
+
+    // Runs all tasks concurrently using multiple threads.
+    void runAllConcurrently() {
+        std::lock_guard<std::mutex> lock(mutex_);
+        std::vector<std::thread> threads;
+        while (!tasks_.empty()) {
+            Task t = tasks_.front();
+            tasks_.pop();
+            threads.emplace_back([this, t]() {
+                std::lock_guard<std::mutex> lock(mutex_);
+                t.func();
+                t.status = TaskStatus::COMPLETED;
+            });
+        }
+        for (auto& thread : threads) {
+            thread.detach();
+        }
+    }
+
+    // Waits for all tasks to complete.
+    void waitAll() {
+        std::unique_lock<std::mutex> lock(mutex_);
+        cv_.wait(lock, [this]() {
+            return tasks_.empty();
+        });
+    }
+
+    // Schedules a task to be executed not before the specified time.
+    size_t scheduleTask(std::chrono::system_clock::time_point time, std::function<void()> task) {
+        std::lock_guard<std::mutex> lock(mutex_);
+        Task t{task, tasks_.size(), time};
+        tasks_.push(t);
+        return t.taskId;
+    }
+
+    // Returns the status of a task.
+    TaskStatus getTaskStatus(size_t taskId) const {
+        std::lock_guard<std::mutex> lock(mutex_);
+        for (const auto& task : tasks_) {
+            if (task.taskId == taskId) {
+                return task.status;
+            }
+        }
+        return TaskStatus::CANCELED; // Task not found
+    }
+
+    // Cancels a task.
+    bool cancelTask(size_t taskId) {
+        std::lock_guard<std::mutex> lock(mutex_);
+        for (auto& task : tasks_) {
+            if (task.taskId == taskId && task.status == TaskStatus::PENDING) {
+                task.canceled = true;
+                return true;
+            }
+        }
+        return false; // Task not found or not pending
+    }
+
+private:
+    std::queue<Task> tasks_;
+    mutable std::mutex mutex_;
+    std::condition_variable cv_;
+};
+
+enum class TaskStatus { PENDING, RUNNING, COMPLETED, CANCELED };

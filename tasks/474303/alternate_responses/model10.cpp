@@ -1,206 +1,150 @@
-#ifndef __MEM_ALLOC__
-#define __MEM_ALLOC__
-
-#include <windows.h>
+#include <functional>
+#include <queue>
+#include <stdexcept>
+#include <vector>
 #include <iostream>
-#include <cstring>
+#include <thread>
 #include <mutex>
+#include <condition_variable>
+#include <chrono>
+#include <unordered_map>
 
-class MemoryManager {
+// A simple Task struct. Right now, it only holds a function.
+// In your enhancements, you may need to expand this (e.g., ID, status, schedule time, etc.).
+struct Task {
+    size_t id;
+    std::function<void()> func;
+    std::chrono::system_clock::time_point scheduledTime;
+    std::atomic<TaskStatus> status;
+};
+
+// A simple FIFO TaskScheduler that runs tasks one-by-one.
+class TaskScheduler {
 public:
-    struct Header {
-        size_t size;
-        bool is_free;
-        Header* next;
-    };
-
-private:
-    static std::mutex mutex;
-    static Header* head;
-    static Header* tail;
-
-public:
-    MemoryManager() = delete; // Disallow creating an instance
-
-    static void reset() {
-        std::lock_guard<std::mutex> lock(mutex);
-        head = nullptr;
-        tail = nullptr;
-        // Also consider releasing any allocated memory blocks if necessary
+    TaskScheduler() = default;
+    ~TaskScheduler() {
+        stop();
     }
 
-    static void deallocate(void* block) {
-        if (!block) return;
+    // Add a task to the queue (returns the index in the queue, but isn't used for anything yet).
+    size_t addTask(const std::function<void()>& func) {
+        Task task{getNextId(), func, std::chrono::system_clock::now(), TaskStatus::PENDING};
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            tasks.push(task);
+        }
+        return task.id;
+    }
 
-        std::lock_guard<std::mutex> lock(mutex);
+    // Runs the next task in the queue if one exists, then removes it from the queue.
+    void runNext() {
+        Task task;
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            if (tasks.empty()) {
+                return;
+            }
+            task = tasks.front();
+            tasks.pop();
+        }
+        runTask(task);
+    }
 
-        // Get the header for the block
-        Header* header = reinterpret_cast<Header*>(reinterpret_cast<char*>(block) - sizeof(Header));
+    // Runs all tasks concurrently
+    void runAllConcurrently() {
+        std::vector<Task> tasksToRun;
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            while (!tasks.empty()) {
+                tasksToRun.push_back(tasks.front());
+                tasks.pop();
+            }
+        }
+        for (auto& task : tasksToRun) {
+            std::thread([this, task]() { runTask(task); }).detach();
+        }
+    }
 
-        if (!header || !header->is_free) {
-            std::cerr << "Error: Attempt to deallocate an invalid block." << std::endl;
+    // Waits for all tasks to complete
+    void waitAll() {
+        std::unique_lock<std::mutex> lock(waitMutex);
+        waitCondition.wait(lock, [this] { return tasks.empty() && runningTasks == 0; });
+    }
+
+    // Schedules a task to run at a specific time
+    size_t scheduleTask(std::chrono::system_clock::time_point time, std::function<void()> task) {
+        Task newTask{getNextId(), task, time, TaskStatus::PENDING};
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            tasks.push(newTask);
+        }
+        return newTask.id;
+    }
+
+    // Gets the status of a task
+    TaskStatus getTaskStatus(size_t taskId) const {
+        std::lock_guard<std::mutex> lock(tasksMutex);
+        for (const auto& task : tasks) {
+            if (task.id == taskId) {
+                return task.status;
+            }
+        }
+        return TaskStatus::COMPLETED; // Assume completed if not found
+    }
+
+    // Cancels a task
+    bool cancelTask(size_t taskId) {
+        std::lock_guard<std::mutex> lock(tasksMutex);
+        for (auto& task : tasks) {
+            if (task.id == taskId && task.status == TaskStatus::PENDING) {
+                task.status = TaskStatus::CANCELED;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Stops the scheduler
+    void stop() {
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            while (!tasks.empty()) {
+                tasks.pop();
+            }
+        }
+        waitCondition.notify_all();
+    }
+
+private:
+    std::queue<Task> tasks;
+    mutable std::mutex tasksMutex;
+    std::condition_variable waitCondition;
+    std::mutex waitMutex;
+    std::atomic<size_t> nextId{0};
+    std::atomic<size_t> runningTasks{0};
+
+    size_t getNextId() {
+        return nextId++;
+    }
+
+    void runTask(Task& task) {
+        if (task.scheduledTime > std::chrono::system_clock::now()) {
+            std::this_thread::sleep_until(task.scheduledTime);
+        }
+        if (task.status == TaskStatus::CANCELED) {
             return;
         }
-
-        header->is_free = true;
-
-        // Merge adjacent free blocks
-        mergeFreeBlocks(header);
-    }
-
-    static void* allocate(size_t size) {
-        if (size == 0) return nullptr;
-
-        std::lock_guard<std::mutex> lock(mutex);
-
-        Header* free_block = getFreeBlock(size);
-
-        if (free_block) {
-            // If we found a free block, use it
-            free_block->is_free = false;
-
-            // If the block is larger than requested, split it
-            if (free_block->size > size) {
-                splitBlock(free_block, size);
-            }
-
-            return reinterpret_cast<void*>(reinterpret_cast<char*>(free_block) + sizeof(Header));
-        } else {
-            // If no free block is available, allocate a new one
-            Header* new_block = reinterpret_cast<Header*>(malloc(sizeof(Header) + size));
-
-            if (!new_block) {
-                std::cerr << "Error: Memory allocation failed." << std::endl;
-                return nullptr;
-            }
-
-            new_block->size = size;
-            new_block->is_free = false;
-            new_block->next = nullptr;
-
-            if (!head) {
-                head = new_block;
-                tail = new_block;
-            } else {
-                tail->next = new_block;
-                tail = new_block;
-            }
-
-            return reinterpret_cast<void*>(reinterpret_cast<char*>(new_block) + sizeof(Header));
+        task.status = TaskStatus::RUNNING;
+        runningTasks++;
+        try {
+            task.func();
+        } catch (...) {
+            // Handle exception
         }
-    }
-
-    static void* reallocate(void* block, size_t size) {
-        if (!block || size == 0) return nullptr;
-
-        std::lock_guard<std::mutex> lock(mutex);
-
-        // Get the header for the block
-        Header* header = reinterpret_cast<Header*>(reinterpret_cast<char*>(block) - sizeof(Header));
-
-        if (!header || header->is_free) {
-            std::cerr << "Error: Attempt to reallocate an invalid block." << std::endl;
-            return nullptr;
-        }
-
-        if (size <= header->size) {
-            // If the new size is smaller, just update the size
-            header->size = size;
-            return block;
-        } else {
-            // If the new size is larger, we need to allocate a new block
-            void* new_block = allocate(size);
-
-            if (!new_block) {
-                std::cerr << "Error: Memory reallocation failed." << std::endl;
-                return nullptr;
-            }
-
-            // Copy the data from the old block to the new one
-            std::memcpy(new_block, block, header->size);
-
-            // Deallocate the old block
-            deallocate(block);
-
-            return new_block;
-        }
-    }
-
-    static void* zeroInitialize(size_t num, size_t size) {
-        size_t total_size = num * size;
-
-        if (total_size == 0) return nullptr;
-
-        std::lock_guard<std::mutex> lock(mutex);
-
-        void* block = allocate(total_size);
-
-        if (!block) {
-            std::cerr << "Error: Memory allocation failed." << std::endl;
-            return nullptr;
-        }
-
-        // Zero-initialize the allocated block
-        std::memset(block, 0, total_size);
-
-        return block;
-    }
-
-private:
-    static Header* getFreeBlock(size_t size) {
-        Header* curr = head;
-        while (curr) {
-            if (curr->is_free && curr->size >= size) {
-                return curr;
-            }
-            curr = curr->next;
-        }
-        return nullptr;
-    }
-
-    static void splitBlock(Header* block, size_t size) {
-        // Calculate the remaining size
-        size_t remaining_size = block->size - size;
-
-        // Update the size of the current block
-        block->size = size;
-
-        // Create a new block for the remaining size
-        Header* new_block = reinterpret_cast<Header*>(reinterpret_cast<char*>(block) + sizeof(Header) + size);
-
-        new_block->size = remaining_size;
-        new_block->is_free = true;
-        new_block->next = block->next;
-
-        // Update the next pointer of the current block
-        block->next = new_block;
-
-        // If the new block is at the end, update the tail
-        if (new_block->next == nullptr) {
-            tail = new_block;
-        }
-    }
-
-    static void mergeFreeBlocks(Header* block) {
-        // Check if the next block is also free
-        if (block->next && block->next->is_free) {
-            // Merge the two blocks
-            block->size += block->next->size;
-            block->next = block->next->next;
-
-            // If the merged block is at the end, update the tail
-            if (block->next == nullptr) {
-                tail = block;
-            }
-
-            // Recursively merge adjacent free blocks
-            mergeFreeBlocks(block);
-        }
+        task.status = TaskStatus::COMPLETED;
+        runningTasks--;
+        waitCondition.notify_one();
     }
 };
 
-std::mutex MemoryManager::mutex;
-MemoryManager::Header* MemoryManager::head = nullptr;
-MemoryManager::Header* MemoryManager::tail = nullptr;
-
-#endif //__MEM_ALLOC__
+enum class TaskStatus { PENDING, RUNNING, COMPLETED, CANCELED };

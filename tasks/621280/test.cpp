@@ -1,4 +1,3 @@
-
 #include <gtest/gtest.h>
 #include "solution.cpp"
 #include <thread>
@@ -155,4 +154,3 @@ TEST(CompanyTest, ThreadSafetyAddAndRemove) {
     double avg = company.getAverageSalary();
     EXPECT_TRUE(avg > 0.0);
 }
-

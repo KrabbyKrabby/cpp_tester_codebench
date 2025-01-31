@@ -1,154 +1,150 @@
-#ifndef __MEM_ALLOC__
-#define __MEM_ALLOC__
-
-#include <windows.h>
+#include <functional>
+#include <queue>
+#include <stdexcept>
+#include <vector>
 #include <iostream>
-#include <cstring>
+#include <thread>
 #include <mutex>
+#include <condition_variable>
+#include <chrono>
+#include <unordered_map>
 
-class MemoryManager {
+// A simple Task struct. Right now, it only holds a function.
+// In your enhancements, you may need to expand this (e.g., ID, status, schedule time, etc.).
+struct Task {
+    size_t id;
+    std::function<void()> func;
+    std::chrono::system_clock::time_point scheduledTime;
+    std::atomic<TaskStatus> status;
+};
+
+// A simple FIFO TaskScheduler that runs tasks one-by-one.
+class TaskScheduler {
 public:
-    struct Header {
-        size_t size;
-        bool is_free;
-        Header* next;
-    };
+    TaskScheduler() = default;
+    ~TaskScheduler() {
+        stop();
+    }
+
+    // Add a task to the queue (returns the index in the queue, but isn't used for anything yet).
+    size_t addTask(const std::function<void()>& func) {
+        Task task{getNextId(), func, std::chrono::system_clock::now(), TaskStatus::PENDING};
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            tasks.push(task);
+        }
+        return task.id;
+    }
+
+    // Runs the next task in the queue if one exists, then removes it from the queue.
+    void runNext() {
+        Task task;
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            if (tasks.empty()) {
+                return;
+            }
+            task = tasks.front();
+            tasks.pop();
+        }
+        runTask(task);
+    }
+
+    // Runs all tasks concurrently
+    void runAllConcurrently() {
+        std::vector<Task> tasksToRun;
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            while (!tasks.empty()) {
+                tasksToRun.push_back(tasks.front());
+                tasks.pop();
+            }
+        }
+        for (auto& task : tasksToRun) {
+            std::thread([this, task]() { runTask(task); }).detach();
+        }
+    }
+
+    // Waits for all tasks to complete
+    void waitAll() {
+        std::unique_lock<std::mutex> lock(waitMutex);
+        waitCondition.wait(lock, [this] { return tasks.empty() && runningTasks == 0; });
+    }
+
+    // Schedules a task to run at a specific time
+    size_t scheduleTask(std::chrono::system_clock::time_point time, std::function<void()> task) {
+        Task newTask{getNextId(), task, time, TaskStatus::PENDING};
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            tasks.push(newTask);
+        }
+        return newTask.id;
+    }
+
+    // Gets the status of a task
+    TaskStatus getTaskStatus(size_t taskId) const {
+        std::lock_guard<std::mutex> lock(tasksMutex);
+        for (const auto& task : tasks) {
+            if (task.id == taskId) {
+                return task.status;
+            }
+        }
+        return TaskStatus::COMPLETED; // Assume completed if not found
+    }
+
+    // Cancels a task
+    bool cancelTask(size_t taskId) {
+        std::lock_guard<std::mutex> lock(tasksMutex);
+        for (auto& task : tasks) {
+            if (task.id == taskId && task.status == TaskStatus::PENDING) {
+                task.status = TaskStatus::CANCELED;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Stops the scheduler
+    void stop() {
+        {
+            std::lock_guard<std::mutex> lock(tasksMutex);
+            while (!tasks.empty()) {
+                tasks.pop();
+            }
+        }
+        waitCondition.notify_all();
+    }
 
 private:
-    static std::mutex mutex;
-    static Header* head;
-    static Header* tail;
+    std::queue<Task> tasks;
+    mutable std::mutex tasksMutex;
+    std::condition_variable waitCondition;
+    std::mutex waitMutex;
+    std::atomic<size_t> nextId{0};
+    std::atomic<size_t> runningTasks{0};
 
-public:
-    MemoryManager() = delete; // Disallow creating an instance
-
-    static void reset() {
-        std::lock_guard<std::mutex> lock(mutex);
-        head = nullptr;
-        tail = nullptr;
-        // Also consider releasing any allocated memory blocks if necessary
+    size_t getNextId() {
+        return nextId++;
     }
 
-    static void deallocate(void* block) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (block == nullptr) {
-            return; // Ignore nullptr
+    void runTask(Task& task) {
+        if (task.scheduledTime > std::chrono::system_clock::now()) {
+            std::this_thread::sleep_until(task.scheduledTime);
         }
-
-        Header* header = static_cast<Header*>(static_cast<char*>(block) - sizeof(Header));
-        header->is_free = true;
-
-        // Merge adjacent free blocks
-        mergeAdjacentFreeBlocks(header);
-    }
-
-    static void* allocate(size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (size == 0) {
-            return nullptr; // Zero-size allocation is not allowed
+        if (task.status == TaskStatus::CANCELED) {
+            return;
         }
-
-        Header* freeBlock = getFreeBlock(size);
-        if (freeBlock) {
-            // Split the free block if it's larger than the requested size
-            splitFreeBlock(freeBlock, size);
-            return static_cast<void*>(static_cast<char*>(freeBlock) + sizeof(Header));
-        } else {
-            // Allocate a new block if no free block is available
-            return allocateNewBlock(size);
+        task.status = TaskStatus::RUNNING;
+        runningTasks++;
+        try {
+            task.func();
+        } catch (...) {
+            // Handle exception
         }
-    }
-
-    static void* reallocate(void* block, size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        if (block == nullptr) {
-            return allocate(size); // Reallocate nullptr as a new allocation
-        }
-
-        Header* header = static_cast<Header*>(static_cast<char*>(block) - sizeof(Header));
-        if (header->size >= size) {
-            // If the current block is large enough, split it if necessary
-            splitFreeBlock(header, size);
-            return block;
-        } else {
-            // Allocate a new block and copy data from the old block
-            void* newBlock = allocate(size);
-            if (newBlock) {
-                std::memcpy(newBlock, block, header->size);
-                deallocate(block);
-            }
-            return newBlock;
-        }
-    }
-
-    static void* zeroInitialize(size_t num, size_t size) {
-        std::lock_guard<std::mutex> lock(mutex);
-        size_t totalSize = num * size;
-        void* block = allocate(totalSize);
-        if (block) {
-            std::memset(block, 0, totalSize);
-        }
-        return block;
-    }
-
-private:
-    static Header* getFreeBlock(size_t size) {
-        Header* curr = head;
-        while (curr) {
-            if (curr->is_free && curr->size >= size) {
-                return curr;
-            }
-            curr = curr->next;
-        }
-        return nullptr;
-    }
-
-    static void mergeAdjacentFreeBlocks(Header* header) {
-        if (header->next && header->next->is_free) {
-            header->size += header->next->size;
-            header->next = header->next->next;
-            if (header->next == nullptr) {
-                tail = header;
-            }
-            mergeAdjacentFreeBlocks(header); // Recursively merge adjacent free blocks
-        }
-    }
-
-    static void splitFreeBlock(Header* header, size_t size) {
-        if (header->size > size + sizeof(Header)) {
-            Header* newHeader = static_cast<Header*>(static_cast<char*>(header) + sizeof(Header) + size);
-            newHeader->size = header->size - size - sizeof(Header);
-            newHeader->is_free = true;
-            newHeader->next = header->next;
-            header->size = size;
-            header->next = newHeader;
-            if (newHeader->next == nullptr) {
-                tail = newHeader;
-            }
-        }
-        header->is_free = false;
-    }
-
-    static void* allocateNewBlock(size_t size) {
-        Header* newHeader = static_cast<Header*>(HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, size + sizeof(Header)));
-        if (newHeader) {
-            newHeader->size = size;
-            newHeader->is_free = false;
-            newHeader->next = nullptr;
-            if (head == nullptr) {
-                head = newHeader;
-            } else {
-                tail->next = newHeader;
-            }
-            tail = newHeader;
-            return static_cast<void*>(static_cast<char*>(newHeader) + sizeof(Header));
-        }
-        return nullptr;
+        task.status = TaskStatus::COMPLETED;
+        runningTasks--;
+        waitCondition.notify_one();
     }
 };
 
-std::mutex MemoryManager::mutex;
-MemoryManager::Header* MemoryManager::head = nullptr;
-MemoryManager::Header* MemoryManager::tail = nullptr;
-
-#endif //__MEM_ALLOC__
+enum class TaskStatus { PENDING, RUNNING, COMPLETED, CANCELED };

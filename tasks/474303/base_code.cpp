@@ -1,64 +1,41 @@
-#ifndef __MEM_ALLOC__
-#define __MEM_ALLOC__
-
-#include <windows.h>
+#include <functional>
+#include <queue>
+#include <stdexcept>
+#include <vector>
 #include <iostream>
-#include <cstring>
-#include <mutex>
-
-class MemoryManager {
-public:
-    struct Header {
-        size_t size;
-        bool is_free;
-        Header* next;
-    };
-
-private:
-    static std::mutex mutex;
-    static Header* head;
-    static Header* tail;
 
 
-public:
-    MemoryManager() = delete; // Disallow creating an instance
-
-    static void reset() {
-        std::lock_guard<std::mutex> lock(mutex);
-        head = nullptr;
-        tail = nullptr;
-        // Also consider releasing any allocated memory blocks if necessary
-    }
-
-    static void deallocate(void* block) {
-
-    }
-
-
-    static void* allocate(size_t size) {
-         
-    }
-
-    static void* reallocate(void* block, size_t size) {
-    
-    }
-
-    static void* zeroInitialize(size_t num, size_t size) {
-         
-    }
-
-private:
-    static Header* getFreeBlock(size_t size) {
-        Header* curr = head;
-        while (curr) {
-            if (curr->is_free && curr->size >= size) {
-                return curr;
-            }
-            curr = curr->next;
-        }
-        return nullptr;
-    }
+// A simple Task struct. Right now, it only holds a function.
+// In your enhancements, you may need to expand this (e.g., ID, status, schedule time, etc.).
+struct Task {
+    std::function<void()> func;
 };
 
+// A simple FIFO TaskScheduler that runs tasks one-by-one.
+class TaskScheduler {
+public:
+    TaskScheduler() = default;
+    ~TaskScheduler() = default;
 
-#endif //__MEM_ALLOC__
+    // Add a task to the queue (returns the index in the queue, but isn't used for anything yet).
+    size_t addTask(const std::function<void()>& func) {
+        Task task{func};
+        tasks.push(task);
+        return tasks.size() - 1; // simplistic; not truly an ID
+    }
+
+    // Runs the next task in the queue if one exists, then removes it from the queue.
+    void runNext() {
+        if (tasks.empty()) {
+            return;
+        }
+        Task t = tasks.front();
+        tasks.pop();
+        // Execute
+        t.func();
+    }
+
+
+private:
+    std::queue<Task> tasks;
+};

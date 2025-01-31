@@ -227,4 +227,3 @@ TEST(TaskSchedulerTest, GetTaskStatusInvalidId) {
     size_t validId = scheduler.addTask([]() {});
     EXPECT_NO_THROW(scheduler.getTaskStatus(validId));
 }
-

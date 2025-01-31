@@ -17,7 +17,7 @@ public:
 
     // Constructor
     Packet(uint8_t packetType, uint32_t sequenceNumber, uint8_t* payload, uint32_t payloadLength) {
-        this->magicNumber = 0x1234; // Protocol identifier
+        this->magicNumber = 0x1234; // Assuming a fixed magic number
         this->packetType = packetType;
         this->sequenceNumber = sequenceNumber;
         this->payloadLength = payloadLength;
@@ -52,26 +52,25 @@ public:
         if (length < sizeof(uint16_t) + sizeof(uint8_t) + sizeof(uint32_t) + sizeof(uint32_t)) {
             return nullptr; // Invalid packet length
         }
-
-        uint16_t magicNumber;
-        uint8_t packetType;
-        uint32_t sequenceNumber;
-        uint32_t payloadLength;
-
         uint8_t* ptr = data;
+        uint16_t magicNumber;
         std::memcpy(&magicNumber, ptr, sizeof(magicNumber));
         ptr += sizeof(magicNumber);
+        if (magicNumber != 0x1234) {
+            return nullptr; // Invalid magic number
+        }
+        uint8_t packetType;
         std::memcpy(&packetType, ptr, sizeof(packetType));
         ptr += sizeof(packetType);
+        uint32_t sequenceNumber;
         std::memcpy(&sequenceNumber, ptr, sizeof(sequenceNumber));
         ptr += sizeof(sequenceNumber);
+        uint32_t payloadLength;
         std::memcpy(&payloadLength, ptr, sizeof(payloadLength));
         ptr += sizeof(payloadLength);
-
         if (length != sizeof(magicNumber) + sizeof(packetType) + sizeof(sequenceNumber) + sizeof(payloadLength) + payloadLength) {
             return nullptr; // Invalid packet length
         }
-
         return new Packet(packetType, sequenceNumber, ptr, payloadLength);
     }
 };
@@ -97,10 +96,10 @@ public:
     void receivePacket(uint8_t* data, uint32_t length) {
         Packet* packet = Packet::deserialize(data, length);
         if (packet != nullptr) {
-            std::cout << "Received packet with sequence number " << packet->sequenceNumber << std::endl;
-            // Process the packet
-            std::lock_guard<std::mutex> lock(mtx);
-            packetQueue.push(packet);
+            {
+                std::lock_guard<std::mutex> lock(mtx);
+                packetQueue.push(packet);
+            }
             cv.notify_one();
         }
     }
@@ -109,12 +108,13 @@ public:
     void start() {
         std::thread([this]() {
             while (true) {
-                std::unique_lock<std::mutex> lock(mtx);
-                cv.wait(lock, [this]() { return !packetQueue.empty(); });
-                Packet* packet = packetQueue.front();
-                packetQueue.pop();
-                lock.unlock();
-                // Process the packet
+                Packet* packet;
+                {
+                    std::unique_lock<std::mutex> lock(mtx);
+                    cv.wait(lock, [this] { return !packetQueue.empty(); });
+                    packet = packetQueue.front();
+                    packetQueue.pop();
+                }
                 processPacket(packet);
                 delete packet;
             }

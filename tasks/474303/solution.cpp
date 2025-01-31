@@ -1,6 +1,3 @@
-
-
-
 #include <functional>
 #include <queue>
 #include <vector>
@@ -207,4 +204,3 @@ private:
         workers.clear();
     }
 };
-

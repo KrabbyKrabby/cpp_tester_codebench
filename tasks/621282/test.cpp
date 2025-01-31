@@ -1,8 +1,4 @@
-#ifndef WRAPPER_H
-#define WRAPPER_H
-
 #include "solution.cpp"
-
 #include <vector>
 #include <gtest/gtest.h>
 #include <stack>
