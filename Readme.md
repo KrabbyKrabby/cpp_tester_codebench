@@ -1,5 +1,10 @@
 # **Tester_cpp_codebench**
 
+## **Version**
+- GCC: 14
+- CMake: Latest stable version
+- GoogleTest: Installed via system package manager
+
 ## **Project Structure**
 ```
 /Tester_cpp_codebench/       # Root directory
@@ -28,12 +33,12 @@
 ## **Setup Instructions**
 
 ### **1. Install Required Dependencies**
-Ensure that your system has a C++ compiler (GCC), CMake, and GoogleTest installed.
+Ensure that your system has a C++ compiler (GCC 14), CMake, and GoogleTest installed.
 
-#### **Install GCC, CMake, and GoogleTest (Linux)**
+#### **Install GCC 14, CMake, and GoogleTest (Linux)**
 ```bash
 sudo apt update
-sudo apt install -y build-essential cmake libgtest-dev
+sudo apt install -y gcc-14 g++-14 build-essential cmake libgtest-dev
 ```
 
 #### **Manually Build GoogleTest (If Needed)**
@@ -87,8 +92,24 @@ This compiles and tests all implementations inside `alternate_responses/` using 
 ### **Run Tests for All Tasks**
 #### **Command:**
 ```bash
-./code_runner.sh run_all
+./code_runner.sh run_all_solutions
 ```
 #### **Description:**
 This runs `solution.cpp` for all tasks inside `tasks/` and stores the results in `all_solution_logs.txt`.
+
+### **Run Tests for All Base Implementations**
+#### **Command:**
+```bash
+./code_runner.sh run_all_base
+```
+#### **Description:**
+This runs `base.cpp` for all tasks inside `tasks/` and stores the results in `all_base_logs.txt`.
+
+### **Run Tests for All Alternate Implementations**
+#### **Command:**
+```bash
+./code_runner.sh run_all_alternate
+```
+#### **Description:**
+This runs all alternate implementations inside `alternate_responses/` for every task in `tasks/`.
 ---
