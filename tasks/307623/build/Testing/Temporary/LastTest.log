@@ -1,0 +1,279 @@
+Start testing: Feb 07 23:31 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"incorrect_solution_tests" start time: Feb 07 23:31 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (101 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1005 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (208 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (1 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Feb 07 23:31 +06
+"incorrect_solution_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model1_tests" start time: Feb 07 23:31 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (101 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1005 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (208 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (1 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/test.cpp:180: Failure
+Expected equality of these values:
+  pool->getTotalTasksExecuted()
+    Which is: 5
+  2
+
+[  FAILED  ] ThreadPoolTest.ResizeToZero (205 ms)
+[ RUN      ] ThreadPoolTest.ComplexTaskDependencies
+[       OK ] ThreadPoolTest.ComplexTaskDependencies (420 ms)
+[ RUN      ] ThreadPoolTest.HighConcurrencySubmissions
+[       OK ] ThreadPoolTest.HighConcurrencySubmissions (2541 ms)
+[----------] 8 tests from ThreadPoolTest (4484 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (4484 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ThreadPoolTest.ResizeToZero
+
+ 1 FAILED TEST
+<end of output>
+Test time =   4.52 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Feb 07 23:31 +06
+"model1_tests" time elapsed: 00:00:04
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model10_tests
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model10_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model10_tests" end time: Feb 07 23:31 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model2_tests" start time: Feb 07 23:31 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (105 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1003 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (210 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (1 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Feb 07 23:31 +06
+"model2_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model3_tests
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model3_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Feb 07 23:31 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model4_tests" start time: Feb 07 23:31 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (105 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1006 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (207 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (0 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+[       OK ] ThreadPoolTest.ResizeToZero (206 ms)
+[ RUN      ] ThreadPoolTest.ComplexTaskDependencies
+[       OK ] ThreadPoolTest.ComplexTaskDependencies (417 ms)
+[ RUN      ] ThreadPoolTest.HighConcurrencySubmissions
+[       OK ] ThreadPoolTest.HighConcurrencySubmissions (2560 ms)
+[----------] 8 tests from ThreadPoolTest (4505 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (4505 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   4.54 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Feb 07 23:31 +06
+"model4_tests" time elapsed: 00:00:04
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model5_tests" start time: Feb 07 23:31 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (103 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1005 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (205 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (1 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Feb 07 23:31 +06
+"model5_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model6_tests
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model6_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Feb 07 23:31 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model7_tests
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model7_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model7_tests" end time: Feb 07 23:31 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Feb 07 23:31 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build/model9_tests
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307623/build
+"model9_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model9_tests" end time: Feb 07 23:31 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:31 +06

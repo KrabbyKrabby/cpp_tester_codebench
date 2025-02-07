@@ -1,0 +1,523 @@
+Start testing: Feb 07 23:28 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Feb 07 23:28 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model1_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws std::length_error with description "vector::reserve".
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Feb 07 23:28 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model10_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:37: Failure
+Expected equality of these values:
+  result
+    Which is: { 10, 4 }
+  expected
+    Which is: { 1, 2, 3, 4 }
+
+[  FAILED  ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:50: Failure
+Expected equality of these values:
+  result
+    Which is: { -1, -2 }
+  expected
+    Which is: { -10, -4, -3, -2 }
+
+[  FAILED  ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:63: Failure
+Expected equality of these values:
+  result
+    Which is: { 3, -4 }
+  expected
+    Which is: { -10, -4 }
+
+[  FAILED  ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] StackTest.PositiveStackTest
+[  FAILED  ] StackTest.NegativeStackTest
+[  FAILED  ] StackTest.MixedStackTest
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Feb 07 23:28 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model2_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws std::length_error with description "vector::reserve".
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Feb 07 23:28 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model3_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws std::length_error with description "vector::reserve".
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Feb 07 23:28 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model4_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws std::length_error with description "vector::reserve".
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Feb 07 23:28 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model5_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws std::length_error with description "vector::reserve".
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Feb 07 23:28 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model6_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Feb 07 23:28 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model7_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Feb 07 23:28 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model8_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Feb 07 23:28 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build
+"model9_tests" start time: Feb 07 23:28 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304048/test.cpp:67: Failure
+Expected: IntStack stack(-1) throws an exception of type std::runtime_error.
+  Actual: it throws nothing.
+
+[  FAILED  ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTest.NegativeMaxSizeTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Feb 07 23:28 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:28 +06

@@ -1,0 +1,319 @@
+Start testing: Feb 07 23:27 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Feb 07 23:27 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model1_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (29 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (33 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Feb 07 23:27 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model10_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model10_tests" end time: Feb 07 23:27 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model2_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (30 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (33 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Feb 07 23:27 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model3_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (27 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (30 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Feb 07 23:27 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model4_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Feb 07 23:27 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model5_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (27 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (30 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Feb 07 23:27 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model6_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (29 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (30 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Feb 07 23:27 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model7_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model7_tests" end time: Feb 07 23:27 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Feb 07 23:27 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+"model9_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model9_tests" end time: Feb 07 23:27 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:27 +06

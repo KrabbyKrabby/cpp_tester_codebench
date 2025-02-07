@@ -1,0 +1,566 @@
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+
+1: Test command: 
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+2: Test timeout computed to be: 5
+2: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 10 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 10 tests from RedisDataBaseTest
+2: [ RUN      ] RedisDataBaseTest.PushPopTest
+2: [       OK ] RedisDataBaseTest.PushPopTest (1 ms)
+2: [ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+2: [       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+2: [ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+2: [       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+2: [ RUN      ] RedisDataBaseTest.CommitRollbackTest
+2: [       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+2: [ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+2: [       OK ] RedisDataBaseTest.ConcurrentAccessTest (29 ms)
+2: [ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+2: [       OK ] RedisDataBaseTest.LoadStateFromDisk (1 ms)
+2: [ RUN      ] RedisDataBaseTest.Clear
+2: [       OK ] RedisDataBaseTest.Clear (0 ms)
+2: [ RUN      ] RedisDataBaseTest.DestructorSavesStateUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+
+2: [       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+2: [ RUN      ] RedisDataBaseTest.LoadEmptyState
+2: [       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+2: [ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+2: [       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+2: [----------] 10 tests from RedisDataBaseTest (34 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 10 tests from 1 test suite ran. (34 ms total)
+2: [  PASSED  ] 10 tests.
+ 2/11 Test  #2: model1_tests .....................   Passed    0.74 sec
+test 3
+      Start  3: model10_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+
+3: Test command: 
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+ 3/11 Test  #3: model10_tests ....................***Not Run   0.00 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+4: Test timeout computed to be: 5
+4: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+4: [==========] Running 10 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 10 tests from RedisDataBaseTest
+4: [ RUN      ] RedisDataBaseTest.PushPopTest
+4: [       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+4: [ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+4: [       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+4: [ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+4: [       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+4: [ RUN      ] RedisDataBaseTest.CommitRollbackTest
+4: [       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+4: [ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+4: [       OK ] RedisDataBaseTest.ConcurrentAccessTest (30 ms)
+4: [ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+4: [       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+4: [ RUN      ] RedisDataBaseTest.Clear
+4: [       OK ] RedisDataBaseTest.Clear (0 ms)
+4: [ RUN      ] RedisDataBaseTest.DestructorSavesState
+4: [       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+4: [ RUN      ] RedisDataBaseTest.LoadEmptyState
+4: [       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+4: [ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+4: [       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+4: [----------] 10 tests from RedisDataBaseTest (34 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 10 tests from 1 test suite ran. (34 ms total)
+4: [  PASSED  ] 10 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.77 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+5: Test timeout computed to be: 5
+5: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+5: [==========] Running 10 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 10 tests from RedisDataBaseTest
+5: [ RUN      ] RedisDataBaseTest.PushPopTest
+5: [       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+5: [ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+5: [       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+5: [ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+5: [       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+5: [ RUN      ] RedisDataBaseTest.CommitRollbackTest
+5: [       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+5: [ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+5: [       OK ] RedisDataBaseTest.ConcurrentAccessTest (30 ms)
+5: [ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+5: [       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+5: [ RUN      ] RedisDataBaseTest.Clear
+5: [       OK ] RedisDataBaseTest.Clear (0 ms)
+5: [ RUN      ] RedisDataBaseTest.DestructorSavesState
+5: [       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+5: [ RUN      ] RedisDataBaseTest.LoadEmptyState
+5: [       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+5: [ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+5: [       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+5: [----------] 10 tests from RedisDataBaseTest (35 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 10 tests from 1 test suite ran. (35 ms total)
+5: [  PASSED  ] 10 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.65 sec
+test 6
+      Start  6: model4_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+
+6: Test command: 
+6: Working Directory: /Users/ittehad/DocumeUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+nts/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+ 6/11 Test  #6: model4_tests .....................***Not Run   0.00 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+7: Test timeout computed to be: 5
+7: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+7: [==========] Running 10 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 10 tests from RedisDataBaseTest
+7: [ RUN      ] RedisDataBaseTest.PushPopTest
+7: [       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+7: [ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+7: [       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+7: [ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+7: [       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+7: [ RUN      ] RedisDataBaseTest.CommitRollbackTest
+7: [       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+7: [ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+7: [       OK ] RedisDataBaseTest.ConcurrentAccessTest (30 ms)
+7: [ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+7: [       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+7: [ RUN      ] RedisDataBaseTest.Clear
+7: [       OK ] RedisDataBaseTest.Clear (0 ms)
+7: [ RUN      ] RedisDataBaseTest.DestructorSavesState
+7: [       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+7: [ RUN      ] RedisDataBaseTest.LoadEmptyState
+7: [       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+7: [ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+7: [       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+7: [----------] 10 tests from RedisDataBaseTest (34 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 10 tests from 1 test suite ran. (34 ms total)
+7: [  PASSED  ] 10 tests.
+ 7/11 Test  #7: model5_tests .....................   Passed    0.41 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+8: Test timeout computed to be: 5
+8: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/_deps/googletest-src/googletest/src/gtest_main.cc
+8: [==========] Running 10 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 10 tests from RedisDataBaseTest
+8: [ RUN      ] RedisDataBaseTest.PushPopTest
+8: [       OK ] RedisDataBaseTest.PushPopTest (0 ms)
+8: [ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+8: [       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+8: [ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+8: [       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+8: [ RUN      ] RedisDataBaseTest.CommitRollbackTest
+8: [       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+8: [ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+8: [       OK ] RedisDataBaseTest.ConcurrentAccessTest (29 ms)
+8: [ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+8: [       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+8: [ RUN      ] RedisDataBaseTest.Clear
+8: [       OK ] RedisDataBaseTest.Clear (0 ms)
+8: [ RUN      ] RedisDataBaseTest.DestructorSavesState
+8: [       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+8: [ RUN      ] RedisDataBaseTest.LoadEmptyState
+8: [       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+8: [ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+8: [       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+8: [----------] 10 tests from RedisDataBaseTest (31 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 10 tests from 1 test suite ran. (31 ms total)
+8: [  PASSED  ] 10 tests.
+ 8/11 Test  #8: model6_tests .....................   PassUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+ed    0.61 sec
+test 9
+      Start  9: model7_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+
+9: Test command: 
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+ 9/11 Test  #9: model7_tests .....................***Not Run   0.00 sec
+test 10
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+
+10: Test command: 
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+test 11
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Users/Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+
+11: Test command: 
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =   3.18 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  3 - model10_tests (Not Run)
+	  6 - model4_tests (Not Run)
+	  9 - model7_tests (Not Run)
+	 10 - model8_tests (Not Run)
+	 11 - model9_tests (Not Run)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/incorrect_solution_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................   Passed    0.06 sec
+      Start  3: model10_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model10_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model10_tests
+ 3/11 Test  #3: model10_tests ....................***Not Run   0.00 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.05 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.05 sec
+      Start  6: model4_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model4_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model4_tests
+ 6/11 Test  #6: model4_tests .....................***Not Run   0.00 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................   Passed    0.05 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................   Passed    0.05 sec
+      Start  9: model7_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model7_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model7_tests
+ 9/11 Test  #9: model7_tests .....................***Not Run   0.00 sec
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model8_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model8_tests
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+      Start 11: model9_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Release/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Debug/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/MinSizeRel/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/RelWithDebInfo/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Deployment/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Development/model9_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/model9_tests
+11/11 Test #11: model9_tests .....................***Not Run   0.00 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =   0.27 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  3 - model10_tests (Not Run)
+	  6 - model4_tests (Not Run)
+	  9 - model7_tests (Not Run)
+	 10 - model8_tests (Not Run)
+	 11 - model9_tests (Not Run)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304031/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

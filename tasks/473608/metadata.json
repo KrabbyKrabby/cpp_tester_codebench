@@ -1,8 +1,0 @@
-{
-    "time_to_develop_prompt": "30 -40",
-    "programming_language": "C++",
-    "task_type": "Refactor",
-    "difficulty": "3",
-    "estimated_skill_requirements": "Language-Specific Features,Library Feature,Data Structure and Algorithms",
-    "user_prompt": "Base Code:\n```cpp\n#include <vector>\n#include <string>\n#include <algorithm>\n\nstd::vector<std::pair<std::string, int>> findMatchingContacts(const std::vector<std::pair<std::string, int>>& contacts, const std::string& query) {\n    std::vector<std::pair<std::string, int>> matchingContacts;\n\n    for (const auto& contact : contacts) {\n        if (contact.first.substr(0, query.size()) == query) {\n            matchingContacts.push_back(contact);\n        }\n    }\n\n    std::sort(matchingContacts.begin(), matchingContacts.end());\n    return matchingContacts;\n}\n```\n\nPrompt:\nRefactor the code to use a Trie data structure for efficient contact matching, with the following enhancements:\n\n1. Ensure that an empty query does not return any contacts, waiting for the user to input characters before providing matches.  \n2. Remove any leading or trailing spaces from the query string before performing the search.  \n3. Implement case-insensitive search to handle queries and contacts without considering case differences.  \n4. Ensure the implementation supports contacts and queries containing special characters seamlessly.  \n\nEnsure the provided code is complete with necessary imports and functions, there is no need to include an example. Don't change the function name."
-}

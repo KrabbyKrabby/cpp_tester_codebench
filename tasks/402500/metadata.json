@@ -1,8 +1,0 @@
-{
-    "time_to_develop_prompt": "> 40",
-    "programming_language": "C++",
-    "task_type": "Completion",
-    "difficulty": "3",
-    "estimated_skill_requirements": "Data Structure and Algorithms,Language-Specific Features",
-    "user_prompt": "Base Code:\n```cpp\nstring decipherMessage(string str){\n}\n```\n\n\nPrompt:\nAs a part of a secret agency's software team that deciphers scrambled messages from unknown sources. Your job is to reorder each word alphabetically while removing duplicate characters.\nThe intercepted message is a string where:\n\u2022 Each word has unique characters.\n\u2022 Each word should be sorted alphabetically.\nYour task is to write a program that processes the scrambled message, applies these rules, and returns the deciphered version.\n\nConstraints:\n- 1 \u2264 n \u2264 10^5\n- s consists of lowercase English letters, spaces and leading, trailing whitespaces.\n\nExample:\nInput : \"hello olleh world wworld\"\nOutput: \"ehlo ehlo dlorw dlorw\"\n\nExplanation : \n- \"hello\" becomes \"ehlo\"(duplicates removed and sorted)\n- \"olleh\" becomes \"ehlo\"\n- \"world\" becomes \"dlorw\"\n- \"wworld\" becomes \"dlorw\"\n\nInclude all the necessary imports and only provide the `decipherMessage` function."
-}

@@ -1,0 +1,8 @@
+{
+    "time_to_develop_prompt": "> 40",
+    "programming_language": "C++",
+    "task_type": "Enhancement",
+    "difficulty": "5",
+    "estimated_skill_requirements": "Language-Specific Features,Software Engineering Best Practices,Data Structure and Algorithms,Knowledge of a Specialized Software Area",
+    "user_prompt": "```cpp\nclass IntStack {\nprivate:\n    std::vector<int> stackData;\n\npublic:\n    void push(int value) {\n        stackData.push_back(value);\n    }\n    void pop() {\n        stackData.pop_back();\n    }\n    int top() const {\n        return stackData.back();\n    }\n    size_t size() const {\n        return stackData.size();\n    }\n    void display() const {\n        std::cout << \"Stack: \";\n        for (auto it = stackData.rbegin(); it != stackData.rend(); ++it) {\n            std::cout << *it << \" \";\n        }\n        std::cout << std::endl;\n    }\n};\n```\n\nPrompt:\nHere is my code for a stack. Help me update it to have a maximum size for the elements that it takes as a parameter. The updates should include throwing a `runtime` exception in all invalid cases. Also, I want to add a function named `monotonicIncreasing` that returns a vector as a result, this function should process the stack elements in the same order of insertion and the result should represent the `equivalent monotonic increasing` stack of the original stack at that moment by pushing the current element if it's greater than the top of the stack or by popping the top element otherwise till we find a smaller element in the stack or it's empty.\nPlease add all the required imports to make these changes and do not implement a main function."
+}

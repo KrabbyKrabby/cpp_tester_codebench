@@ -1,372 +1,404 @@
-Running solution.cpp for Task 303992...
-Compiling and running solution.cpp for Task 303992...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 10 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 10 tests from GaussianEliminationTests
-[ RUN      ] GaussianEliminationTests.Simple2x2
-[       OK ] GaussianEliminationTests.Simple2x2 (0 ms)
-[ RUN      ] GaussianEliminationTests.Simple3x3
-[       OK ] GaussianEliminationTests.Simple3x3 (0 ms)
-[ RUN      ] GaussianEliminationTests.SingularMatrix
-[       OK ] GaussianEliminationTests.SingularMatrix (0 ms)
-[ RUN      ] GaussianEliminationTests.InconsistentSystem
-[       OK ] GaussianEliminationTests.InconsistentSystem (0 ms)
-[ RUN      ] GaussianEliminationTests.OneByOneMatrix
-[       OK ] GaussianEliminationTests.OneByOneMatrix (0 ms)
-[ RUN      ] GaussianEliminationTests.ZeroMatrix
-[       OK ] GaussianEliminationTests.ZeroMatrix (0 ms)
-[ RUN      ] GaussianEliminationTests.SmallValues
-[       OK ] GaussianEliminationTests.SmallValues (0 ms)
-[ RUN      ] GaussianEliminationTests.LargeValues
-[       OK ] GaussianEliminationTests.LargeValues (0 ms)
-[ RUN      ] GaussianEliminationTests.EmptyMatrix
-[       OK ] GaussianEliminationTests.EmptyMatrix (0 ms)
-[ RUN      ] GaussianEliminationTests.NonSquareMatrix
-[       OK ] GaussianEliminationTests.NonSquareMatrix (0 ms)
-[----------] 10 tests from GaussianEliminationTests (1 ms total)
-
-[----------] Global test environment tear-down
-[==========] 10 tests from 1 test suite ran. (1 ms total)
-[  PASSED  ] 10 tests.
-Completed Task 303992
-----------------------
-Running solution.cpp for Task 304055...
-Compiling and running solution.cpp for Task 304055...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 5 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 5 tests from AVLTreeTest
-[ RUN      ] AVLTreeTest.RotLeftSimple
-[       OK ] AVLTreeTest.RotLeftSimple (0 ms)
-[ RUN      ] AVLTreeTest.RotRightSimple
-[       OK ] AVLTreeTest.RotRightSimple (0 ms)
-[ RUN      ] AVLTreeTest.FixLeftWithLeftRightCase
-[       OK ] AVLTreeTest.FixLeftWithLeftRightCase (0 ms)
-[ RUN      ] AVLTreeTest.FixRightWithRightLeftCase
-[       OK ] AVLTreeTest.FixRightWithRightLeftCase (0 ms)
-[ RUN      ] AVLTreeTest.DeleteNodeWithTwoChildren
-[       OK ] AVLTreeTest.DeleteNodeWithTwoChildren (0 ms)
-[----------] 5 tests from AVLTreeTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 5 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 5 tests.
-Completed Task 304055
-----------------------
-Running solution.cpp for Task 307577...
-Compiling and running solution.cpp for Task 307577...
-[==========] Running 12 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 12 tests from MatrixTest
-[ RUN      ] MatrixTest.MatrixMultiplication
-[       OK ] MatrixTest.MatrixMultiplication (0 ms)
-[ RUN      ] MatrixTest.Determinant2x2
-[       OK ] MatrixTest.Determinant2x2 (0 ms)
-[ RUN      ] MatrixTest.Determinant3x3
-[       OK ] MatrixTest.Determinant3x3 (0 ms)
-[ RUN      ] MatrixTest.DeterminantMatrixSizeMoreThan3
-[       OK ] MatrixTest.DeterminantMatrixSizeMoreThan3 (0 ms)
-[ RUN      ] MatrixTest.IncompatibleMultiplication
-[       OK ] MatrixTest.IncompatibleMultiplication (0 ms)
-[ RUN      ] MatrixTest.NonSquareMatrixDeterminant
-[       OK ] MatrixTest.NonSquareMatrixDeterminant (0 ms)
-[ RUN      ] MatrixTest.ZeroSizedMatrix
-[       OK ] MatrixTest.ZeroSizedMatrix (0 ms)
-[ RUN      ] MatrixTest.Determinant1x1
-[       OK ] MatrixTest.Determinant1x1 (0 ms)
-[ RUN      ] MatrixTest.LargeMatrixMultiplication
-[       OK ] MatrixTest.LargeMatrixMultiplication (0 ms)
-[ RUN      ] MatrixTest.MultiplicationOverflow
-[       OK ] MatrixTest.MultiplicationOverflow (0 ms)
-[ RUN      ] MatrixTest.DeterminantOverflow
-[       OK ] MatrixTest.DeterminantOverflow (0 ms)
-[ RUN      ] MatrixTest.Determinant4x4Overflow
-[       OK ] MatrixTest.Determinant4x4Overflow (0 ms)
-[----------] 12 tests from MatrixTest (1 ms total)
-
-[----------] Global test environment tear-down
-[==========] 12 tests from 1 test suite ran. (1 ms total)
-[  PASSED  ] 12 tests.
-Completed Task 307577
-----------------------
-Running solution.cpp for Task 402500...
-Compiling and running solution.cpp for Task 402500...
-[==========] Running 12 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 12 tests from DecodeMessageTest
-[ RUN      ] DecodeMessageTest.SingleWordUniqueCharacters
-[       OK ] DecodeMessageTest.SingleWordUniqueCharacters (0 ms)
-[ RUN      ] DecodeMessageTest.SingleWordWithRepeatedCharacters
-[       OK ] DecodeMessageTest.SingleWordWithRepeatedCharacters (0 ms)
-[ RUN      ] DecodeMessageTest.MultipleWordsWithUniqueCharacters
-[       OK ] DecodeMessageTest.MultipleWordsWithUniqueCharacters (0 ms)
-[ RUN      ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters
-[       OK ] DecodeMessageTest.MultipleWordsWithRepeatedCharacters (0 ms)
-[ RUN      ] DecodeMessageTest.AllCharactersInDescendingOrder
-[       OK ] DecodeMessageTest.AllCharactersInDescendingOrder (0 ms)
-[ RUN      ] DecodeMessageTest.AllCharactersInAscendingOrder
-[       OK ] DecodeMessageTest.AllCharactersInAscendingOrder (0 ms)
-[ RUN      ] DecodeMessageTest.AllCharactersOfAlphabet
-[       OK ] DecodeMessageTest.AllCharactersOfAlphabet (0 ms)
-[ RUN      ] DecodeMessageTest.MultipleWordsWithVaryingLengths
-[       OK ] DecodeMessageTest.MultipleWordsWithVaryingLengths (0 ms)
-[ RUN      ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique
-[       OK ] DecodeMessageTest.WordWithRepeatedCharactersMixedWithUnique (0 ms)
-[ RUN      ] DecodeMessageTest.LargeInput
-[       OK ] DecodeMessageTest.LargeInput (0 ms)
-[ RUN      ] DecodeMessageTest.WhitespacesOnly
-[       OK ] DecodeMessageTest.WhitespacesOnly (0 ms)
-[ RUN      ] DecodeMessageTest.LeadingAndTrailingSpaces
-[       OK ] DecodeMessageTest.LeadingAndTrailingSpaces (0 ms)
-[----------] 12 tests from DecodeMessageTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 12 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 12 tests.
-Completed Task 402500
-----------------------
-Running solution.cpp for Task 473608...
-Compiling and running solution.cpp for Task 473608...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Running solution.cpp for Task 303997...
+Compiling and running solution.cpp for Task 303997...
 [==========] Running 7 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 7 tests from FindMatchingContactsTest
-[ RUN      ] FindMatchingContactsTest.BasicMatching
-[       OK ] FindMatchingContactsTest.BasicMatching (0 ms)
-[ RUN      ] FindMatchingContactsTest.ResultIsSorted
-[       OK ] FindMatchingContactsTest.ResultIsSorted (0 ms)
-[ RUN      ] FindMatchingContactsTest.EmptyQuery
-[       OK ] FindMatchingContactsTest.EmptyQuery (0 ms)
-[ RUN      ] FindMatchingContactsTest.CaseInsensitiveMatching
-[       OK ] FindMatchingContactsTest.CaseInsensitiveMatching (0 ms)
-[ RUN      ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery
-[       OK ] FindMatchingContactsTest.LeadingAndTrailingSpacesInQuery (0 ms)
-[ RUN      ] FindMatchingContactsTest.SpecialCharacterSupport
-[       OK ] FindMatchingContactsTest.SpecialCharacterSupport (0 ms)
-[ RUN      ] FindMatchingContactsTest.NoMatches
-[       OK ] FindMatchingContactsTest.NoMatches (0 ms)
-[----------] 7 tests from FindMatchingContactsTest (0 ms total)
+[----------] 7 tests from AddTest
+[ RUN      ] AddTest.ArithmeticOperations
+[       OK ] AddTest.ArithmeticOperations (0 ms)
+[ RUN      ] AddTest.CharAndCharReturnsString
+[       OK ] AddTest.CharAndCharReturnsString (0 ms)
+[ RUN      ] AddTest.CharAndIntAsciiAddition
+[       OK ] AddTest.CharAndIntAsciiAddition (0 ms)
+[ RUN      ] AddTest.CharStringConcatenation
+[       OK ] AddTest.CharStringConcatenation (0 ms)
+[ RUN      ] AddTest.StringAndStringConcatenation
+[       OK ] AddTest.StringAndStringConcatenation (0 ms)
+[ RUN      ] AddTest.UserDefinedComplexNumber
+[       OK ] AddTest.UserDefinedComplexNumber (0 ms)
+[ RUN      ] AddTest.ThrowsOnUnsupportedOperation
+[       OK ] AddTest.ThrowsOnUnsupportedOperation (0 ms)
+[----------] 7 tests from AddTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 7 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 7 tests.
-Completed Task 473608
+Completed Task 303997
 ----------------------
-Running solution.cpp for Task 473613...
-Compiling and running solution.cpp for Task 473613...
-[==========] Running 9 tests from 1 test suite.
+Running solution.cpp for Task 304005...
+Compiling and running solution.cpp for Task 304005...
+[==========] Running 7 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 9 tests from FindNearestCommonAncestorTest
-[ RUN      ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch
-[       OK ] FindNearestCommonAncestorTest.CommonAncestorWithinSameBranch (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches
-[       OK ] FindNearestCommonAncestorTest.CommonAncestorAcrossDifferentBranches (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.DirectDescendantCase
-[       OK ] FindNearestCommonAncestorTest.DirectDescendantCase (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.SameSpecies
-[       OK ] FindNearestCommonAncestorTest.SameSpecies (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.SpeciesNotInTree
-[       OK ] FindNearestCommonAncestorTest.SpeciesNotInTree (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.BothSpeciesNotInTree
-[       OK ] FindNearestCommonAncestorTest.BothSpeciesNotInTree (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent
-[       OK ] FindNearestCommonAncestorTest.SingleNodeTreeWithOneNonExistent (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf
-[       OK ] FindNearestCommonAncestorTest.SingleNodeTreeRootSelf (0 ms)
-[ RUN      ] FindNearestCommonAncestorTest.NullRoot
-[       OK ] FindNearestCommonAncestorTest.NullRoot (0 ms)
-[----------] 9 tests from FindNearestCommonAncestorTest (0 ms total)
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+[       OK ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+[       OK ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+[       OK ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+[       OK ] StackTest.EdgeTest (31 ms)
+[ RUN      ] StackTest.MultiThreadedTest
+[       OK ] StackTest.MultiThreadedTest (0 ms)
+[ RUN      ] StackTest.StressTest
+Stack resized to capacity: 20
+Stack resized to capacity: 40
+Stack resized to capacity: 80
+Stack resized to capacity: 160
+Stack resized to capacity: 320
+Stack resized to capacity: 640
+Stack resized to capacity: 1280
+Stack resized to capacity: 2560
+Stack resized to capacity: 5120
+Stack resized to capacity: 10240
+[       OK ] StackTest.StressTest (0 ms)
+[ RUN      ] StackTest.NullPointerTest
+[       OK ] StackTest.NullPointerTest (0 ms)
+[----------] 7 tests from StackTest (32 ms total)
 
 [----------] Global test environment tear-down
-[==========] 9 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 9 tests.
-Completed Task 473613
+[==========] 7 tests from 1 test suite ran. (32 ms total)
+[  PASSED  ] 7 tests.
+Completed Task 304005
 ----------------------
-Running solution.cpp for Task 473647...
-Compiling and running solution.cpp for Task 473647...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 17 tests from 1 test suite.
+Running solution.cpp for Task 304016...
+Compiling and running solution.cpp for Task 304016...
+[==========] Running 4 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 17 tests from LandUsageManagerTest
-[ RUN      ] LandUsageManagerTest.Constructor
-[       OK ] LandUsageManagerTest.Constructor (0 ms)
-[ RUN      ] LandUsageManagerTest.LandInitiallyAvailable
-[       OK ] LandUsageManagerTest.LandInitiallyAvailable (0 ms)
-[ RUN      ] LandUsageManagerTest.SimpleAllocation
-[       OK ] LandUsageManagerTest.SimpleAllocation (0 ms)
-[ RUN      ] LandUsageManagerTest.FullyAllocatedRange
-[       OK ] LandUsageManagerTest.FullyAllocatedRange (0 ms)
-[ RUN      ] LandUsageManagerTest.OverlappingAllocation
-[       OK ] LandUsageManagerTest.OverlappingAllocation (0 ms)
-[ RUN      ] LandUsageManagerTest.OverlappingAllocationMultipleRanges
-[       OK ] LandUsageManagerTest.OverlappingAllocationMultipleRanges (0 ms)
-[ RUN      ] LandUsageManagerTest.PartialOverlapUnavailable
-[       OK ] LandUsageManagerTest.PartialOverlapUnavailable (0 ms)
-[ RUN      ] LandUsageManagerTest.PartialRelease
-[       OK ] LandUsageManagerTest.PartialRelease (0 ms)
-[ RUN      ] LandUsageManagerTest.ReleaseAcrossMultipleRanges
-[       OK ] LandUsageManagerTest.ReleaseAcrossMultipleRanges (0 ms)
-[ RUN      ] LandUsageManagerTest.CompleteReleaseIndividualView
-[       OK ] LandUsageManagerTest.CompleteReleaseIndividualView (0 ms)
-[ RUN      ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck
-[       OK ] LandUsageManagerTest.CompleteReleaseAvailabilityCheck (0 ms)
-[ RUN      ] LandUsageManagerTest.BackToBackAllocations
-[       OK ] LandUsageManagerTest.BackToBackAllocations (0 ms)
-[ RUN      ] LandUsageManagerTest.AdjacentRangeAvailable
-[       OK ] LandUsageManagerTest.AdjacentRangeAvailable (0 ms)
-[ RUN      ] LandUsageManagerTest.LargeAllocations
-[       OK ] LandUsageManagerTest.LargeAllocations (1 ms)
-[ RUN      ] LandUsageManagerTest.InvalidAllocation
-[       OK ] LandUsageManagerTest.InvalidAllocation (0 ms)
-[ RUN      ] LandUsageManagerTest.InvalidAvailabilityCheck
-[       OK ] LandUsageManagerTest.InvalidAvailabilityCheck (0 ms)
-[ RUN      ] LandUsageManagerTest.InvalidRelease
-[       OK ] LandUsageManagerTest.InvalidRelease (0 ms)
-[----------] 17 tests from LandUsageManagerTest (2 ms total)
+[----------] 4 tests from SudokuSolverTests
+[ RUN      ] SudokuSolverTests.SolvableSudoku
+[       OK ] SudokuSolverTests.SolvableSudoku (1 ms)
+[ RUN      ] SudokuSolverTests.UnsolvableSudoku
+[       OK ] SudokuSolverTests.UnsolvableSudoku (3 ms)
+[ RUN      ] SudokuSolverTests.AlreadySolvedSudoku
+[       OK ] SudokuSolverTests.AlreadySolvedSudoku (0 ms)
+[ RUN      ] SudokuSolverTests.EmptySudoku
+[       OK ] SudokuSolverTests.EmptySudoku (0 ms)
+[----------] 4 tests from SudokuSolverTests (5 ms total)
 
 [----------] Global test environment tear-down
-[==========] 17 tests from 1 test suite ran. (2 ms total)
-[  PASSED  ] 17 tests.
-Completed Task 473647
+[==========] 4 tests from 1 test suite ran. (5 ms total)
+[  PASSED  ] 4 tests.
+Completed Task 304016
 ----------------------
-Running solution.cpp for Task 473650...
-Compiling and running solution.cpp for Task 473650...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 9 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 9 tests from FlowNetworkTest
-[ RUN      ] FlowNetworkTest.PositiveBasicMaxFlow
-[       OK ] FlowNetworkTest.PositiveBasicMaxFlow (0 ms)
-[ RUN      ] FlowNetworkTest.EdgeDisconnectedNodes
-[       OK ] FlowNetworkTest.EdgeDisconnectedNodes (0 ms)
-[ RUN      ] FlowNetworkTest.CornerSingleNodeGraph
-[       OK ] FlowNetworkTest.CornerSingleNodeGraph (0 ms)
-[ RUN      ] FlowNetworkTest.EdgeZeroCapacityEdges
-[       OK ] FlowNetworkTest.EdgeZeroCapacityEdges (0 ms)
-[ RUN      ] FlowNetworkTest.PositiveComplexFlow
-[       OK ] FlowNetworkTest.PositiveComplexFlow (0 ms)
-[ RUN      ] FlowNetworkTest.EdgeMultipleParallelEdges
-[       OK ] FlowNetworkTest.EdgeMultipleParallelEdges (0 ms)
-[ RUN      ] FlowNetworkTest.CornerNoEdges
-[       OK ] FlowNetworkTest.CornerNoEdges (0 ms)
-[ RUN      ] FlowNetworkTest.EdgeLargeSparseGraph
-[       OK ] FlowNetworkTest.EdgeLargeSparseGraph (0 ms)
-[ RUN      ] FlowNetworkTest.EdgeCircularFlow
-[       OK ] FlowNetworkTest.EdgeCircularFlow (0 ms)
-[----------] 9 tests from FlowNetworkTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 9 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 9 tests.
-Completed Task 473650
-----------------------
-Running solution.cpp for Task 473651...
-Compiling and running solution.cpp for Task 473651...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 13 tests from 2 test suites.
-[----------] Global test environment set-up.
-[----------] 3 tests from FreqBufferBasicTest
-[ RUN      ] FreqBufferBasicTest.CapacityAndSize
-[       OK ] FreqBufferBasicTest.CapacityAndSize (0 ms)
-[ RUN      ] FreqBufferBasicTest.PutAndGet
-[       OK ] FreqBufferBasicTest.PutAndGet (0 ms)
-[ RUN      ] FreqBufferBasicTest.FrequencyIncrementsOnGet
-[       OK ] FreqBufferBasicTest.FrequencyIncrementsOnGet (0 ms)
-[----------] 3 tests from FreqBufferBasicTest (0 ms total)
-
-[----------] 10 tests from FreqBufferExtendedTest
-[ RUN      ] FreqBufferExtendedTest.Resize_IncreaseCapacity
-[       OK ] FreqBufferExtendedTest.Resize_IncreaseCapacity (0 ms)
-[ RUN      ] FreqBufferExtendedTest.Resize_DecreaseCapacity
-[       OK ] FreqBufferExtendedTest.Resize_DecreaseCapacity (0 ms)
-[ RUN      ] FreqBufferExtendedTest.Resize_ZeroEdgeCase
-[       OK ] FreqBufferExtendedTest.Resize_ZeroEdgeCase (0 ms)
-[ RUN      ] FreqBufferExtendedTest.GetTopKFrequent_Basic
-[       OK ] FreqBufferExtendedTest.GetTopKFrequent_Basic (0 ms)
-[ RUN      ] FreqBufferExtendedTest.GetTopKFrequent_KGreaterThanSize
-[       OK ] FreqBufferExtendedTest.GetTopKFrequent_KGreaterThanSize (0 ms)
-[ RUN      ] FreqBufferExtendedTest.GetTopKFrequent_EmptyBuffer
-[       OK ] FreqBufferExtendedTest.GetTopKFrequent_EmptyBuffer (0 ms)
-[ RUN      ] FreqBufferExtendedTest.pop_least_used_Basic
-[       OK ] FreqBufferExtendedTest.pop_least_used_Basic (0 ms)
-[ RUN      ] FreqBufferExtendedTest.pop_least_used_MultipleRemovals
-[       OK ] FreqBufferExtendedTest.pop_least_used_MultipleRemovals (0 ms)
-[ RUN      ] FreqBufferExtendedTest.pop_least_used_MoreThanSize
-[       OK ] FreqBufferExtendedTest.pop_least_used_MoreThanSize (0 ms)
-[ RUN      ] FreqBufferExtendedTest.pop_least_used_ZeroOrNegative
-[       OK ] FreqBufferExtendedTest.pop_least_used_ZeroOrNegative (0 ms)
-[----------] 10 tests from FreqBufferExtendedTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 13 tests from 2 test suites ran. (0 ms total)
-[  PASSED  ] 13 tests.
-Completed Task 473651
-----------------------
-Running solution.cpp for Task 473654...
-Compiling and running solution.cpp for Task 473654...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 6 tests from 2 test suites.
-[----------] Global test environment set-up.
-[----------] 5 tests from PacketTest
-[ RUN      ] PacketTest.SerializeAndDeserializePositive
-[       OK ] PacketTest.SerializeAndDeserializePositive (0 ms)
-[ RUN      ] PacketTest.DeserializeInvalidData
-[       OK ] PacketTest.DeserializeInvalidData (0 ms)
-[ RUN      ] PacketTest.ZeroLengthPayload
-[       OK ] PacketTest.ZeroLengthPayload (0 ms)
-[ RUN      ] PacketTest.MaxValues
-[       OK ] PacketTest.MaxValues (0 ms)
-[ RUN      ] PacketTest.MinValues
-[       OK ] PacketTest.MinValues (0 ms)
-[----------] 5 tests from PacketTest (0 ms total)
-
-[----------] 1 test from ProtocolTest
-[ RUN      ] ProtocolTest.SendAndReceivePacket
-Processing packet with sequence number 4321
-[       OK ] ProtocolTest.SendAndReceivePacket (105 ms)
-[----------] 1 test from ProtocolTest (105 ms total)
-
-[----------] Global test environment tear-down
-[==========] 6 tests from 2 test suites ran. (105 ms total)
-[  PASSED  ] 6 tests.
-Completed Task 473654
-----------------------
-Running solution.cpp for Task 473657...
-Compiling and running solution.cpp for Task 473657...
+Running solution.cpp for Task 304019...
+Compiling and running solution.cpp for Task 304019...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
 [==========] Running 10 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 10 tests from SequenceAlignmentTest
-[ RUN      ] SequenceAlignmentTest.ValidSequencesWithCommonLCS
-[       OK ] SequenceAlignmentTest.ValidSequencesWithCommonLCS (0 ms)
-[ RUN      ] SequenceAlignmentTest.MultiplePossibleSequences
-[       OK ] SequenceAlignmentTest.MultiplePossibleSequences (0 ms)
-[ RUN      ] SequenceAlignmentTest.OneEmptySequence
-[       OK ] SequenceAlignmentTest.OneEmptySequence (0 ms)
-[ RUN      ] SequenceAlignmentTest.BothEmptySequences
-[       OK ] SequenceAlignmentTest.BothEmptySequences (0 ms)
-[ RUN      ] SequenceAlignmentTest.CaseInsensitiveAlignment
-[       OK ] SequenceAlignmentTest.CaseInsensitiveAlignment (0 ms)
-[ RUN      ] SequenceAlignmentTest.InvalidCharactersIgnored
-[       OK ] SequenceAlignmentTest.InvalidCharactersIgnored (0 ms)
-[ RUN      ] SequenceAlignmentTest.NoCommonSubsequence
-[       OK ] SequenceAlignmentTest.NoCommonSubsequence (0 ms)
-[ RUN      ] SequenceAlignmentTest.IdenticalSequences
-[       OK ] SequenceAlignmentTest.IdenticalSequences (0 ms)
-[ RUN      ] SequenceAlignmentTest.SubsequenceCase
-[       OK ] SequenceAlignmentTest.SubsequenceCase (0 ms)
-[ RUN      ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex
-[       OK ] SequenceAlignmentTest.MultiplePossibleSubsequencesAtSameIndex (0 ms)
-[----------] 10 tests from SequenceAlignmentTest (0 ms total)
+[----------] 10 tests from PuzzleRayTest
+[ RUN      ] PuzzleRayTest.ProvidedExample
+[       OK ] PuzzleRayTest.ProvidedExample (69 ms)
+[ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+[       OK ] PuzzleRayTest.EmptySpaceInCorner (1111 ms)
+[ RUN      ] PuzzleRayTest.AlreadySolved
+[       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+[ RUN      ] PuzzleRayTest.MaximumMoves3x3
+[       OK ] PuzzleRayTest.MaximumMoves3x3 (1893 ms)
+[ RUN      ] PuzzleRayTest.DifferentZeroPositions
+[       OK ] PuzzleRayTest.DifferentZeroPositions (95 ms)
+[ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+[       OK ] PuzzleRayTest.LargerPuzzle4x4 (4 ms)
+[ RUN      ] PuzzleRayTest.OneMoveAway
+[       OK ] PuzzleRayTest.OneMoveAway (0 ms)
+[ RUN      ] PuzzleRayTest.TwoMovesAway
+[       OK ] PuzzleRayTest.TwoMovesAway (0 ms)
+[ RUN      ] PuzzleRayTest.AlreadySolved4x4
+[       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+[ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+[       OK ] PuzzleRayTest.ConcurrentPuzzleSolving (884 ms)
+[----------] 10 tests from PuzzleRayTest (4059 ms total)
 
 [----------] Global test environment tear-down
-[==========] 10 tests from 1 test suite ran. (0 ms total)
+[==========] 10 tests from 1 test suite ran. (4059 ms total)
 [  PASSED  ] 10 tests.
-Completed Task 473657
+Completed Task 304019
+----------------------
+Running solution.cpp for Task 304020...
+Compiling and running solution.cpp for Task 304020...
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1456 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1458 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1458 ms total)
+[  PASSED  ] 9 tests.
+Completed Task 304020
+----------------------
+Running solution.cpp for Task 304031...
+Compiling and running solution.cpp for Task 304031...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from RedisDataBaseTest
+[ RUN      ] RedisDataBaseTest.PushPopTest
+[       OK ] RedisDataBaseTest.PushPopTest (2 ms)
+[ RUN      ] RedisDataBaseTest.PopEmptyDatabaseTest
+[       OK ] RedisDataBaseTest.PopEmptyDatabaseTest (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackWithoutCommitTest
+[       OK ] RedisDataBaseTest.RollbackWithoutCommitTest (0 ms)
+[ RUN      ] RedisDataBaseTest.CommitRollbackTest
+[       OK ] RedisDataBaseTest.CommitRollbackTest (0 ms)
+[ RUN      ] RedisDataBaseTest.ConcurrentAccessTest
+[       OK ] RedisDataBaseTest.ConcurrentAccessTest (31 ms)
+[ RUN      ] RedisDataBaseTest.LoadStateFromDisk
+[       OK ] RedisDataBaseTest.LoadStateFromDisk (0 ms)
+[ RUN      ] RedisDataBaseTest.Clear
+[       OK ] RedisDataBaseTest.Clear (0 ms)
+[ RUN      ] RedisDataBaseTest.DestructorSavesState
+[       OK ] RedisDataBaseTest.DestructorSavesState (0 ms)
+[ RUN      ] RedisDataBaseTest.LoadEmptyState
+[       OK ] RedisDataBaseTest.LoadEmptyState (0 ms)
+[ RUN      ] RedisDataBaseTest.RollbackAfterCommit
+[       OK ] RedisDataBaseTest.RollbackAfterCommit (0 ms)
+[----------] 10 tests from RedisDataBaseTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (37 ms total)
+[  PASSED  ] 10 tests.
+Completed Task 304031
+----------------------
+Running solution.cpp for Task 304035...
+Compiling and running solution.cpp for Task 304035...
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+[       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+[ RUN      ] BilateralFilterTest.StressCase_LargeImage
+[       OK ] BilateralFilterTest.StressCase_LargeImage (112 ms)
+[ RUN      ] BilateralFilterTest.HighIntensityVariation
+[       OK ] BilateralFilterTest.HighIntensityVariation (0 ms)
+[ RUN      ] BilateralFilterTest.HomogeneousImage
+[       OK ] BilateralFilterTest.HomogeneousImage (0 ms)
+[ RUN      ] BilateralFilterTest.BoundaryCheck
+[       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+[ RUN      ] BilateralFilterTest.VeryLargeSigma
+[       OK ] BilateralFilterTest.VeryLargeSigma (0 ms)
+[ RUN      ] BilateralFilterTest.VerySmallSigma
+[       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+[----------] 10 tests from BilateralFilterTest (113 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (113 ms total)
+[  PASSED  ] 10 tests.
+Completed Task 304035
+----------------------
+Running solution.cpp for Task 304044...
+Compiling and running solution.cpp for Task 304044...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PermutationFactoryTest
+[ RUN      ] PermutationFactoryTest.HandlesTestCases
+[       OK ] PermutationFactoryTest.HandlesTestCases (0 ms)
+[----------] 1 test from PermutationFactoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+Completed Task 304044
+----------------------
+Running solution.cpp for Task 304048...
+Compiling and running solution.cpp for Task 304048...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from StackTest
+[ RUN      ] StackTest.MaxSizeTest
+[       OK ] StackTest.MaxSizeTest (0 ms)
+[ RUN      ] StackTest.PopEmptyStackTest
+[       OK ] StackTest.PopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.TopEmptyStackTest
+[       OK ] StackTest.TopEmptyStackTest (0 ms)
+[ RUN      ] StackTest.PositiveStackTest
+[       OK ] StackTest.PositiveStackTest (0 ms)
+[ RUN      ] StackTest.NegativeStackTest
+[       OK ] StackTest.NegativeStackTest (0 ms)
+[ RUN      ] StackTest.MixedStackTest
+[       OK ] StackTest.MixedStackTest (0 ms)
+[ RUN      ] StackTest.NegativeMaxSizeTest
+[       OK ] StackTest.NegativeMaxSizeTest (0 ms)
+[ RUN      ] StackTest.EmptyStackTest
+[       OK ] StackTest.EmptyStackTest (0 ms)
+[----------] 8 tests from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+Completed Task 304048
+----------------------
+Running solution.cpp for Task 307570...
+Compiling and running solution.cpp for Task 307570...
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from DataPipelineTest
+[ RUN      ] DataPipelineTest.SingleThreadedBasic
+[       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+[ RUN      ] DataPipelineTest.EnableParallelismTest
+[       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+[ RUN      ] DataPipelineTest.ErrorHandling
+[       OK ] DataPipelineTest.ErrorHandling (0 ms)
+[ RUN      ] DataPipelineTest.DrainTest
+[       OK ] DataPipelineTest.DrainTest (0 ms)
+[ RUN      ] DataPipelineTest.PushAfterStop
+[       OK ] DataPipelineTest.PushAfterStop (0 ms)
+[----------] 5 tests from DataPipelineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+Completed Task 307570
+----------------------
+Running solution.cpp for Task 307623...
+Compiling and running solution.cpp for Task 307623...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.BasicTaskExecution
+[       OK ] ThreadPoolTest.BasicTaskExecution (105 ms)
+[ RUN      ] ThreadPoolTest.DynamicResizingIncrease
+[       OK ] ThreadPoolTest.DynamicResizingIncrease (1005 ms)
+[ RUN      ] ThreadPoolTest.TaskDependencies
+[       OK ] ThreadPoolTest.TaskDependencies (206 ms)
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (0 ms)
+[ RUN      ] ThreadPoolTest.CircularDependencies
+[       OK ] ThreadPoolTest.CircularDependencies (0 ms)
+[ RUN      ] ThreadPoolTest.ResizeToZero
+[       OK ] ThreadPoolTest.ResizeToZero (208 ms)
+[ RUN      ] ThreadPoolTest.ComplexTaskDependencies
+[       OK ] ThreadPoolTest.ComplexTaskDependencies (419 ms)
+[ RUN      ] ThreadPoolTest.HighConcurrencySubmissions
+[       OK ] ThreadPoolTest.HighConcurrencySubmissions (2560 ms)
+[----------] 8 tests from ThreadPoolTest (4507 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (4508 ms total)
+[  PASSED  ] 8 tests.
+Completed Task 307623
+----------------------
+Running solution.cpp for Task 473609...
+Compiling and running solution.cpp for Task 473609...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from DijkstraTest
+[ RUN      ] DijkstraTest.PositiveNoNegativeEdges
+[       OK ] DijkstraTest.PositiveNoNegativeEdges (0 ms)
+[ RUN      ] DijkstraTest.NegativeEdgeWeightsNoCycle
+[       OK ] DijkstraTest.NegativeEdgeWeightsNoCycle (0 ms)
+[ RUN      ] DijkstraTest.NegativeCycleDetection
+[       OK ] DijkstraTest.NegativeCycleDetection (0 ms)
+[ RUN      ] DijkstraTest.UnreachableNodes
+[       OK ] DijkstraTest.UnreachableNodes (0 ms)
+[ RUN      ] DijkstraTest.EmptyGraph
+[       OK ] DijkstraTest.EmptyGraph (0 ms)
+[ RUN      ] DijkstraTest.WrongInput
+[       OK ] DijkstraTest.WrongInput (0 ms)
+[----------] 6 tests from DijkstraTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+Completed Task 473609
+----------------------
+Running solution.cpp for Task 473631...
+Compiling and running solution.cpp for Task 473631...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+[       OK ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+Completed Task 473631
+----------------------
+Running solution.cpp for Task 473646...
+Compiling and running solution.cpp for Task 473646...
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from ParseEthernetPacketTest
+[ RUN      ] ParseEthernetPacketTest.ValidPacketTest
+[       OK ] ParseEthernetPacketTest.ValidPacketTest (2 ms)
+[ RUN      ] ParseEthernetPacketTest.InvalidCRC
+[       OK ] ParseEthernetPacketTest.InvalidCRC (0 ms)
+[ RUN      ] ParseEthernetPacketTest.EmptyPacket
+[       OK ] ParseEthernetPacketTest.EmptyPacket (0 ms)
+[ RUN      ] ParseEthernetPacketTest.UnsupportedEtherType
+[       OK ] ParseEthernetPacketTest.UnsupportedEtherType (0 ms)
+[ RUN      ] ParseEthernetPacketTest.ShortPacket
+[       OK ] ParseEthernetPacketTest.ShortPacket (0 ms)
+[----------] 5 tests from ParseEthernetPacketTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 5 tests.
+Completed Task 473646
+----------------------
+Running solution.cpp for Task 473652...
+Compiling and running solution.cpp for Task 473652...
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+[       OK ] ElGamalTest.EncryptionDecryption (0 ms)
+[ RUN      ] ElGamalTest.EmptyMessage
+[       OK ] ElGamalTest.EmptyMessage (0 ms)
+[ RUN      ] ElGamalTest.SingleCharacter
+[       OK ] ElGamalTest.SingleCharacter (0 ms)
+[ RUN      ] ElGamalTest.SpecialCharacters
+[       OK ] ElGamalTest.SpecialCharacters (0 ms)
+[ RUN      ] ElGamalTest.LongMessage
+[       OK ] ElGamalTest.LongMessage (0 ms)
+[ RUN      ] ElGamalTest.EdgeCharacters
+[       OK ] ElGamalTest.EdgeCharacters (0 ms)
+[----------] 6 tests from ElGamalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+Completed Task 473652
 ----------------------
 Running solution.cpp for Task 473660...
 Compiling and running solution.cpp for Task 473660...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/303997/build/_deps/googletest-src/googletest/src/gtest_main.cc
 [==========] Running 11 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 11 tests from XMLToJSONConverterTest
@@ -385,542 +417,17 @@ Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/bu
 [ RUN      ] XMLToJSONConverterTest.SpecialCharactersInNode
 [       OK ] XMLToJSONConverterTest.SpecialCharactersInNode (0 ms)
 [ RUN      ] XMLToJSONConverterTest.LargeTree
-[       OK ] XMLToJSONConverterTest.LargeTree (2 ms)
+[       OK ] XMLToJSONConverterTest.LargeTree (1 ms)
 [ RUN      ] XMLToJSONConverterTest.NestedXMLWithChildren
 [       OK ] XMLToJSONConverterTest.NestedXMLWithChildren (0 ms)
 [ RUN      ] XMLToJSONConverterTest.NodeWithEmptyNameAndValue
 [       OK ] XMLToJSONConverterTest.NodeWithEmptyNameAndValue (0 ms)
 [ RUN      ] XMLToJSONConverterTest.SpecialCharacterInValue
 [       OK ] XMLToJSONConverterTest.SpecialCharacterInValue (0 ms)
-[----------] 11 tests from XMLToJSONConverterTest (3 ms total)
+[----------] 11 tests from XMLToJSONConverterTest (1 ms total)
 
 [----------] Global test environment tear-down
 [==========] 11 tests from 1 test suite ran. (3 ms total)
 [  PASSED  ] 11 tests.
 Completed Task 473660
-----------------------
-Running solution.cpp for Task 473664...
-Compiling and running solution.cpp for Task 473664...
-[==========] Running 9 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 9 tests from XMLNodeTest
-[ RUN      ] XMLNodeTest.ValidXMLStructure
-[       OK ] XMLNodeTest.ValidXMLStructure (0 ms)
-[ RUN      ] XMLNodeTest.InvalidChildName
-[       OK ] XMLNodeTest.InvalidChildName (0 ms)
-[ RUN      ] XMLNodeTest.DuplicateChildNodes
-[       OK ] XMLNodeTest.DuplicateChildNodes (0 ms)
-[ RUN      ] XMLNodeTest.DeeplyNestedStructure
-[       OK ] XMLNodeTest.DeeplyNestedStructure (0 ms)
-[ RUN      ] XMLNodeTest.InvalidCharactersInName
-[       OK ] XMLNodeTest.InvalidCharactersInName (0 ms)
-[ RUN      ] XMLNodeTest.NodeWithoutChildrenOrValue
-[       OK ] XMLNodeTest.NodeWithoutChildrenOrValue (0 ms)
-[ RUN      ] XMLNodeTest.ValidSymbolsInName
-[       OK ] XMLNodeTest.ValidSymbolsInName (0 ms)
-[ RUN      ] XMLNodeTest.InvalidStartingCharacter
-[       OK ] XMLNodeTest.InvalidStartingCharacter (0 ms)
-[ RUN      ] XMLNodeTest.SameNameDifferentValue
-[       OK ] XMLNodeTest.SameNameDifferentValue (0 ms)
-[----------] 9 tests from XMLNodeTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 9 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 9 tests.
-Completed Task 473664
-----------------------
-Running solution.cpp for Task 473677...
-Compiling and running solution.cpp for Task 473677...
-[==========] Running 10 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 10 tests from CalculateMaxChannelQualityTest
-[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
-[       OK ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
-[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
-[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
-[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
-[       OK ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
-[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
-[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
-[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.EmptyPacketSizes
-[       OK ] CalculateMaxChannelQualityTest.EmptyPacketSizes (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.PacketsLessThanChannels
-[       OK ] CalculateMaxChannelQualityTest.PacketsLessThanChannels (0 ms)
-[----------] 10 tests from CalculateMaxChannelQualityTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 10 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 10 tests.
-Completed Task 473677
-----------------------
-Running solution.cpp for Task 473681...
-Compiling and running solution.cpp for Task 473681...
-[==========] Running 8 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 8 tests from FindMissingBandwidthPackagesTest
-[ RUN      ] FindMissingBandwidthPackagesTest.BasicFunctionality
-[       OK ] FindMissingBandwidthPackagesTest.BasicFunctionality (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.Unsorted
-[       OK ] FindMissingBandwidthPackagesTest.Unsorted (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.FullCoverage
-[       OK ] FindMissingBandwidthPackagesTest.FullCoverage (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.MultipleMissingPackages
-[       OK ] FindMissingBandwidthPackagesTest.MultipleMissingPackages (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages
-[       OK ] FindMissingBandwidthPackagesTest.DuplicateBandwidthPackages (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages
-[       OK ] FindMissingBandwidthPackagesTest.EmptyBandwidthPackages (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits
-[       OK ] FindMissingBandwidthPackagesTest.RepeatedBandwidthWithUsageLimits (0 ms)
-[ RUN      ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit
-[       OK ] FindMissingBandwidthPackagesTest.MaxBandwidthLimit (0 ms)
-[----------] 8 tests from FindMissingBandwidthPackagesTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 8 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 8 tests.
-Completed Task 473681
-----------------------
-Running solution.cpp for Task 473688...
-Compiling and running solution.cpp for Task 473688...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 7 tests from CacheBufferTest
-[ RUN      ] CacheBufferTest.BasicOperations
-[       OK ] CacheBufferTest.BasicOperations (0 ms)
-[ RUN      ] CacheBufferTest.EvictionPolicy
-[       OK ] CacheBufferTest.EvictionPolicy (0 ms)
-[ RUN      ] CacheBufferTest.DuplicateKeyHandling
-[       OK ] CacheBufferTest.DuplicateKeyHandling (0 ms)
-[ RUN      ] CacheBufferTest.BufferUnderLoad
-[       OK ] CacheBufferTest.BufferUnderLoad (3 ms)
-[ RUN      ] CacheBufferTest.MergeBuffers
-[       OK ] CacheBufferTest.MergeBuffers (0 ms)
-[ RUN      ] CacheBufferTest.BackupAndRestore
-[       OK ] CacheBufferTest.BackupAndRestore (0 ms)
-[ RUN      ] CacheBufferTest.RestoreWithoutBackup
-[       OK ] CacheBufferTest.RestoreWithoutBackup (0 ms)
-[----------] 7 tests from CacheBufferTest (4 ms total)
-
-[----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (4 ms total)
-[  PASSED  ] 7 tests.
-Completed Task 473688
-----------------------
-Running solution.cpp for Task 473703...
-Compiling and running solution.cpp for Task 473703...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 7 tests from TestrisTest
-[ RUN      ] TestrisTest.BlockTypeCorrectness
-[       OK ] TestrisTest.BlockTypeCorrectness (0 ms)
-[ RUN      ] TestrisTest.InitialPositionCorrectness
-[       OK ] TestrisTest.InitialPositionCorrectness (0 ms)
-[ RUN      ] TestrisTest.StorePieceTest
-[       OK ] TestrisTest.StorePieceTest (0 ms)
-[ RUN      ] TestrisTest.PieceStorageBoundaryTest
-[       OK ] TestrisTest.PieceStorageBoundaryTest (0 ms)
-[ RUN      ] TestrisTest.DeleteLineTest
-[       OK ] TestrisTest.DeleteLineTest (0 ms)
-[ RUN      ] TestrisTest.AllRotationsBlockTypeCorrectness
-[       OK ] TestrisTest.AllRotationsBlockTypeCorrectness (0 ms)
-[ RUN      ] TestrisTest.AllPiecesInitialPositionCorrectness
-[       OK ] TestrisTest.AllPiecesInitialPositionCorrectness (0 ms)
-[----------] 7 tests from TestrisTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 7 tests.
-Completed Task 473703
-----------------------
-Running solution.cpp for Task 473714...
-Compiling and running solution.cpp for Task 473714...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 7 tests from MaxProductArrangementTest
-[ RUN      ] MaxProductArrangementTest.BasicCase
-[       OK ] MaxProductArrangementTest.BasicCase (0 ms)
-[ RUN      ] MaxProductArrangementTest.NoSwapsNeeded
-[       OK ] MaxProductArrangementTest.NoSwapsNeeded (0 ms)
-[ RUN      ] MaxProductArrangementTest.AllSwapsNeeded
-[       OK ] MaxProductArrangementTest.AllSwapsNeeded (0 ms)
-[ RUN      ] MaxProductArrangementTest.SingleElementVectors
-[       OK ] MaxProductArrangementTest.SingleElementVectors (0 ms)
-[ RUN      ] MaxProductArrangementTest.EdgeCaseEmptyVectors
-[       OK ] MaxProductArrangementTest.EdgeCaseEmptyVectors (0 ms)
-[ RUN      ] MaxProductArrangementTest.EdgeCaseSameDigitNumbers
-[       OK ] MaxProductArrangementTest.EdgeCaseSameDigitNumbers (0 ms)
-[ RUN      ] MaxProductArrangementTest.EdgeCaseMaxSize
-[       OK ] MaxProductArrangementTest.EdgeCaseMaxSize (0 ms)
-[----------] 7 tests from MaxProductArrangementTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 7 tests.
-Completed Task 473714
-----------------------
-Running solution.cpp for Task 474263...
-Compiling and running solution.cpp for Task 474263...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 6 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 6 tests from GarbageCollectorTest
-[ RUN      ] GarbageCollectorTest.SweepFunction
-[       OK ] GarbageCollectorTest.SweepFunction (0 ms)
-[ RUN      ] GarbageCollectorTest.DetectCycleFunction
-[       OK ] GarbageCollectorTest.DetectCycleFunction (0 ms)
-[ RUN      ] GarbageCollectorTest.CycleDetection
-[       OK ] GarbageCollectorTest.CycleDetection (0 ms)
-[ RUN      ] GarbageCollectorTest.CompactMemoryFunction
-[       OK ] GarbageCollectorTest.CompactMemoryFunction (0 ms)
-[ RUN      ] GarbageCollectorTest.MarkAllFunction
-[       OK ] GarbageCollectorTest.MarkAllFunction (0 ms)
-[ RUN      ] GarbageCollectorTest.HandleCircularReferencesFunction
-[       OK ] GarbageCollectorTest.HandleCircularReferencesFunction (0 ms)
-[----------] 6 tests from GarbageCollectorTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 6 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 6 tests.
-Completed Task 474263
-----------------------
-Running solution.cpp for Task 474303...
-Compiling and running solution.cpp for Task 474303...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 7 tests from TaskSchedulerTest
-[ RUN      ] TaskSchedulerTest.SingleTaskRunNext
-[       OK ] TaskSchedulerTest.SingleTaskRunNext (0 ms)
-[ RUN      ] TaskSchedulerTest.MultipleTasksRunNextFIFO
-[       OK ] TaskSchedulerTest.MultipleTasksRunNextFIFO (0 ms)
-[ RUN      ] TaskSchedulerTest.RunAllConcurrently
-[       OK ] TaskSchedulerTest.RunAllConcurrently (105 ms)
-[ RUN      ] TaskSchedulerTest.ScheduleTaskForFuture
-[       OK ] TaskSchedulerTest.ScheduleTaskForFuture (251 ms)
-[ RUN      ] TaskSchedulerTest.CancelPendingTask
-[       OK ] TaskSchedulerTest.CancelPendingTask (0 ms)
-[ RUN      ] TaskSchedulerTest.CancelFailsIfAlreadyRunning
-[       OK ] TaskSchedulerTest.CancelFailsIfAlreadyRunning (205 ms)
-[ RUN      ] TaskSchedulerTest.GetTaskStatusInvalidId
-[       OK ] TaskSchedulerTest.GetTaskStatusInvalidId (0 ms)
-[----------] 7 tests from TaskSchedulerTest (563 ms total)
-
-[----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (563 ms total)
-[  PASSED  ] 7 tests.
-Completed Task 474303
-----------------------
-Running solution.cpp for Task 621205...
-Compiling and running solution.cpp for Task 621205...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 17 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 17 tests from LongestUniqueWeightedSubstrTest
-[ RUN      ] LongestUniqueWeightedSubstrTest.SimpleUniqueCharacters
-[       OK ] LongestUniqueWeightedSubstrTest.SimpleUniqueCharacters (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.AllCharactersSame
-[       OK ] LongestUniqueWeightedSubstrTest.AllCharactersSame (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.MixedCaseCharacters
-[       OK ] LongestUniqueWeightedSubstrTest.MixedCaseCharacters (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.NonAlphanumericIgnored
-[       OK ] LongestUniqueWeightedSubstrTest.NonAlphanumericIgnored (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.AllUniqueAlphabet
-[       OK ] LongestUniqueWeightedSubstrTest.AllUniqueAlphabet (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.RepeatedBlocksOfCharacters
-[       OK ] LongestUniqueWeightedSubstrTest.RepeatedBlocksOfCharacters (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.IncreasingWeightsWithUniqueCharacters
-[       OK ] LongestUniqueWeightedSubstrTest.IncreasingWeightsWithUniqueCharacters (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.AlphanumericCharactersWithWeights
-[       OK ] LongestUniqueWeightedSubstrTest.AlphanumericCharactersWithWeights (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.MixedCharactersWithWeights
-[       OK ] LongestUniqueWeightedSubstrTest.MixedCharactersWithWeights (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.RepeatedCharactersIgnored
-[       OK ] LongestUniqueWeightedSubstrTest.RepeatedCharactersIgnored (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.EmptyString
-[       OK ] LongestUniqueWeightedSubstrTest.EmptyString (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.UniqueCharactersEqualWeights
-[       OK ] LongestUniqueWeightedSubstrTest.UniqueCharactersEqualWeights (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.RepeatingPattern
-[       OK ] LongestUniqueWeightedSubstrTest.RepeatingPattern (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.SingleCharacterZeroWeight
-[       OK ] LongestUniqueWeightedSubstrTest.SingleCharacterZeroWeight (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.SingleCharacterNonZeroWeight
-[       OK ] LongestUniqueWeightedSubstrTest.SingleCharacterNonZeroWeight (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.ExtraWeightsNonExistentCharacters
-[       OK ] LongestUniqueWeightedSubstrTest.ExtraWeightsNonExistentCharacters (0 ms)
-[ RUN      ] LongestUniqueWeightedSubstrTest.InvalidWeightNonAlphanumeric
-[       OK ] LongestUniqueWeightedSubstrTest.InvalidWeightNonAlphanumeric (0 ms)
-[----------] 17 tests from LongestUniqueWeightedSubstrTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 17 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 17 tests.
-Completed Task 621205
-----------------------
-Running solution.cpp for Task 621208...
-Compiling and running solution.cpp for Task 621208...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 12 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 12 tests from LRUCacheTest
-[ RUN      ] LRUCacheTest.GetFromEmptyCacheShouldThrow
-[       OK ] LRUCacheTest.GetFromEmptyCacheShouldThrow (0 ms)
-[ RUN      ] LRUCacheTest.CapacityAndSize
-[       OK ] LRUCacheTest.CapacityAndSize (0 ms)
-[ RUN      ] LRUCacheTest.BasicPutGet
-[       OK ] LRUCacheTest.BasicPutGet (0 ms)
-[ RUN      ] LRUCacheTest.Eviction
-[       OK ] LRUCacheTest.Eviction (0 ms)
-[ RUN      ] LRUCacheTest.UsageOrderCheck
-[       OK ] LRUCacheTest.UsageOrderCheck (0 ms)
-[ RUN      ] LRUCacheTest.ExpirationTime_NoExpirationIfZero
-[       OK ] LRUCacheTest.ExpirationTime_NoExpirationIfZero (55 ms)
-[ RUN      ] LRUCacheTest.ExpirationTime_BasicExpiry
-Completed Task 621208
-----------------------
-Running solution.cpp for Task 621209...
-Compiling and running solution.cpp for Task 621209...
-Number of days without tasks: 4
-Completed Task 621209
-----------------------
-Running solution.cpp for Task 621260...
-Compiling and running solution.cpp for Task 621260...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 5 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 5 tests from ParseEthernetPacketTest
-[ RUN      ] ParseEthernetPacketTest.ValidPacketTest
-CRC: 0x4222484890
-[       OK ] ParseEthernetPacketTest.ValidPacketTest (0 ms)
-[ RUN      ] ParseEthernetPacketTest.InvalidCRC
-[       OK ] ParseEthernetPacketTest.InvalidCRC (0 ms)
-[ RUN      ] ParseEthernetPacketTest.EmptyPacket
-[       OK ] ParseEthernetPacketTest.EmptyPacket (0 ms)
-[ RUN      ] ParseEthernetPacketTest.UnsupportedEtherType
-[       OK ] ParseEthernetPacketTest.UnsupportedEtherType (0 ms)
-[ RUN      ] ParseEthernetPacketTest.ShortPacket
-[       OK ] ParseEthernetPacketTest.ShortPacket (0 ms)
-[----------] 5 tests from ParseEthernetPacketTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 5 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 5 tests.
-Completed Task 621260
-----------------------
-Running solution.cpp for Task 621262...
-Compiling and running solution.cpp for Task 621262...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 4 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 4 tests from FileSystemTest
-[ RUN      ] FileSystemTest.ListFilesInDirectory
-[       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
-[ RUN      ] FileSystemTest.EdgeCases
-[       OK ] FileSystemTest.EdgeCases (0 ms)
-[ RUN      ] FileSystemTest.AddFilePathValid
-[       OK ] FileSystemTest.AddFilePathValid (0 ms)
-[ RUN      ] FileSystemTest.AddFilePathInvalid
-[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
-[----------] 4 tests from FileSystemTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 4 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 4 tests.
-Completed Task 621262
-----------------------
-Running solution.cpp for Task 621280...
-Compiling and running solution.cpp for Task 621280...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 5 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 5 tests from CompanyTest
-[ RUN      ] CompanyTest.AddAndAverageSalary
-[       OK ] CompanyTest.AddAndAverageSalary (0 ms)
-[ RUN      ] CompanyTest.RemoveEmployee
-[       OK ] CompanyTest.RemoveEmployee (0 ms)
-[ RUN      ] CompanyTest.GiveRaiseByDepartment
-[       OK ] CompanyTest.GiveRaiseByDepartment (0 ms)
-[ RUN      ] CompanyTest.GetEmployeesInDepartment
-[       OK ] CompanyTest.GetEmployeesInDepartment (0 ms)
-[ RUN      ] CompanyTest.ThreadSafetyAddAndRemove
-[       OK ] CompanyTest.ThreadSafetyAddAndRemove (2 ms)
-[----------] 5 tests from CompanyTest (2 ms total)
-
-[----------] Global test environment tear-down
-[==========] 5 tests from 1 test suite ran. (2 ms total)
-[  PASSED  ] 5 tests.
-Completed Task 621280
-----------------------
-Running solution.cpp for Task 621282...
-Compiling and running solution.cpp for Task 621282...
-[==========] Running 11 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 11 tests from ParenthesesScoreTests
-[ RUN      ] ParenthesesScoreTests.TestMinimumLength
-[       OK ] ParenthesesScoreTests.TestMinimumLength (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestSimpleNonNested
-[       OK ] ParenthesesScoreTests.TestSimpleNonNested (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestNestedParentheses
-[       OK ] ParenthesesScoreTests.TestNestedParentheses (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestMultipleNestedParentheses
-[       OK ] ParenthesesScoreTests.TestMultipleNestedParentheses (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestDeeplyNested
-[       OK ] ParenthesesScoreTests.TestDeeplyNested (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses
-[       OK ] ParenthesesScoreTests.TestLongSequenceOfSimpleParentheses (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestNonBalanced
-[       OK ] ParenthesesScoreTests.TestNonBalanced (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestLongNestedStructure
-[       OK ] ParenthesesScoreTests.TestLongNestedStructure (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested
-[       OK ] ParenthesesScoreTests.TestEdgeCaseNoInnerNested (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestMaximumLength
-[       OK ] ParenthesesScoreTests.TestMaximumLength (0 ms)
-[ RUN      ] ParenthesesScoreTests.TestEmpty
-[       OK ] ParenthesesScoreTests.TestEmpty (0 ms)
-[----------] 11 tests from ParenthesesScoreTests (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 11 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 11 tests.
-Completed Task 621282
-----------------------
-Running solution.cpp for Task 621283...
-Compiling and running solution.cpp for Task 621283...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from SolutionTest
-[ RUN      ] SolutionTest.TestCases
-[       OK ] SolutionTest.TestCases (0 ms)
-[----------] 1 test from SolutionTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-Completed Task 621283
-----------------------
-Running solution.cpp for Task 621284...
-Compiling and running solution.cpp for Task 621284...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 8 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 8 tests from LongestPalindromeSubstringTest
-[ RUN      ] LongestPalindromeSubstringTest.EmptyDNASequence
-[       OK ] LongestPalindromeSubstringTest.EmptyDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.SingleCharacterDNASequence
-[       OK ] LongestPalindromeSubstringTest.SingleCharacterDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.NoPalindromeDNASequence
-[       OK ] LongestPalindromeSubstringTest.NoPalindromeDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.CompletePalindromeDNASequence
-[       OK ] LongestPalindromeSubstringTest.CompletePalindromeDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.MultiplePalindromesDNASequence
-[       OK ] LongestPalindromeSubstringTest.MultiplePalindromesDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.NestedPalindromesDNASequence
-[       OK ] LongestPalindromeSubstringTest.NestedPalindromesDNASequence (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.PalindromeAtStart
-[       OK ] LongestPalindromeSubstringTest.PalindromeAtStart (0 ms)
-[ RUN      ] LongestPalindromeSubstringTest.ComplementaryPalindromeAtEnd
-[       OK ] LongestPalindromeSubstringTest.ComplementaryPalindromeAtEnd (0 ms)
-[----------] 8 tests from LongestPalindromeSubstringTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 8 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 8 tests.
-Completed Task 621284
-----------------------
-Running solution.cpp for Task 621286...
-Compiling and running solution.cpp for Task 621286...
-[==========] Running 7 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 7 tests from DijkstraTestDijkstraTest
-[ RUN      ] DijkstraTestDijkstraTest.MixedGraphTest
-[       OK ] DijkstraTestDijkstraTest.MixedGraphTest (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.PositiveGraphTest
-[       OK ] DijkstraTestDijkstraTest.PositiveGraphTest (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.HandlesPositiveEdges
-[       OK ] DijkstraTestDijkstraTest.HandlesPositiveEdges (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.HandlesNegativeEdgesClosestToZero
-[       OK ] DijkstraTestDijkstraTest.HandlesNegativeEdgesClosestToZero (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.HandlesDisconnectedGraph
-[       OK ] DijkstraTestDijkstraTest.HandlesDisconnectedGraph (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.HandlesNegativeCyclePrevention
-[       OK ] DijkstraTestDijkstraTest.HandlesNegativeCyclePrevention (0 ms)
-[ RUN      ] DijkstraTestDijkstraTest.EmptyGraphTest
-[       OK ] DijkstraTestDijkstraTest.EmptyGraphTest (0 ms)
-[----------] 7 tests from DijkstraTestDijkstraTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 7 tests.
-Completed Task 621286
-----------------------
-Running solution.cpp for Task 621291...
-Compiling and running solution.cpp for Task 621291...
-[==========] Running 8 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 8 tests from DESTest
-[ RUN      ] DESTest.StandardTest
-[       OK ] DESTest.StandardTest (0 ms)
-[ RUN      ] DESTest.AllZerosTest
-[       OK ] DESTest.AllZerosTest (0 ms)
-[ RUN      ] DESTest.AllOnesTest
-[       OK ] DESTest.AllOnesTest (0 ms)
-[ RUN      ] DESTest.PlaintextEqualsKeyTest
-[       OK ] DESTest.PlaintextEqualsKeyTest (0 ms)
-[ RUN      ] DESTest.MinimalKeyTest
-[       OK ] DESTest.MinimalKeyTest (0 ms)
-[ RUN      ] DESTest.RandomTest
-[       OK ] DESTest.RandomTest (0 ms)
-[ RUN      ] DESTest.EmptyKeyTest
-[       OK ] DESTest.EmptyKeyTest (0 ms)
-[ RUN      ] DESTest.SymmetryTest
-[       OK ] DESTest.SymmetryTest (0 ms)
-[----------] 8 tests from DESTest (3 ms total)
-
-[----------] Global test environment tear-down
-[==========] 8 tests from 1 test suite ran. (4 ms total)
-[  PASSED  ] 8 tests.
-Completed Task 621291
-----------------------
-Running solution.cpp for Task 621293...
-Compiling and running solution.cpp for Task 621293...
-Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Onboarding2/build/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 8 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 8 tests from CalculateMaxChannelQualityTest
-[ RUN      ] CalculateMaxChannelQualityTest.BasicTests
-[       OK ] CalculateMaxChannelQualityTest.BasicTests (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.SingleChannel
-[       OK ] CalculateMaxChannelQualityTest.SingleChannel (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.EqualPacketAndChannels
-[       OK ] CalculateMaxChannelQualityTest.EqualPacketAndChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels
-[       OK ] CalculateMaxChannelQualityTest.FewPacketsAndManyChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.LargePacketSizes
-[       OK ] CalculateMaxChannelQualityTest.LargePacketSizes (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.OnePacketOneChannel
-[       OK ] CalculateMaxChannelQualityTest.OnePacketOneChannel (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.OnePacketManyChannels
-[       OK ] CalculateMaxChannelQualityTest.OnePacketManyChannels (0 ms)
-[ RUN      ] CalculateMaxChannelQualityTest.ZeroChannels
-[       OK ] CalculateMaxChannelQualityTest.ZeroChannels (0 ms)
-[----------] 8 tests from CalculateMaxChannelQualityTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 8 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 8 tests.
-Completed Task 621293
 ----------------------

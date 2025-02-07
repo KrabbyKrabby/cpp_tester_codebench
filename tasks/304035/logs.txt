@@ -1,0 +1,403 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+1: Test timeout computed to be: 5
+1: [==========] Running 10 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 10 tests from BilateralFilterTest
+1: [ RUN      ] BilateralFilterTest.PositiveCase
+ 1/11 Test  #1: incorrect_solution_tests .........***Exception: SegFault  0.42 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+2: Test timeout computed to be: 5
+2: [==========] Running 10 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 10 tests from BilateralFilterTest
+2: [ RUN      ] BilateralFilterTest.PositiveCase
+2: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+2: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+2: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+2: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+2: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+2: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+ 2/11 Test  #2: model1_tests .....................***Exception: SegFault  0.60 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+3: Test timeout computed to be: 5
+3: [==========] Running 10 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 10 tests from BilateralFilterTest
+3: [ RUN      ] BilateralFilterTest.PositiveCase
+3: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+3: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+3: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+3: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+3: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+3: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+3: [       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+3: [ RUN      ] BilateralFilterTest.StressCase_LargeImage
+3: [       OK ] BilateralFilterTest.StressCase_LargeImage (227 ms)
+3: [ RUN      ] BilateralFilterTest.HighIntensityVariation
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:120: Failure
+3: Expected: (image[0][2]) > (128), actual: 0 vs 128
+3: 
+3: [  FAILED  ] BilateralFilterTest.HighIntensityVariation (0 ms)
+3: [ RUN      ] BilateralFilterTest.HomogeneousImage
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+3: Expected equality of these values:
+3:   image[i][j]
+3:     Which is: 0
+3:   100
+3: 
+3: [  FAILED  ] BilateralFilterTest.HomogeneousImage (0 ms)
+3: [ RUN      ] BilateralFilterTest.BoundaryCheck
+3: [       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+3: [ RUN      ] BilateralFilterTest.VeryLargeSigma
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:194: Failure
+3: The difference between image[1][1] and average is 32.555555555555557, which exceeds 10, where
+3: image[1][1] evaluates to 49,
+3: average evaluates to 16.444444444444443, and
+3: 10 evaluates to 10.
+3: 
+3: [  FAILED  ] BilateralFilterTest.VeryLargeSigma (0 ms)
+3: [ RUN      ] BilateralFilterTest.VerySmallSigma
+3: [       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+3: [----------] 10 tests from BilateralFilterTest (228 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 10 tests from 1 test suite ran. (228 ms total)
+3: [  PASSED  ] 7 tests.
+3: [  FAILED  ] 3 tests, listed below:
+3: [  FAILED  ] BilateralFilterTest.HighIntensityVariation
+3: [  FAILED  ] BilateralFilterTest.HomogeneousImage
+3: [  FAILED  ] BilateralFilterTest.VeryLargeSigma
+3: 
+3:  3 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    0.58 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+4: Test timeout computed to be: 5
+4: [==========] Running 10 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 10 tests from BilateralFilterTest
+4: [ RUN      ] BilateralFilterTest.PositiveCase
+4: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+4: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+4: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+4: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+4: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+4: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+4: [       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+4: [ RUN      ] BilateralFilterTest.StressCase_LargeImage
+4: [       OK ] BilateralFilterTest.StressCase_LargeImage (219 ms)
+4: [ RUN      ] BilateralFilterTest.HighIntensityVariation
+4: [       OK ] BilateralFilterTest.HighIntensityVariation (0 ms)
+4: [ RUN      ] BilateralFilterTest.HomogeneousImage
+4: [       OK ] BilateralFilterTest.HomogeneousImage (0 ms)
+4: [ RUN      ] BilateralFilterTest.BoundaryCheck
+4: [       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+4: [ RUN      ] BilateralFilterTest.VeryLargeSigma
+4: [       OK ] BilateralFilterTest.VeryLargeSigma (0 ms)
+4: [ RUN      ] BilateralFilterTest.VerySmallSigma
+4: [       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+4: [----------] 10 tests from BilateralFilterTest (220 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 10 tests from 1 test suite ran. (220 ms total)
+4: [  PASSED  ] 10 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.69 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+5: Test timeout computed to be: 5
+5: [==========] Running 10 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 10 tests from BilateralFilterTest
+5: [ RUN      ] BilateralFilterTest.PositiveCase
+5: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+5: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+5: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+5: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+5: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+5: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+ 5/11 Test  #5: model3_tests .....................***Exception: SegFault  0.48 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+6: Test timeout computed to be: 5
+6: [==========] Running 10 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 10 tests from BilateralFilterTest
+6: [ RUN      ] BilateralFilterTest.PositiveCase
+6: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+6: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+6: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+6: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+6: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+6: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+ 6/11 Test  #6: model4_tests .....................***Exception: SegFault  0.39 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+7: Test timeout computed to be: 5
+7: [==========] Running 10 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 10 tests from BilateralFilterTest
+7: [ RUN      ] BilateralFilterTest.PositiveCase
+7: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+7: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+7: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+7: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+7: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+7: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+ 7/11 Test  #7: model5_tests .....................***Exception: SegFault  0.47 sec
+test 8
+      Start  8: model6_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/PythoUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+n/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+
+8: Test command: 
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+ 8/11 Test  #8: model6_tests .....................***Not Run   0.00 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+9: Test timeout computed to be: 5
+9: [==========] Running 10 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 10 tests from BilateralFilterTest
+9: [ RUN      ] BilateralFilterTest.PositiveCase
+ 9/11 Test  #9: model7_tests .....................***Exception: SegFault  0.37 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+10: Test timeout computed to be: 5
+10: [==========] Running 10 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 10 tests from BilateralFilterTest
+10: [ RUN      ] BilateralFilterTest.PositiveCase
+10: [       OK ] BilateralFilterTest.PositiveCase (0 ms)
+10: [ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+10: [       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+10: [ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+10: [       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+10: [ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+10: [       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+10: [ RUN      ] BilateralFilterTest.StressCase_LargeImage
+10: [       OK ] BilateralFilterTest.StressCase_LargeImage (193 ms)
+10: [ RUN      ] BilateralFilterTest.HighIntensityVariation
+10: [       OK ] BilateralFilterTest.HighIntensityVariation (0 ms)
+10: [ RUN      ] BilateralFilterTest.HomogeneousImage
+10: [       OK ] BilateralFilterTest.HomogeneousImage (0 ms)
+10: [ RUN      ] BilateralFilterTest.BoundaryCheck
+10: [       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+10: [ RUN      ] BilateralFilterTest.VeryLargeSigma
+10: [       OK ] BilateralFilterTest.VeryLargeSigma (0 ms)
+10: [ RUN      ] BilateralFilterTest.VerySmallSigma
+10: [       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+10: [----------] 10 tests from BilateralFilterTest (194 ms total)
+10: 
+10: [----------] Global test environment tear-down
+10: [==========] 10 tests from 1 test suite ran. (194 ms total)
+10: [  PASSED  ] 10 tests.
+10/11 Test #10: model8_tests .....................   Passed    0.55 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+11: Test timeout computed to be: 5
+11: [==========] Running 10 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 10 tests from BilateralFilterTest
+11: [ RUN      ] BilateralFilterTest.PositiveCase
+11/11 Test #11: model9_tests .....................***Exception: SegFault  0.43 sec
+
+18% tests passed, 9 tests failed out of 11
+
+Total Test time (real) =   5.00 Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (SEGFAULT)
+	  2 - model1_tests (SEGFAULT)
+	  3 - model10_tests (Failed)
+	  5 - model3_tests (SEGFAULT)
+	  6 - model4_tests (SEGFAULT)
+	  7 - model5_tests (SEGFAULT)
+	  8 - model6_tests (Not Run)
+	  9 - model7_tests (SEGFAULT)
+	 11 - model9_tests (SEGFAULT)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Exception: SegFault  0.03 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Exception: SegFault  0.03 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    0.15 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.16 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................***Exception: SegFault  0.03 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Exception: SegFault  0.03 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Exception: SegFault  0.03 sec
+      Start  8: model6_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Development/model6_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+ 8/11 Test  #8: model6_tests .....................***Not Run   0.00 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Exception: SegFault  0.03 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................   Passed    0.19 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Exception: SegFault  0.03 sec
+
+18% tests passed, 9 tests failed out of 11
+
+Total Test time (real) =   0.73 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (SEGFAULT)
+	  2 - model1_tests (SEGFAULT)
+	  3 - model10_tests (Failed)
+	  5 - model3_tests (SEGFAULT)
+	  6 - model4_tests (SEGFAULT)
+	  7 - model5_tests (SEGFAULT)
+	  8 - model6_tests (Not Run)
+	  9 - model7_tests (SEGFAULT)
+	 11 - model9_tests (SEGFAULT)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

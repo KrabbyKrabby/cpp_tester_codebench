@@ -1,0 +1,447 @@
+Start testing: Feb 07 23:23 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"incorrect_solution_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+Expected equality of these values:
+  stack.top()
+    Which is: 0
+  10
+After popping once, top should be 10.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+Should print underflow message when popping from an empty stack.
+
+[  FAILED  ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping its only element.
+
+[  FAILED  ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Feb 07 23:23 +06
+"incorrect_solution_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model1_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+[       OK ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Feb 07 23:23 +06
+"model1_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model10_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+Expected equality of these values:
+  stack.top()
+    Which is: 0
+  10
+After popping once, top should be 10.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+Should print underflow message when popping from an empty stack.
+
+[  FAILED  ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping its only element.
+
+[  FAILED  ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Feb 07 23:23 +06
+"model10_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model2_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Feb 07 23:23 +06
+"model2_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model3_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+[       OK ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+[       OK ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+[       OK ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+[       OK ] StackTest.EdgeTest (32 ms)
+[ RUN      ] StackTest.MultiThreadedTest
+[       OK ] StackTest.MultiThreadedTest (0 ms)
+[ RUN      ] StackTest.StressTest
+[       OK ] StackTest.StressTest (0 ms)
+[ RUN      ] StackTest.NullPointerTest
+[       OK ] StackTest.NullPointerTest (0 ms)
+[----------] 7 tests from StackTest (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (33 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Feb 07 23:23 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model4_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+[       OK ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+[       OK ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+[       OK ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+[       OK ] StackTest.EdgeTest (28 ms)
+[ RUN      ] StackTest.MultiThreadedTest
+[       OK ] StackTest.MultiThreadedTest (0 ms)
+[ RUN      ] StackTest.StressTest
+[       OK ] StackTest.StressTest (0 ms)
+[ RUN      ] StackTest.NullPointerTest
+[       OK ] StackTest.NullPointerTest (0 ms)
+[----------] 7 tests from StackTest (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (29 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Feb 07 23:23 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model5_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+[       OK ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+[       OK ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+[       OK ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+[       OK ] StackTest.EdgeTest (33 ms)
+[ RUN      ] StackTest.MultiThreadedTest
+[       OK ] StackTest.MultiThreadedTest (0 ms)
+[ RUN      ] StackTest.StressTest
+[       OK ] StackTest.StressTest (0 ms)
+[ RUN      ] StackTest.NullPointerTest
+[       OK ] StackTest.NullPointerTest (0 ms)
+[----------] 7 tests from StackTest (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (34 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Feb 07 23:23 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model6_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+Expected equality of these values:
+  stack.top()
+    Which is: 0
+  10
+After popping once, top should be 10.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+Should print underflow message when popping from an empty stack.
+
+[  FAILED  ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping its only element.
+
+[  FAILED  ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Feb 07 23:23 +06
+"model6_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model7_tests" start time: Feb 07 23:23 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+Expected equality of these values:
+  stack.top()
+    Which is: 0
+  10
+After popping once, top should be 10.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+Should print underflow message when popping from an empty stack.
+
+[  FAILED  ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping its only element.
+
+[  FAILED  ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Feb 07 23:24 +06
+"model7_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model8_tests" start time: Feb 07 23:24 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+<end of output>
+Test time =   5.04 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Feb 07 23:24 +06
+"model8_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+"model9_tests" start time: Feb 07 23:24 +06
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StackTest
+[ RUN      ] StackTest.PositiveTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+Expected equality of these values:
+  stack.top()
+    Which is: 0
+  10
+After popping once, top should be 10.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.PositiveTest (0 ms)
+[ RUN      ] StackTest.NegativeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+Should print underflow message when popping from an empty stack.
+
+[  FAILED  ] StackTest.NegativeTest (0 ms)
+[ RUN      ] StackTest.CornerTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping its only element.
+
+[  FAILED  ] StackTest.CornerTest (0 ms)
+[ RUN      ] StackTest.EdgeTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:81: Failure
+Value of: stack.isEmpty()
+  Actual: false
+Expected: true
+Stack should be empty after popping all elements.
+
+[  FAILED  ] StackTest.EdgeTest (32 ms)
+[ RUN      ] StackTest.MultiThreadedTest
+[       OK ] StackTest.MultiThreadedTest (0 ms)
+[ RUN      ] StackTest.StressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:139: Failure
+Expected equality of these values:
+  popCount
+    Which is: 12667
+  numOperations / 2
+    Which is: 5000
+After popping half, exactly half of the pushed elements should remain.
+
+[  FAILED  ] StackTest.StressTest (0 ms)
+[ RUN      ] StackTest.NullPointerTest
+[       OK ] StackTest.NullPointerTest (0 ms)
+[----------] 7 tests from StackTest (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (33 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] StackTest.PositiveTest
+[  FAILED  ] StackTest.NegativeTest
+[  FAILED  ] StackTest.CornerTest
+[  FAILED  ] StackTest.EdgeTest
+[  FAILED  ] StackTest.StressTest
+
+ 5 FAILED TESTS
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Feb 07 23:24 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:24 +06

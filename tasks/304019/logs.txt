@@ -1,0 +1,1272 @@
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+
+1: Test command: 
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+2: Test timeout computed to be: 5
+2: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 10 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 10 tests from PuzzleRayTest
+2: [ RUN      ] PuzzleRayTest.ProvidedExample
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: 
+2: [  FAILED  ] PuzzleRayTest.ProvidedExample (43 ms)
+2: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 4, 0, 3 }, { 1, 2, 5 }, { 6, 7, 8 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: 
+2: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (687 ms)
+2: [ RUN      ] PuzzleRayTest.AlreadySolved
+2: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+2: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 8, 6, 7 }, { 4, 5, 0 }, { 2, 3, 1 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: 
+2: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1301 ms)
+2: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+2: Expected equality of these values:
+2:   finalBoard1
+2:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: 
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+2: Expected equality of these values:
+2:   finalBoard2
+2:     Which is: { { 1, 4, 2 }, { 0, 5, 3 }, { 6, 7, 8 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: 
+2: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (59 ms)
+2: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 5, 2, 4, 0 }, { 1, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+2:   solvedBoard
+2:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+2: 
+2: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (3 ms)
+2: [ RUN      ] PuzzleRayTest.OneMoveAway
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+2: Expected equality of these values:
+2:   actualMoves
+2:     Which is: { 4 }
+2:   expectedMoves
+2:     Which is: { 8 }
+2: 
+2: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+2: [ RUN      ] PuzzleRayTest.TwoMovesAway
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+2: Expected equality of these values:
+2:   actualMoves
+2:     Which is: { 4, 4 }
+2:   expectedMoves
+2:     Which is: { 7, 8 }
+2: 
+2: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+2: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+2: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+2: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+2:   solvedBoards[i]
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: Failed on Puzzle 1
+2: 
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 4, 0, 3 }, { 1, 2, 5 }, { 6, 7, 8 } }
+2:   solvedBoards[i]
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: Failed on Puzzle 2
+2: 
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 1, 2, 3 }, { 0, 5, 6 }, { 7, 4, 8 } }
+2:   solvedBoards[i]
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: Failed on Puzzle 3
+2: 
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 5, 2, 4, 0 }, { 1, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+2:   solvedBoards[i]
+2:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+2: Failed on Puzzle 4
+2: 
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+2: Expected equality of these values:
+2:   finalBoard
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+2:   solvedBoards[i]
+2:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+2: Failed on Puzzle 5
+2: 
+2: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (621 ms)
+2: [----------] 10 tests from PuzzleRayTest (2716 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 10 tests from 1 test suite ran. (2716 ms total)
+2: [  PASSED  ] 2 tests.
+2: [  FAILED  ] 8 tests, listed below:
+2: [  FAILED  ] PuzzleRayTest.ProvidedExample
+2: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+2: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+2: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+2: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+2: [  FAILED  ] PuzzleRayTest.OneMoveAway
+2: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+2: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+2: 
+2:  8 FAILED TESTS
+ 2/11 Test  #2: model1_tests .....................***Failed    3.17 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+3: Test timeout computed to be: 5
+3: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+3: [==========] Running 10 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 10 tests from PuzzleRayTest
+3: [ RUN      ] PuzzleRayTest.ProvidedExample
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: 
+3: [  FAILED  ] PuzzleRayTest.ProvidedExample (47 ms)
+3: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 1, 0, 3 }, { 2, 4, 5 }, { 6, 7, 8 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: 
+3: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (720 ms)
+3: [ RUN      ] PuzzleRayTest.AlreadySolved
+3: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+3: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 8, 6, 7 }, { 1, 5, 4 }, { 2, 3, 0 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: 
+3: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1624 ms)
+3: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+3: Expected equality of these values:
+3:   finalBoard1
+3:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+3: Expected equality of these values:
+3:   finalBoard2
+3:     Which is: { { 0, 1, 2 }, { 4, 5, 3 }, { 6, 7, 8 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: 
+3: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (61 ms)
+3: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 5, 0, 1, 4 }, { 2, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+3:   solvedBoard
+3:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+3: 
+3: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (2 ms)
+3: [ RUN      ] PuzzleRayTest.OneMoveAway
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+3: Expected equality of these values:
+3:   actualMoves
+3:     Which is: { 1 }
+3:   expectedMoves
+3:     Which is: { 8 }
+3: 
+3: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+3: [ RUN      ] PuzzleRayTest.TwoMovesAway
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+3: Expected equality of these values:
+3:   actualMoves
+3:     Which is: { 1, 1 }
+3:   expectedMoves
+3:     Which is: { 7, 8 }
+3: 
+3: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+3: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+3: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+3: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+3:   solvedBoards[i]
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: Failed on Puzzle 1
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 1, 0, 3 }, { 2, 4, 5 }, { 6, 7, 8 } }
+3:   solvedBoards[i]
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: Failed on Puzzle 2
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 0, 2, 3 }, { 4, 5, 6 }, { 7, 1, 8 } }
+3:   solvedBoards[i]
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: Failed on Puzzle 3
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 5, 0, 1, 4 }, { 2, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+3:   solvedBoards[i]
+3:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+3: Failed on Puzzle 4
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+3: Expected equality of these values:
+3:   finalBoard
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+3:   solvedBoards[i]
+3:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+3: Failed on Puzzle 5
+3: 
+3: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (723 ms)
+3: [----------] 10 tests from PuzzleRayTest (3179 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 10 tests from 1 test suite ran. (3179 ms total)
+3: [  PASSED  ] 2 tests.
+3: [  FAILED  ] 8 tests, listed below:
+3: [  FAILED  ] PuzzleRayTest.ProvidedExample
+3: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+3: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+3: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+3: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+3: [  FAILED  ] PuzzleRayTest.OneMoveAway
+3: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+3: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+3: 
+3:  8 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    3.55 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+4: Test timeout computed to be: 5
+4: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+4: [==========] Running 10 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 10 tests from PuzzleRayTest
+4: [ RUN      ] PuzzleRayTest.ProvidedExample
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: 
+4: [  FAILED  ] PuzzleRayTest.ProvidedExample (43 ms)
+4: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 4, 0, 3 }, { 1, 2, 5 }, { 6, 7, 8 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: 
+4: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (626 ms)
+4: [ RUN      ] PuzzleRayTest.AlreadySolved
+4: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+4: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 8, 6, 7 }, { 4, 5, 0 }, { 2, 3, 1 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: 
+4: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1199 ms)
+4: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+4: Expected equality of these values:
+4:   finalBoard1
+4:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: 
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+4: Expected equality of these values:
+4:   finalBoard2
+4:     Which is: { { 1, 4, 2 }, { 0, 5, 3 }, { 6, 7, 8 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: 
+4: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (58 ms)
+4: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 5, 2, 4, 0 }, { 1, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+4:   solvedBoard
+4:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+4: 
+4: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (2 ms)
+4: [ RUN      ] PuzzleRayTest.OneMoveAway
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+4: Expected equality of these values:
+4:   actualMoves
+4:     Which is: { 4 }
+4:   expectedMoves
+4:     Which is: { 8 }
+4: 
+4: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+4: [ RUN      ] PuzzleRayTest.TwoMovesAway
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+4: Expected equality of these values:
+4:   actualMoves
+4:     Which is: { 4, 4 }
+4:   expectedMoves
+4:     Which is: { 7, 8 }
+4: 
+4: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+4: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+4: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+4: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+4:   solvedBoards[i]
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: Failed on Puzzle 1
+4: 
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 4, 0, 3 }, { 1, 2, 5 }, { 6, 7, 8 } }
+4:   solvedBoards[i]
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: Failed on Puzzle 2
+4: 
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 1, 2, 3 }, { 0, 5, 6 }, { 7, 4, 8 } }
+4:   solvedBoards[i]
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: Failed on Puzzle 3
+4: 
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 5, 2, 4, 0 }, { 1, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+4:   solvedBoards[i]
+4:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+4: Failed on Puzzle 4
+4: 
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+4: Expected equality of these values:
+4:   finalBoard
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+4:   solvedBoards[i]
+4:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+4: Failed on Puzzle 5
+4: 
+4: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (609 ms)
+4: [----------] 10 tests from PuzzleRayTest (2540 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 10 tests from 1 test suite ran. (2540 ms total)
+4: [  PASSED  ] 2 tests.
+4: [  FAILED  ] 8 tests, listed below:
+4: [  FAILED  ] PuzzleRayTest.ProvidedExample
+4: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+4: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+4: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+4: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+4: [  FAILED  ] PuzzleRayTest.OneMoveAway
+4: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+4: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+4: 
+4:  8 FAILED TESTS
+ 4/11 Test  #4: model2_tests .....................***Failed    2.92 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+5: Test timeout computed to be: 5
+5: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+5: [==========] Running 10 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 10 tests from PuzzleRayTest
+5: [ RUN      ] PuzzleRayTest.ProvidedExample
+5: [       OK ] PuzzleRayTest.ProvidedExample (47 ms)
+5: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+5: [       OK ] PuzzleRayTest.EmptySpaceInCorner (656 ms)
+5: [ RUN      ] PuzzleRayTest.AlreadySolved
+5: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+5: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+5: [       OK ] PuzzleRayTest.MaximumMoves3x3 (1321 ms)
+5: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+5: [       OK ] PuzzleRayTest.DifferentZeroPositions (62 ms)
+5: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+5: [       OK ] PuzzleRayTest.LargerPuzzle4x4 (3 ms)
+5: [ RUN      ] PuzzleRayTest.OneMoveAway
+5: [       OK ] PuzzleRayTest.OneMoveAway (0 ms)
+5: [ RUN      ] PuzzleRayTest.TwoMovesAway
+5: [       OK ] PuzzleRayTest.TwoMovesAway (0 ms)
+5: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+5: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+5: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+5: [       OK ] PuzzleRayTest.ConcurrentPuzzleSolving (659 ms)
+5: [----------] 10 tests from PuzzleRayTest (2750 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 10 tests from 1 test suite ran. (2750 ms total)
+5: [  PASSED  ] 10 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    3.18 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+6: Test timeout computed to be: 5
+6: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+6: [==========] Running 10 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 10 tests from PuzzleRayTest
+6: [ RUN      ] PuzzleRayTest.ProvidedExample
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: 
+6: [  FAILED  ] PuzzleRayTest.ProvidedExample (46 ms)
+6: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 2, 0, 3 }, { 4, 1, 5 }, { 6, 7, 8 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: 
+6: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (666 ms)
+6: [ RUN      ] PuzzleRayTest.AlreadySolved
+6: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+6: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 8, 6, 7 }, { 0, 5, 3 }, { 2, 4, 1 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: 
+6: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1333 ms)
+6: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+6: Expected equality of these values:
+6:   finalBoard1
+6:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+6: Expected equality of these values:
+6:   finalBoard2
+6:     Which is: { { 1, 0, 3 }, { 4, 5, 2 }, { 6, 7, 8 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: 
+6: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (63 ms)
+6: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 5, 3, 0, 4 }, { 1, 6, 2, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+6:   solvedBoard
+6:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+6: 
+6: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (2 ms)
+6: [ RUN      ] PuzzleRayTest.OneMoveAway
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+6: Expected equality of these values:
+6:   actualMoves
+6:     Which is: { 2 }
+6:   expectedMoves
+6:     Which is: { 8 }
+6: 
+6: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+6: [ RUN      ] PuzzleRayTest.TwoMovesAway
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+6: Expected equality of these values:
+6:   actualMoves
+6:     Which is: { 2, 2 }
+6:   expectedMoves
+6:     Which is: { 7, 8 }
+6: 
+6: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+6: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+6: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+6: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+6:   solvedBoards[i]
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: Failed on Puzzle 1
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 2, 0, 3 }, { 4, 1, 5 }, { 6, 7, 8 } }
+6:   solvedBoards[i]
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: Failed on Puzzle 2
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 1, 0, 3 }, { 4, 5, 6 }, { 7, 2, 8 } }
+6:   solvedBoards[i]
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: Failed on Puzzle 3
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 5, 3, 0, 4 }, { 1, 6, 2, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+6:   solvedBoards[i]
+6:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+6: Failed on Puzzle 4
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+6: Expected equality of these values:
+6:   finalBoard
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+6:   solvedBoards[i]
+6:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+6: Failed on Puzzle 5
+6: 
+6: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (664 ms)
+6: [----------] 10 tests from PuzzleRayTest (2777 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 10 tests from 1 test suite ran. (2777 ms total)
+6: [  PASSED  ] 2 tests.
+6: [  FAILED  ] 8 tests, listed below:
+6: [  FAILED  ] PuzzleRayTest.ProvidedExample
+6: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+6: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+6: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+6: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+6: [  FAILED  ] PuzzleRayTest.OneMoveAway
+6: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+6: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+6: 
+6:  8 FAILED TESTS
+ 6/11 Test  #6: model4_tests .....................***Failed    3.15 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+7: Test timeout computed to be: 5
+7: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+7: [==========] Running 10 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 10 tests from PuzzleRayTest
+7: [ RUN      ] PuzzleRayTest.ProvidedExample
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: 
+7: [  FAILED  ] PuzzleRayTest.ProvidedExample (33 ms)
+7: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 2, 0, 3 }, { 4, 1, 5 }, { 6, 7, 8 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: 
+7: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (547 ms)
+7: [ RUN      ] PuzzleRayTest.AlreadySolved
+7: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+7: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 8, 6, 7 }, { 0, 5, 3 }, { 2, 4, 1 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: 
+7: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1431 ms)
+7: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+7: Expected equality of these values:
+7:   finalBoard1
+7:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: 
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+7: Expected equality of these values:
+7:   finalBoard2
+7:     Which is: { { 1, 0, 3 }, { 4, 5, 2 }, { 6, 7, 8 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: 
+7: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (42 ms)
+7: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 5, 3, 0, 4 }, { 1, 6, 2, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+7:   solvedBoard
+7:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+7: 
+7: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (1 ms)
+7: [ RUN      ] PuzzleRayTest.OneMoveAway
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+7: Expected equality of these values:
+7:   actualMoves
+7:     Which is: { 2 }
+7:   expectedMoves
+7:     Which is: { 8 }
+7: 
+7: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+7: [ RUN      ] PuzzleRayTest.TwoMovesAway
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+7: Expected equality of these values:
+7:   actualMoves
+7:     Which is: { 2, 2 }
+7:   expectedMoves
+7:     Which is: { 7, 8 }
+7: 
+7: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+7: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+7: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+7: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+7:   solvedBoards[i]
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: Failed on Puzzle 1
+7: 
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 2, 0, 3 }, { 4, 1, 5 }, { 6, 7, 8 } }
+7:   solvedBoards[i]
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: Failed on Puzzle 2
+7: 
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 1, 0, 3 }, { 4, 5, 6 }, { 7, 2, 8 } }
+7:   solvedBoards[i]
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: Failed on Puzzle 3
+7: 
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 5, 3, 0, 4 }, { 1, 6, 2, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+7:   solvedBoards[i]
+7:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+7: Failed on Puzzle 4
+7: 
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+7: Expected equality of these values:
+7:   finalBoard
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+7:   solvedBoards[i]
+7:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+7: Failed on Puzzle 5
+7: 
+7: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (707 ms)
+7: [----------] 10 tests from PuzzleRayTest (2764 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 10 tests from 1 test suite ran. (2765 ms total)
+7: [  PASSED  ] 2 tests.
+7: [  FAILED  ] 8 tests, listed below:
+7: [  FAILED  ] PuzzleRayTest.ProvidedExample
+7: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+7: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+7: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+7: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+7: [  FAILED  ] PuzzleRayTest.OneMoveAway
+7: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+7: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+7: 
+7:  8 FAILED TESTS
+ 7/11 Test  #7: model5_tests .....................***Failed    3.13 sec
+test 8
+      Start  8: model6_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cppUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+_codebench/tasks/304019/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+
+8: Test command: 
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+ 8/11 Test  #8: model6_tests .....................***Not Run   0.00 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+9: Test timeout computed to be: 5
+9: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+9: [==========] Running 10 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 10 tests from PuzzleRayTest
+9: [ RUN      ] PuzzleRayTest.ProvidedExample
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 1, 2, 0 }, { 4, 3, 5 }, { 6, 7, 8 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: 
+9: [  FAILED  ] PuzzleRayTest.ProvidedExample (31 ms)
+9: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 3, 0, 1 }, { 2, 4, 5 }, { 6, 7, 8 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: 
+9: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (419 ms)
+9: [ RUN      ] PuzzleRayTest.AlreadySolved
+9: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+9: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 8, 6, 7 }, { 2, 5, 4 }, { 3, 1, 0 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: 
+9: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1128 ms)
+9: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+9: Expected equality of these values:
+9:   finalBoard1
+9:     Which is: { { 1, 2, 0 }, { 4, 3, 5 }, { 6, 7, 8 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+9: Expected equality of these values:
+9:   finalBoard2
+9:     Which is: { { 3, 2, 1 }, { 4, 5, 0 }, { 6, 7, 8 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: 
+9: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (39 ms)
+9: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 5, 0, 2, 4 }, { 3, 6, 1, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+9:   solvedBoard
+9:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+9: 
+9: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (1 ms)
+9: [ RUN      ] PuzzleRayTest.OneMoveAway
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+9: Expected equality of these values:
+9:   actualMoves
+9:     Which is: { 0 }
+9:   expectedMoves
+9:     Which is: { 8 }
+9: 
+9: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+9: [ RUN      ] PuzzleRayTest.TwoMovesAway
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+9: Expected equality of these values:
+9:   actualMoves
+9:     Which is: { 0, 0 }
+9:   expectedMoves
+9:     Which is: { 7, 8 }
+9: 
+9: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+9: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+9: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+9: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 1, 2, 0 }, { 4, 3, 5 }, { 6, 7, 8 } }
+9:   solvedBoards[i]
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: Failed on Puzzle 1
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 3, 0, 1 }, { 2, 4, 5 }, { 6, 7, 8 } }
+9:   solvedBoards[i]
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: Failed on Puzzle 2
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 0, 8 } }
+9:   solvedBoards[i]
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: Failed on Puzzle 3
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 5, 0, 2, 4 }, { 3, 6, 1, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+9:   solvedBoards[i]
+9:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+9: Failed on Puzzle 4
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+9: Expected equality of these values:
+9:   finalBoard
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+9:   solvedBoards[i]
+9:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+9: Failed on Puzzle 5
+9: 
+9: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (418 ms)
+9: [----------] 10 tests from PuzzleRayTest (2038 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 10 tests from 1 test suite ran. (2039 ms total)
+9: [  PASSED  ] 2 tests.
+9: [  FAILED  ] 8 tests, listed below:
+9: [  FAILED  ] PuzzleRayTest.ProvidedExample
+9: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner
+9: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+9: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+9: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+9: [  FAILED  ] PuzzleRayTest.OneMoveAway
+9: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+9: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+9: 
+9:  8 FAILED TESTS
+ 9/11 Test  #9: model7_tests .....................***Failed    2.53 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+10: Test timeout computed to be: 5
+10: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+10: [==========] Running 10 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 10 tests from PuzzleRayTest
+10: [ RUN      ] PuzzleRayTest.ProvidedExample
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+10: Expected equality of these values:
+10:   finalBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+10:   solvedBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+10: 
+10: [  FAILED  ] PuzzleRayTest.ProvidedExample (55 ms)
+10: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+10: Expected equality of these values:
+10:   finalBoard
+10:     Which is: { { 1, 0, 3 }, { 2, 4, 5 }, { 6, 7, 8 } }
+10:   solvedBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+10: 
+10: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (652 ms)
+10: [ RUN      ] PuzzleRayTest.AlreadySolved
+10: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+10: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+10: Expected equality of these values:
+10:   finalBoard
+10:     Which is: { { 8, 6, 7 }, { 0, 5, 4 }, { 3, 2, 1 } }
+10:   solvedBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+10: 
+10: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1331 ms)
+10: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+10: Expected equality of these values:
+10:   finalBoard1
+10:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+10:   solvedBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+10: 
+10: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+10: Expected equality of these values:
+10:   finalBoard2
+10:     Which is: { { 0, 1, 2 }, { 4, 5, 3 }, { 6, 7, 8 } }
+10:   solvedBoard
+10:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+10: 
+10: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (69 ms)
+10: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+10/11 Test #10: model8_tests .....................***Timeout   5.02 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+11: Test timeout computed to be: 5
+11: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/_deps/googletest-src/googletest/src/gtest_main.cc
+11: [==========] Running 10 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 10 tests from PuzzleRayTest
+11: [ RUN      ] PuzzleRayTest.ProvidedExample
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:75: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: 
+11: [  FAILED  ] PuzzleRayTest.ProvidedExample (49 ms)
+11: [ RUN      ] PuzzleRayTest.EmptySpaceInCorner
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:92: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 1, 0, 3 }, { 2, 4, 5 }, { 6, 7, 8 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: 
+11: [  FAILED  ] PuzzleRayTest.EmptySpaceInCorner (581 ms)
+11: [ RUN      ] PuzzleRayTest.AlreadySolved
+11: [       OK ] PuzzleRayTest.AlreadySolved (0 ms)
+11: [ RUN      ] PuzzleRayTest.MaximumMoves3x3
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:125: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 8, 6, 7 }, { 0, 5, 4 }, { 3, 2, 1 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: 
+11: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3 (1193 ms)
+11: [ RUN      ] PuzzleRayTest.DifferentZeroPositions
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:152: Failure
+11: Expected equality of these values:
+11:   finalBoard1
+11:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:153: Failure
+11: Expected equality of these values:
+11:   finalBoard2
+11:     Which is: { { 0, 1, 2 }, { 4, 5, 3 }, { 6, 7, 8 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: 
+11: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions (62 ms)
+11: [ RUN      ] PuzzleRayTest.LargerPuzzle4x4
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:172: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 5, 0, 1, 4 }, { 2, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+11:   solvedBoard
+11:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+11: 
+11: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4 (2 ms)
+11: [ RUN      ] PuzzleRayTest.OneMoveAway
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:187: Failure
+11: Expected equality of these values:
+11:   actualMoves
+11:     Which is: { 1 }
+11:   expectedMoves
+11:     Which is: { 8 }
+11: 
+11: [  FAILED  ] PuzzleRayTest.OneMoveAway (0 ms)
+11: [ RUN      ] PuzzleRayTest.TwoMovesAway
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:202: Failure
+11: Expected equality of these values:
+11:   actualMoves
+11:     Which is: { 1, 1 }
+11:   expectedMoves
+11:     Which is: { 7, 8 }
+11: 
+11: [  FAILED  ] PuzzleRayTest.TwoMovesAway (0 ms)
+11: [ RUN      ] PuzzleRayTest.AlreadySolved4x4
+11: [       OK ] PuzzleRayTest.AlreadySolved4x4 (0 ms)
+11: [ RUN      ] PuzzleRayTest.ConcurrentPuzzleSolving
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 0, 5 }, { 6, 7, 8 } }
+11:   solvedBoards[i]
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: Failed on Puzzle 1
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 1, 0, 3 }, { 2, 4, 5 }, { 6, 7, 8 } }
+11:   solvedBoards[i]
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: Failed on Puzzle 2
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 0, 2, 3 }, { 4, 5, 6 }, { 7, 1, 8 } }
+11:   solvedBoards[i]
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: Failed on Puzzle 3
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 5, 0, 1, 4 }, { 2, 6, 3, 8 }, { 9, 10, 7, 12 }, { 13, 14, 11, 15 } }
+11:   solvedBoards[i]
+11:     Which is: { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 0 } }
+11: Failed on Puzzle 4
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/test.cpp:321: Failure
+11: Expected equality of these values:
+11:   finalBoard
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 0, 7, 8 } }
+11:   solvedBoards[i]
+11:     Which is: { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } }
+11: Failed on Puzzle 5
+11: 
+11: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving (563 ms)
+11: [----------] 10 tests from PuzzleRayTest (2453 ms total)
+11: 
+11: [----------] Global test environment tear-down
+11: [==========] 10 tests from 1 test suite ran. (2453 ms total)
+11: [  PASSED  ] 2 tests.
+11: [  FAILED  ] 8 tests, listed below:
+11: [  FAILED  ] PuzzleRayTest.ProvidedExample
+11: [  FAILErrors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ED  ] PuzzleRayTest.EmptySpaceInCorner
+11: [  FAILED  ] PuzzleRayTest.MaximumMoves3x3
+11: [  FAILED  ] PuzzleRayTest.DifferentZeroPositions
+11: [  FAILED  ] PuzzleRayTest.LargerPuzzle4x4
+11: [  FAILED  ] PuzzleRayTest.OneMoveAway
+11: [  FAILED  ] PuzzleRayTest.TwoMovesAway
+11: [  FAILED  ] PuzzleRayTest.ConcurrentPuzzleSolving
+11: 
+11:  8 FAILED TESTS
+11/11 Test #11: model9_tests .....................***Failed    2.82 sec
+
+9% tests passed, 10 tests failed out of 11
+
+Total Test time (real) =  29.49 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  2 - model1_tests (Failed)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Not Run)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Failed)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/incorrect_solution_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Failed    2.71 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    3.20 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................***Failed    2.53 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    2.78 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Failed    2.78 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Failed    2.64 sec
+      Start  8: model6_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Release/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Debug/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/MinSizeRel/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/RelWithDebInfo/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Deployment/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Development/model6_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/model6_tests
+ 8/11 Test  #8: model6_tests .....................***Not Run   0.00 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Failed    2.07 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Timeout   5.02 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Failed    2.42 sec
+
+9% tests passed, 10 tests failed out of 11
+
+Total Test time (real) =  26.16 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  2 - model1_tests (Failed)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	  8 - model6_tests (Not Run)
+	  9 - model7_tests (Failed)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Failed)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304019/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

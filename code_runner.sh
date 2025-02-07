@@ -139,7 +139,10 @@ run_solution() {
     fi
 
     echo "Compiling and running solution.cpp..."
-    g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    # g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    GCC_COMPILER=$(which g++-14)
+    "$GCC_COMPILER" -std=c++17 "tasks/$task_id/test.cpp" -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+
 }
 
 run_base() {
@@ -158,7 +161,10 @@ run_base() {
     sed -i.bak -E 's|#include[[:space:]]*"solution.cpp"|#include "base_code.cpp"|' "$test_file"
 
     echo "Compiling and running base.cpp..."
-    g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    # g++ -std=c++17 tasks/$task_id/test.cpp -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+    GCC_COMPILER=$(which g++-14)
+    "$GCC_COMPILER" -std=c++17 "tasks/$task_id/test.cpp" -lgtest -lgtest_main -pthread -o temp_test && ./temp_test && rm temp_test
+
 
     # Restore original include
     echo "Restoring original test.cpp..."
@@ -179,7 +185,10 @@ run_all_solutions() {
 
             if [ -f "$test_file" ]; then
                 echo "Compiling and running solution.cpp for Task $task_id..." | tee -a "$log_file"
-                g++ -std=c++17 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+                # g++ -std=c++17 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+                GCC_COMPILER=$(which g++-14)
+                "$GCC_COMPILER" -std=c++17 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+
 
                 if [ $? -eq 0 ]; then
                     ./temp_test >> "$log_file" 2>&1
@@ -214,18 +223,59 @@ run_all_alternates() {
     echo "All alternate responses have been tested."
 }
 
+run_all_base() {
+    log_file="all_base_logs.txt"
+    echo "Running base_code.cpp for all tasks and storing results in $log_file..."
+    > "$log_file"  # Clear the log file before writing
+
+    for task_dir in tasks/*; do
+        if [ -d "$task_dir" ]; then
+            task_id=$(basename "$task_dir")
+            test_file="tasks/$task_id/test.cpp"
+
+            if [ -f "$test_file" ]; then
+                echo "Compiling and running base_code.cpp for Task $task_id..." | tee -a "$log_file"
+                sed -i.bak -E 's|#include[[:space:]]*"solution.cpp"|#include "base_code.cpp"|' "$test_file"
+
+                GCC_COMPILER=$(which g++-14)
+                "$GCC_COMPILER" -std=c++17 "$test_file" -lgtest -lgtest_main -pthread -o temp_test 2>>"$log_file"
+
+                if [ $? -eq 0 ]; then
+                    ./temp_test >> "$log_file" 2>&1
+                    echo "Completed Task $task_id" | tee -a "$log_file"
+                else
+                    echo "Compilation failed for Task $task_id" | tee -a "$log_file"
+                fi
+
+                rm -f temp_test
+                mv "$test_file.bak" "$test_file"
+            else
+                echo "Skipping Task $task_id: test.cpp not found!" | tee -a "$log_file"
+            fi
+
+            echo "----------------------" | tee -a "$log_file"
+        fi
+    done
+
+    echo "All base_code.cpp tests processed. Logs saved in $log_file."
+}
+
+
 
 # Main script logic
 if [ -z "$1" ]; then
     echo "Usage: $0 <task_id> [solution|alternate|base] OR $0 run_all"
     exit 1
 
-elif [ "$1" == "run_all" ]; then
+elif [ "$1" == "run_all_solutions" ]; then
     run_all_solutions
     exit 0
 # Modify the main script logic to include the new option
 elif [ "$1" == "run_all_alternate" ]; then
     run_all_alternates
+    exit 0
+elif [ "$1" == "run_all_base" ]; then
+    run_all_base
     exit 0
 else
     task_id=$1

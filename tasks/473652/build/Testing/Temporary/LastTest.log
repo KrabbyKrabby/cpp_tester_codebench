@@ -1,0 +1,380 @@
+Start testing: Feb 07 23:33 +06
+----------------------------------------------------------
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"incorrect_solution_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"incorrect_solution_tests" end time: Feb 07 23:33 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model1_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Feb 07 23:33 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model10_tests" start time: Feb 07 23:33 +06
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+Expected equality of these values:
+  message
+    Which is: "Hello"
+  decryptedMessage
+    Which is: "\x1\x1\x1\x1\x1"
+
+[  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+[ RUN      ] ElGamalTest.EmptyMessage
+[       OK ] ElGamalTest.EmptyMessage (0 ms)
+[ RUN      ] ElGamalTest.SingleCharacter
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:25: Failure
+Expected equality of these values:
+  message
+    Which is: "A"
+  decryptedMessage
+    Which is: "\x1"
+
+[  FAILED  ] ElGamalTest.SingleCharacter (0 ms)
+[ RUN      ] ElGamalTest.SpecialCharacters
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+Expected equality of these values:
+  message
+    Which is: "!@#$%^&*()"
+  decryptedMessage
+    Which is: "\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1"
+
+[  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+[ RUN      ] ElGamalTest.LongMessage
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+Expected equality of these values:
+  message
+    Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+  decryptedMessage
+    Which is: "\x1\x1\x1\0\x1\x1\0\x1\x1\x1\x1\x1\0\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\0\0\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\0\x1\x1\x1\0\0\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\x1\0"
+
+[  FAILED  ] ElGamalTest.LongMessage (0 ms)
+[ RUN      ] ElGamalTest.EdgeCharacters
+[       OK ] ElGamalTest.EdgeCharacters (0 ms)
+[----------] 6 tests from ElGamalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] ElGamalTest.EncryptionDecryption
+[  FAILED  ] ElGamalTest.SingleCharacter
+[  FAILED  ] ElGamalTest.SpecialCharacters
+[  FAILED  ] ElGamalTest.LongMessage
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Feb 07 23:33 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model2_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Feb 07 23:33 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model3_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Feb 07 23:33 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model4_tests" start time: Feb 07 23:33 +06
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+Expected equality of these values:
+  message
+    Which is: "Hello"
+  decryptedMessage
+    Which is: "\x3\t\x10\x10\x13"
+
+[  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+[ RUN      ] ElGamalTest.EmptyMessage
+[       OK ] ElGamalTest.EmptyMessage (0 ms)
+[ RUN      ] ElGamalTest.SingleCharacter
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:25: Failure
+Expected equality of these values:
+  message
+    Which is: "A"
+  decryptedMessage
+    Which is: "\x13"
+
+[  FAILED  ] ElGamalTest.SingleCharacter (0 ms)
+[ RUN      ] ElGamalTest.SpecialCharacters
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+Expected equality of these values:
+  message
+    Which is: "!@#$%^&*()"
+  decryptedMessage
+    Which is: "\n\x12\f\r\xE\x2\xF\x13\x11\x12"
+With diff:
+@@ -1,1 +1,2 @@
+-!@#$%^&*()
++
++\x12\f\r\xE\x2\xF\x13\x11\x12
+
+
+[  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+[ RUN      ] ElGamalTest.LongMessage
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+Expected equality of these values:
+  message
+    Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+  decryptedMessage
+    Which is: "\xF\f\r\0\t\r\0\t\x5\t\x1\t\0\x1\t\x13\n\t\x5\t\x3\t\x16\x6\t\x10\x13\x12\v\t\x11\t\0\0\x5\v\t\t\x1\x13\t\a\f\t\a\xF\t\x1\f\t\t\x16\x13\x6\x2\0\x1\x12\t\0\0\t\x13\n\t\x1\f\t\t\t\x12\a\x16\x6\x14\x1\r\x13\x12\t\x5\x12\b\t\b\t\a\x16\x6\x14\x1\r\x13\x12\0"
+With diff:
+@@ -1,1 +1,3 @@
+-This is a test of a very long message to check the robustness of the encryption and decryption.
++\xF\f\r\0\t\r\0\t\x5\t\x1\t\0\x1\t\x13
++\t\x5\t\x3\t\x16\x6\t\x10\x13\x12\v\t\x11\t\0\0\x5\v\t\t\x1\x13\t\a\f\t\a\xF\t\x1\f\t\t\x16\x13\x6\x2\0\x1\x12\t\0\0\t\x13
++\t\x1\f\t\t\t\x12\a\x16\x6\x14\x1\r\x13\x12\t\x5\x12\b\t\b\t\a\x16\x6\x14\x1\r\x13\x12\0
+
+
+[  FAILED  ] ElGamalTest.LongMessage (0 ms)
+[ RUN      ] ElGamalTest.EdgeCharacters
+[       OK ] ElGamalTest.EdgeCharacters (0 ms)
+[----------] 6 tests from ElGamalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] ElGamalTest.EncryptionDecryption
+[  FAILED  ] ElGamalTest.SingleCharacter
+[  FAILED  ] ElGamalTest.SpecialCharacters
+[  FAILED  ] ElGamalTest.LongMessage
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Feb 07 23:33 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model5_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Feb 07 23:33 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model6_tests" start time: Feb 07 23:33 +06
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+Expected equality of these values:
+  message
+    Which is: "Hello"
+  decryptedMessage
+    Which is: "d~\xF0\xF0\xC5"
+
+[  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+[ RUN      ] ElGamalTest.EmptyMessage
+[       OK ] ElGamalTest.EmptyMessage (0 ms)
+[ RUN      ] ElGamalTest.SingleCharacter
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:25: Failure
+Expected equality of these values:
+  message
+    Which is: "A"
+  decryptedMessage
+    Which is: "\xA6"
+
+[  FAILED  ] ElGamalTest.SingleCharacter (0 ms)
+[ RUN      ] ElGamalTest.SpecialCharacters
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+Expected equality of these values:
+  message
+    Which is: "!@#$%^&*()"
+  decryptedMessage
+    Which is: "\x3\xEC\xD2\x8C" "F\xC0\0\x90u\xD6"
+
+[  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+[ RUN      ] ElGamalTest.LongMessage
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+Expected equality of these values:
+  message
+    Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+  decryptedMessage
+    Which is: "\x1F\x6\xC1\aI\xC1\aI\x95I\xC2~\a\xC2I\xC5\x92I\x95I6~\xF4" "eI\xF0\xC5\nLIP~\a\a\x95L~I\xC2\xC5I\t\x6~\t5I\xC2\x6~I\xF4\xC5O|\a\xC2\n~\a\aI\xC5\x92I\xC2\x6~I~\n\t\xF4" "e\x7F\xC2\xC1\xC5\nI\x95\n\xC4I\xC4~\t\xF4" "e\x7F\xC2\xC1\xC5\ny"
+With diff:
+@@ -1,1 +1,7 @@
+-This is a test of a very long message to check the robustness of the encryption and decryption.
++\x1F\x6\xC1\aI\xC1\aI\x95I\xC2~\a\xC2I\xC5\x92I\x95I6~\xF4" "eI\xF0\xC5
++LIP~\a\a\x95L~I\xC2\xC5I\t\x6~\t5I\xC2\x6~I\xF4\xC5O|\a\xC2
++~\a\aI\xC5\x92I\xC2\x6~I~
++\t\xF4" "e\x7F\xC2\xC1\xC5
++I\x95
++\xC4I\xC4~\t\xF4" "e\x7F\xC2\xC1\xC5
++y
+
+
+[  FAILED  ] ElGamalTest.LongMessage (0 ms)
+[ RUN      ] ElGamalTest.EdgeCharacters
+[       OK ] ElGamalTest.EdgeCharacters (0 ms)
+[----------] 6 tests from ElGamalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] ElGamalTest.EncryptionDecryption
+[  FAILED  ] ElGamalTest.SingleCharacter
+[  FAILED  ] ElGamalTest.SpecialCharacters
+[  FAILED  ] ElGamalTest.LongMessage
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Feb 07 23:33 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model7_tests" start time: Feb 07 23:33 +06
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+<end of output>
+Test time =   5.02 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Feb 07 23:33 +06
+"model7_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Feb 07 23:33 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+"model9_tests" start time: Feb 07 23:33 +06
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ElGamalTest
+[ RUN      ] ElGamalTest.EncryptionDecryption
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+Expected equality of these values:
+  message
+    Which is: "Hello"
+  decryptedMessage
+    Which is: "\x3\t\x10\x10\x13"
+
+[  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+[ RUN      ] ElGamalTest.EmptyMessage
+<end of output>
+Test time =   5.02 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Feb 07 23:33 +06
+"model9_tests" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: Feb 07 23:33 +06

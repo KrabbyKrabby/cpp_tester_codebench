@@ -1,0 +1,618 @@
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+
+1: Test command: 
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+test 2
+      Start  2: model1_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+
+2: Test command: 
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+ 2/11 Test  #2: model1_tests .....................***Not Run   0.00 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+3: Test timeout computed to be: 5
+3: [==========] Running 6 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 6 tests from ElGamalTest
+3: [ RUN      ] ElGamalTest.EncryptionDecryption
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+3: Expected equality of these values:
+3:   message
+3:     Which is: "Hello"
+3:   decryptedMessage
+3:     Which is: "\x1\x1\x1\x1\x16"
+3: 
+3: [  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+3: [ RUN      ] ElGamalTest.EmptyMessage
+3: [       OK ] ElGamalTest.EmptyMessage (0 ms)
+3: [ RUN      ] ElGamalTest.SingleCharacter
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:25: Failure
+3: Expected equality of these values:
+3:   message
+3:     Which is: "A"
+3:   decryptedMessage
+3:     Which is: "\x16"
+3: 
+3: [  FAILED  ] ElGamalTest.SingleCharacter (0 ms)
+3: [ RUN      ] ElGamalTest.SpecialCharacters
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+3: Expected equality of these values:
+3:   message
+3:     Which is: "!@#$%^&*()"
+3:   decryptedMessage
+3:     Which is: "\x16\x1\x1\x1\x16\x1\x16\x16\x16\x1"
+3: 
+3: [  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+3: [ RUN      ] ElGamalTest.LongMessage
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+3: Expected equality of these values:
+3:   message
+3:     Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+3:   decryptedMessage
+3:     Which is: "\x16\x1\x1\0\x1\x1\0\x1\x16\x1\x1\x1\0\x1\x1\x16\x16\x1\x16\x1\x1\x1\x16\x1\x1\x1\x16\x1\x16\x1\x16\x1\0\0\x16\x16\x1\x1\x1\x16\x1\x16\x1\x1\x16\x16\x1\x1\x1\x1\x1\x16\x16\x1\x1\0\x1\x1\x1\0\0\x1\x16\x16\x1\x1\x1\x1\x1\x1\x1\x16\x16\x1\x16\x1\x1\x16\x1\x1\x16\x1\x1\x1\x1\x1\x16\x16\x1\x16\x1\x1\x16\x1\0"
+3: 
+3: [  FAILED  ] ElGamalTest.LongMessage (0 ms)
+3: [ RUN      ] ElGamalTest.EdgeCharacters
+3: [       OK ] ElGamalTest.EdgeCharacters (0 ms)
+3: [----------] 6 tests from ElGamalTest (0 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 6 tests from 1 test suite ran. (0 ms total)
+3: [  PASSED  ] 2 tests.
+3: [  FAILED  ] 4 tests, listed below:
+3: [  FAILED  ] ElGamalTest.EncryptionDecryption
+3: [  FAILED  ] ElGamalTest.SingleCharacter
+3: [  FAILED  ] ElGamalTest.SpecialCharacters
+3: [  FAILED  ] ElGamalTest.LongMessage
+3: 
+3:  4 FAILED TESTS
+ 3/11 Test  #3: model10_tests ....................***Failed    0.37 sec
+test 4
+      Start  4: model2_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebenchUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+/tasks/473652/build/Debug/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+
+4: Test command: 
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+ 4/11 Test  #4: model2_tests .....................***Not Run   0.00 sec
+test 5
+      Start  5: model3_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+
+5: Test command: 
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+ 5/11 Test  #5: model3_tests .....................***Not Run   0.00 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+6: Test timeout computed to be: 5
+6: [==========] Running 6 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 6 tests from ElGamalTest
+6: [ RUN      ] ElGamalTest.EncryptionDecryption
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+6: Expected equality of these values:
+6:   message
+6:     Which is: "Hello"
+6:   decryptedMessage
+6:     Which is: "\x3\t\x10\x10\x13"
+6: 
+6: [  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+6: [ RUN      ] ElGamalTest.EmptyMessage
+6: [       OK ] ElGamalTest.EmptyMessage (0 ms)
+6: [ RUN      ] ElGamalTest.SingleCharacter
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:25: Failure
+6: Expected equality of these values:
+6:   message
+6:     Which is:Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+ "A"
+6:   decryptedMessage
+6:     Which is: "\x13"
+6: 
+6: [  FAILED  ] ElGamalTest.SingleCharacter (0 ms)
+6: [ RUN      ] ElGamalTest.SpecialCharacters
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+6: Expected equality of these values:
+6:   message
+6:     Which is: "!@#$%^&*()"
+6:   decryptedMessage
+6:     Which is: "\n\x12\f\r\xE\x2\xF\x13\x11\x12"
+6: With diff:
+6: @@ -1,1 +1,2 @@
+6: -!@#$%^&*()
+6: +
+6: +\x12\f\r\xE\x2\xF\x13\x11\x12
+6: 
+6: 
+6: [  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+6: [ RUN      ] ElGamalTest.LongMessage
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+6: Expected equality of these values:
+6:   message
+6:     Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+6:   decryptedMessage
+6:     Which is: "\xF\f\r\0\t\r\0\t\x5\t\x1\t\0\x1\t\x13\n\t\x5\t\x3\t\x16\x6\t\x10\x13\x12\v\t\x11\t\0\0\x5\v\t\t\x1\x13\t\a\f\t\a\xF\t\x1\f\t\t\x16\x13\x6\x2\0\x1\x12\t\0\0\t\x13\n\t\x1\f\t\t\t\x12\a\x16\x6\x14\x1\r\x13\x12\t\x5\x12\b\t\b\t\a\x16\x6\x14\x1\r\x13\x12\0"
+6: With diff:
+6: @@ -1,1 +1,3 @@
+6: -This is a test of a very long message to check the robustness of the encryption and decryption.
+6: +\xF\f\r\0\t\r\0\t\x5\t\x1\t\0\x1\t\x13
+6: +\t\x5\t\x3\t\x16\x6\t\x10\x13\x12\v\t\x11\t\0\0\x5\v\t\t\x1\x13\t\a\f\t\a\xF\t\x1\f\t\t\x16\x13\x6\x2\0\x1\x12\t\0\0\t\x13
+6: +\t\x1\f\t\t\t\x12\a\x16\x6\x14\x1\r\x13\x12\t\x5\x12\b\t\b\t\a\x16\x6\x14\x1\r\x13\x12\0
+6: 
+6: 
+6: [  FAILED  ] ElGamalTest.LongMessage (0 ms)
+6: [ RUN      ] ElGamalTest.EdgeCharacters
+6: [       OK ] ElGamalTest.EdgeCharacters (0 ms)
+6: [----------] 6 tests from ElGamalTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 6 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 2 tests.
+6: [  FAILED  ] 4 tests, listed below:
+6: [  FAILED  ] ElGamalTest.EncryptionDecryption
+6: [  FAILED  ] ElGamalTest.SingleCharacter
+6: [  FAILED  ] ElGamalTest.SpecialCharacters
+6: [  FAILED  ] ElGamalTest.LongMessage
+6: 
+6:  4 FAILED TESTS
+ 6/11 Test  #6: model4_tests .....................***Failed    0.36 sec
+test 7
+      Start  7: model5_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+
+7: Test command: 
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+ 7/11 Test  #7: model5_tests .....................***Not Run   0.00 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+8: Test timeout computed to be: 5
+8: [==========] Running 6 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 6 tests from ElGamalTest
+8: [ RUN      ] ElGamalTest.EncryptionDecryption
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+8: Expected equality of these values:
+8:   message
+8:     Which is: "Hello"
+8:   decryptedMessage
+8:     Which is: "?\\llf"
+8: 
+8: [  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+8: [ RUN      ] ElGamalTest.EmptyMessage
+8: [       OK ] ElGamalTest.EmptyMessage (0 ms)
+8: [ RUN      ] ElGamalTest.SingleCharacter
+8: [       OK ] ElGamalTest.SingleCharacter (0 ms)
+8: [ RUN      ] ElGamalTest.SpecialCharacters
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:33: Failure
+8: Expected equality of these values:
+8:   message
+8:     Which is: "!@#$%^&*()"
+8:   decryptedMessage
+8:     Which is: "!7#$\x1CU\x1D*\x1F)"
+8: 
+8: [  FAILED  ] ElGamalTest.SpecialCharacters (0 ms)
+8: [ RUN      ] ElGamalTest.LongMessage
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:41: Failure
+8: Expected equality of these values:
+8:   message
+8:     Which is: "This is a test of a very long message to check the robustness of the encryption and decryption."
+8:   decryptedMessage
+8:     Which is: "T_is\x17is\x17" "a\x17t\\st\x17" "f]\x17" "a\x17m\\ry\x17lfe^\x17" "d\\ssa^\\\x17tf\x17" "c_\\ck\x17t_\\\x17rfblste\\ss\x17" "f]\x17t_\\\x17\\ecrygtife\x17" "aed\x17" "d\\crygtife%"
+8: 
+8: [  FAILED  ] ElGamalTest.LongMessage (0 ms)
+8: [ RUN      ] ElGamalTest.EdgeCharacters
+8: [       OK ] ElGamalTest.EdgeCharacters (0 ms)
+8: [----------] 6 tests from ElGamalTest (0 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 6 tests from 1 test suite ran. (0 ms total)
+8: [  PASSED  ] 3 tests.
+8: [  FAILED  ] 3 tests, listed below:
+8: [  FAILED  ] ElGamalTest.EncryptionDecryption
+8: [  FAILED  ] ElGamalTest.SpecialCharacters
+8: [  FAILED  ] ElGamalTest.LongMessage
+8: 
+8:  3 FAILED TESTS
+ 8/11 Test  #8: model6_tests .....................***Failed    0.40 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+9: Test timeout computed to be: 5
+9: [==========] Running 6 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 6 tests from ElGamalTest
+9: [ RUN      ] ElGamalTest.EncryptionDecryption
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.02 sec
+test 10
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebencUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+h/tasks/473652/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+
+10: Test command: 
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+11: Test timeout computed to be: 5
+11: [==========] Running 6 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 6 tests from ElGamalTest
+11: [ RUN      ] ElGamalTest.EncryptionDecryption
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/test.cpp:9: Failure
+11: Expected equality of these values:
+11:   message
+11:     Which is: "Hello"
+11:   decryptedMessage
+11:     Which is: "\x3\t\x10\x10\x13"
+11: 
+11: [  FAILED  ] ElGamalTest.EncryptionDecryption (0 ms)
+11: [ RUN      ] ElGamalTest.EmptyMessage
+11/11 Test #11: model9_tests .....................***Timeout   5.02 sec
+
+0% tests passed, 11 tests failed out of 11
+
+Total Test time (real) =  11.17 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  2 - model1_tests (Not Run)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (Not Run)
+	  5 - model3_tests (Not Run)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Not Run)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Not Run)
+	 11 - model9_tests (Timeout)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build
+      Start  1: incorrect_solution_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/incorrect_solution_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Not Run   0.00 sec
+      Start  2: model1_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model1_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model1_tests
+ 2/11 Test  #2: model1_tests .....................***Not Run   0.00 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Failed    0.02 sec
+      Start  4: model2_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model2_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model2_tests
+ 4/11 Test  #4: model2_tests .....................***Not Run   0.00 sec
+      Start  5: model3_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model3_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model3_tests
+ 5/11 Test  #5: model3_tests .....................***Not Run   0.00 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Failed    0.02 sec
+      Start  7: model5_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model5_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model5_tests
+ 7/11 Test  #7: model5_tests .....................***Not Run   0.00 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Failed    0.02 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.02 sec
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Development/model8_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/model8_tests
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Timeout   5.02 sec
+
+0% tests passed, 11 tests failed out of 11
+
+Total Test time (real) =  10.11 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Not Run)
+	  2 - model1_tests (Not Run)
+	  3 - model10_tests (Failed)
+	  4 - model2_tests (Not Run)
+	  5 - model3_tests (Not Run)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Not Run)
+	  8 - model6_tests (Failed)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Not Run)
+	 11 - model9_tests (Timeout)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473652/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

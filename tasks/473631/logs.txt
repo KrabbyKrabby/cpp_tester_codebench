@@ -1,0 +1,480 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+1: Test timeout computed to be: 5
+1: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+1: [==========] Running 4 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 4 tests from SolutionTest
+1: [ RUN      ] SolutionTest.test1
+1: [       OK ] SolutionTest.test1 (0 ms)
+1: [ RUN      ] SolutionTest.test2
+1: [       OK ] SolutionTest.test2 (0 ms)
+1: [ RUN      ] SolutionTest.test3
+1: [       OK ] SolutionTest.test3 (0 ms)
+1: [ RUN      ] SolutionTest.test4
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+1: Expected equality of these values:
+1:   output
+1:     Which is: { 1023, 1024, 1025, 1022, 1024, 1024, 2047, 2048, 2049, 2046, 2048, 2048, 4095, 4096, 4097, 4094, 4096, 4096, 8191, 8192, 8193, 8190, 8192, 8192, 16383, 16384, 16385, 16382, 16384, 16384, 32767, 32768, ... }
+1:   expected_output
+1:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+1: 
+1: [  FAILED  ] SolutionTest.test4 (0 ms)
+1: [----------] 4 tests from SolutionTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 4 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 3 tests.
+1: [  FAILED  ] 1 test, listed below:
+1: [  FAILED  ] SolutionTest.test4
+1: 
+1:  1 FAILED TEST
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.37 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+2: Test timeout computed to be: 5
+2: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 4 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 4 tests from SolutionTest
+2: [ RUN      ] SolutionTest.test1
+2: [       OK ] SolutionTest.test1 (0 ms)
+2: [ RUN      ] SolutionTest.test2
+2: [       OK ] SolutionTest.test2 (0 ms)
+2: [ RUN      ] SolutionTest.test3
+2: [       OK ] SolutionTest.test3 (0 ms)
+2: [ RUN      ] SolutionTest.test4
+2: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+2: Expected equality of these values:
+2:   output
+2:     Which is: { 1023, 1024, 1025, 1022, 1024, 1024, 2047, 2048, 2049, 2046, 2048, 2048, 4095, 4096, 4097, 4094, 4096, 4096, 8191, 8192, 8193, 8190, 8192, 8192, 16383, 16384, 16385, 16382, 16384, 16384, 32767, 32768, ... }
+2:   expected_output
+2:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+2: 
+2: [  FAILED  ] SolutionTest.test4 (0 ms)
+2: [----------] 4 tests from SolutionTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 4 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 3 tests.
+2: [  FAILED  ] 1 test, listed below:
+2: [  FAILED  ] SolutionTest.test4
+2: 
+2:  1 FAILED TEST
+ 2/11 Test  #2: model1_tests .....................***Failed    0.38 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+3: Test timeout computed to be: 5
+3: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+3: [==========] Running 4 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 4 tests from SolutionTest
+3: [ RUN      ] SolutionTest.test1
+3: [       OK ] SolutionTest.test1 (0 ms)
+3: [ RUN      ] SolutionTest.test2
+3: [       OK ] SolutionTest.test2 (0 ms)
+3: [ RUN      ] SolutionTest.test3
+3: [       OK ] SolutionTest.test3 (0 ms)
+3: [ RUN      ] SolutionTest.test4
+3: [       OK ] SolutionTest.test4 (0 ms)
+3: [----------] 4 tests from SolutionTest (0 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 4 tests from 1 test suite ran. (0 ms total)
+3: [  PASSED  ] 4 tests.
+ 3/11 Test  #3: model10_tests ....................   Passed    0.37 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+4: Test timeout computed to be: 5
+4: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+4: [==========] Running 4 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 4 tests from SolutionTest
+4: [ RUN      ] SolutionTest.test1
+4: [       OK ] SolutionTest.test1 (0 ms)
+4: [ RUN      ] SolutionTest.test2
+4: [       OK ] SolutionTest.test2 (0 ms)
+4: [ RUN      ] SolutionTest.test3
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+4: Expected equality of these values:
+4:   output
+4:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 4, 4, 5, 6, 7, 7, 1, 1, 2, 2, 2, 3, 3, 5, 5, 6, 1, 2, ... }
+4:   expected_output
+4:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+4: 
+4: [  FAILED  ] SolutionTest.test3 (0 ms)
+4: [ RUN      ] SolutionTest.test4
+4: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+4: Expected equality of these values:
+4:   output
+4:     Which is: { 1023, 1024, 1025, 767, 768, 769, 2047, 2048, 2049, 1535, 1536, 1537, 4095, 4096, 4097, 3071, 3072, 3073, 8191, 8192, 8193, 6143, 6144, 6145, 16383, 16384, 16385, 12287, 12288, 12289, 32767, 32768, ... }
+4:   expected_output
+4:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+4: 
+4: [  FAILED  ] SolutionTest.test4 (0 ms)
+4: [----------] 4 tests from SolutionTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 4 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 2 tests.
+4: [  FAILED  ] 2 tests, listed below:
+4: [  FAILED  ] SolutionTest.test3
+4: [  FAILED  ] SolutionTest.test4
+4: 
+4:  2 FAILED TESTS
+ 4/11 Test  #4: model2_tests .....................***Failed    0.36 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+5: Test timeout computed to be: 5
+5: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+5: [==========] Running 4 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 4 tests from SolutionTest
+5: [ RUN      ] SolutionTest.test1
+5: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+5: Expected equality of these values:
+5:   output
+5:     Which is: { 1, 1, 2, 6, 1 }
+5:   expected_output
+5:     Which is: { 3, 2, 2, 6, 1 }
+5: 
+5: [  FAILED  ] SolutionTest.test1 (0 ms)
+5: [ RUN      ] SolutionTest.test2
+5: [       OK ] SolutionTest.test2 (0 ms)
+5: [ RUN      ] SolutionTest.test3
+5: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+5: Expected equality of these values:
+5:   output
+5:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 1, 4, 2, 4, 2, 6, 4, 4, 1, 1, 1, 1, 2, 2, 1, 1, 3, 4, 1, 1, ... }
+5:   expected_output
+5:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+5: 
+5: [  FAILED  ] SolutionTest.test3 (0 ms)
+5: [ RUN      ] SolutionTest.test4
+5: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+5: Expected equality of these values:
+5:   output
+5:     Which is: { 1023, 1024, 1025, 32, 44, 38, 2047, 2048, 2049, 42, 54, 50, 4095, 4096, 4097, 44, 58, 54, 8191, 8192, 8193, 96, 110, 106, 16383, 16384, 16385, 150, 166, 158, 32767, 32768, ... }
+5:   expected_output
+5:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+5: 
+5: [  FAILED  ] SolutionTest.test4 (0 ms)
+5: [----------] 4 tests from SolutionTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 4 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 1 test.
+5: [  FAILED  ] 3 tests, listed below:
+5: [  FAILED  ] SolutionTest.test1
+5: [  FAILED  ] SolutionTest.test3
+5: [  FAILED  ] SolutionTest.test4
+5: 
+5:  3 FAILED TESTS
+ 5/11 Test  #5: model3_tests .....................***Failed    0.37 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+6: Test timeout computed to be: 5
+6: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+6: [==========] Running 4 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 4 tests from SolutionTest
+6: [ RUN      ] SolutionTest.test1
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+6: Expected equality of these values:
+6:   output
+6:     Which is: { 3, 3, 2, 6, 1 }
+6:   expected_output
+6:     Which is: { 3, 2, 2, 6, 1 }
+6: 
+6: [  FAILED  ] SolutionTest.test1 (0 ms)
+6: [ RUN      ] SolutionTest.test2
+6: [       OK ] SolutionTest.test2 (0 ms)
+6: [ RUN      ] SolutionTest.test3
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+6: Expected equality of these values:
+6:   output
+6:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 2, 3, 3, 4, 5, 5, 6, 7, 1, 2, ... }
+6:   expected_output
+6:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+6: 
+6: [  FAILED  ] SolutionTest.test3 (0 ms)
+6: [ RUN      ] SolutionTest.test4
+6: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+6: Expected equality of these values:
+6:   output
+6:     Which is: { 1023, 1024, 1025, 1023, 1024, 1025, 2047, 2048, 2049, 2047, 2048, 2049, 4095, 4096, 4097, 4095, 4096, 4097, 8191, 8192, 8193, 8191, 8192, 8193, 16383, 16384, 16385, 16383, 16384, 16385, 32767, 32768, ... }
+6:   expected_output
+6:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+6: 
+6: [  FAILED  ] SolutionTest.test4 (0 ms)
+6: [----------] 4 tests from SolutionTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 4 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 1 test.
+6: [  FAILED  ] 3 tests, listed below:
+6: [  FAILED  ] SolutionTest.test1
+6: [  FAILED  ] SolutionTest.test3
+6: [  FAILED  ] SolutionTest.test4
+6: 
+6:  3 FAILED TESTS
+ 6/11 Test  #6: model4_tests .....................***Failed    0.34 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+7: Test timeout computed to be: 5
+7: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+7: [==========] Running 4 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 4 tests from SolutionTest
+7: [ RUN      ] SolutionTest.test1
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+7: Expected equality of these values:
+7:   output
+7:     Which is: { 5, 2, 2, 6, 1 }
+7:   expected_output
+7:     Which is: { 3, 2, 2, 6, 1 }
+7: 
+7: [  FAILED  ] SolutionTest.test1 (0 ms)
+7: [ RUN      ] SolutionTest.test2
+7: [       OK ] SolutionTest.test2 (0 ms)
+7: [ RUN      ] SolutionTest.test3
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+7: Expected equality of these values:
+7:   output
+7:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 4, 4, 6, 6, 8, 7, 9, 1, 1, 3, 2, 2, 5, 5, 5, 8, 8, 1, 1, ... }
+7:   expected_output
+7:     Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+7: 
+7: [  FAILED  ] SolutionTest.test3 (0 ms)
+7: [ RUN      ] SolutionTest.test4
+7: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+7: Expected equality of these values:
+7:   output
+7:     Which is: { 1023, 1024, 1025, 993, 994, 994, 2047, 2048, 2049, 2003, 2005, 2005, 4095, 4096, 4097, 4033, 4034, 4034, 8191, 8192, 8193, 8102, 8104, 8104, 16383, 16384, 16385, 16257, 16258, 16258, 32767, 32768, ... }
+7:   expected_output
+7:     Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+7: 
+7: [  FAILED  ] SolutionTest.test4 (4 ms)
+7: [----------] 4 tests from SolutionTest (4 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 4 tests from 1 test suite ran. (4 ms total)
+7: [  PASSED  ] 1 test.
+7: [  FAILED  ] 3 tests, listed below:
+7: [  FAILED  ] SolutionTest.test1
+7: [  FAILED  ] SolutionTest.test3
+7: [  FAILED  ] SolutionTest.test4
+7: 
+7:  3 FAILED TESTS
+ 7/11 Test  #7: model5_tests .....................***Failed    0.35 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+8: Test timeout computed to be: 5
+8: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+8: [==========] Running 4 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 4 tests from SolutionTest
+8: [ RUN      ] SolutionUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Test.test1
+8: [       OK ] SolutionTest.test1 (0 ms)
+8: [ RUN      ] SolutionTest.test2
+8: [       OK ] SolutionTest.test2 (0 ms)
+8: [ RUN      ] SolutionTest.test3
+8: [       OK ] SolutionTest.test3 (0 ms)
+8: [ RUN      ] SolutionTest.test4
+8: [       OK ] SolutionTest.test4 (0 ms)
+8: [----------] 4 tests from SolutionTest (0 ms total)
+8: 
+8: [----------] Global test environment tear-down
+8: [==========] 4 tests from 1 test suite ran. (0 ms total)
+8: [  PASSED  ] 4 tests.
+ 8/11 Test  #8: model6_tests .....................   Passed    0.36 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+9: Test timeout computed to be: 5
+9: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+9: [==========] Running 4 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 4 tests from SolutionTest
+9: [ RUN      ] SolutionTest.test1
+9: [       OK ] SolutionTest.test1 (0 ms)
+9: [ RUN      ] SolutionTest.test2
+9: [       OK ] SolutionTest.test2 (0 ms)
+9: [ RUN      ] SolutionTest.test3
+9: [       OK ] SolutionTest.test3 (0 ms)
+9: [ RUN      ] SolutionTest.test4
+9: [       OK ] SolutionTest.test4 (0 ms)
+9: [----------] 4 tests from SolutionTest (0 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 4 tests from 1 test suite ran. (0 ms total)
+9: [  PASSED  ] 4 tests.
+ 9/11 Test  #9: model7_tests .....................   Passed    0.36 sec
+test 10
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+
+10: Test command: 
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+11: Test timeout computed to be: 5
+11: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+11: [==========] Running Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+4 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 4 tests from SolutionTest
+11: [ RUN      ] SolutionTest.test1
+11: [       OK ] SolutionTest.test1 (0 ms)
+11: [ RUN      ] SolutionTest.test2
+11: [       OK ] SolutionTest.test2 (0 ms)
+11: [ RUN      ] SolutionTest.test3
+11: [       OK ] SolutionTest.test3 (0 ms)
+11: [ RUN      ] SolutionTest.test4
+11: [       OK ] SolutionTest.test4 (15 ms)
+11: [----------] 4 tests from SolutionTest (16 ms total)
+11: 
+11: [----------] Global test environment tear-down
+11: [==========] 4 tests from 1 test suite ran. (16 ms total)
+11: [  PASSED  ] 4 tests.
+11/11 Test #11: model9_tests .....................   Passed    0.38 sec
+
+36% tests passed, 7 tests failed out of 11
+
+Total Test time (real) =   3.64 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  2 - model1_tests (Failed)
+	  4 - model2_tests (Failed)
+	  5 - model3_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	 10 - model8_tests (Not Run)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Failed    0.02 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Failed    0.02 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................   Passed    0.02 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................***Failed    0.02 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................***Failed    0.02 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................***Failed    0.02 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................***Failed    0.02 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................   Passed    0.02 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................   Passed    0.02 sec
+      Start 10: model8_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Release/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Debug/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/MinSizeRel/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/RelWithDebInfo/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Deployment/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Development/model8_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+10/11 Test #10: model8_tests .....................***Not Run   0.00 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................   Passed    0.03 sec
+
+36% tests passed, 7 tests failed out of 11
+
+Total Test time (real) =   0.23 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Failed)
+	  2 - model1_tests (Failed)
+	  4 - model2_tests (Failed)
+	  5 - model3_tests (Failed)
+	  6 - model4_tests (Failed)
+	  7 - model5_tests (Failed)
+	 10 - model8_tests (Not Run)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

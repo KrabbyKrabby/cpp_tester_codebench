@@ -1,0 +1,266 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+1: Test timeout computed to be: 5
+1: [==========] Running 5 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 5 tests from DataPipelineTest
+1: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+1: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+1: [ RUN      ] DataPipelineTest.EnableParallelismTest
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.04 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+2: Test timeout computed to be: 5
+2: [==========] Running 5 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 5 tests from DataPipelineTest
+2: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+2: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+2: [ RUN      ] DataPipelineTest.EnableParallelismTest
+2: [       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+2: [ RUN      ] DataPipelineTest.ErrorHandling
+2: [       OK ] DataPipelineTest.ErrorHandling (0 ms)
+2: [ RUN      ] DataPipelineTest.DrainTest
+2: [       OK ] DataPipelineTest.DrainTest (0 ms)
+2: [ RUN      ] DataPipelineTest.PushAfterStop
+2: [       OK ] DataPipelineTest.PushAfterStop (0 ms)
+2: [----------] 5 tests from DataPipelineTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 5 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 5 tests.
+ 2/11 Test  #2: model1_tests .....................   Passed    0.49 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+3: Test timeout computed to be: 5
+3: [==========] Running 5 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 5 tests from DataPipelineTest
+3: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+3: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+3: [ RUN      ] DataPipelineTest.EnableParallelismTest
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.04 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+4: Test timeout computed to be: 5
+4: [==========] Running 5 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 5 tests from DataPipelineTest
+4: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+4: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+4: [ RUN      ] DataPipelineTest.EnableParallelismTest
+4: [       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+4: [ RUN      ] DataPipelineTest.ErrorHandling
+4: [       OK ] DataPipelineTest.ErrorHandling (0 ms)
+4: [ RUN      ] DataPipelineTest.DrainTest
+4: [       OK ] DataPipelineTest.DrainTest (0 ms)
+4: [ RUN      ] DataPipelineTest.PushAfterStop
+4: [       OK ] DataPipelineTest.PushAfterStop (0 ms)
+4: [----------] 5 tests from DataPipelineTest (0 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 5 tests from 1 test suite ran. (0 ms total)
+4: [  PASSED  ] 5 tests.
+ 4/11 Test  #4: model2_tests .....................   Passed    0.47 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+5: Test timeout computed to be: 5
+5: [==========] Running 5 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 5 tests from DataPipelineTest
+5: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+5: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+5: [ RUN      ] DataPipelineTest.EnableParallelismTest
+5: [       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+5: [ RUN      ] DataPipelineTest.ErrorHandling
+5: [       OK ] DataPipelineTest.ErrorHandling (0 ms)
+5: [ RUN      ] DataPipelineTest.DrainTest
+5: [       OK ] DataPipelineTest.DrainTest (0 ms)
+5: [ RUN      ] DataPipelineTest.PushAfterStop
+5: [       OK ] DataPipelineTest.PushAfterStop (0 ms)
+5: [----------] 5 tests from DataPipelineTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 5 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 5 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.39 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+6: Test timeout computed to be: 5
+6: [==========] Running 5 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 5 tests from DataPipelineTest
+6: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+6: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+6: [ RUN      ] DataPipelineTest.EnableParallelismTest
+6: [       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+6: [ RUN      ] DataPipelineTest.ErrorHandling
+6: [       OK ] DataPipelineTest.ErrorHandling (0 ms)
+6: [ RUN      ] DataPipelineTest.DrainTest
+6: [       OK ] DataPipelineTest.DrainTest (0 ms)
+6: [ RUN      ] DataPipelineTest.PushAfterStop
+6: [       OK ] DataPipelineTest.PushAfterStop (0 ms)
+6: [----------] 5 tests from DataPipelineTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 5 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 5 tests.
+ 6/11 Test  #6: model4_tests .....................   Passed    0.35 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+7: Test timeout computed to be: 5
+7: [==========] Running 5 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 5 tests from DataPipelineTest
+7: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+7: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+7: [ RUN      ] DataPipelineTest.EnableParallelismTest
+7: [       OK ] DataPipelineTest.EnableParallelismTest (0 ms)
+7: [ RUN      ] DataPipelineTest.ErrorHandling
+7: [       OK ] DataPipelineTest.ErrorHandling (0 ms)
+7: [ RUN      ] DataPipelineTest.DrainTest
+7: [       OK ] DataPipelineTest.DrainTest (0 ms)
+7: [ RUN      ] DataPipelineTest.PushAfterStop
+7: [       OK ] DataPipelineTest.PushAfterStop (0 ms)
+7: [----------] 5 tests from DataPipelineTest (0 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 5 tests from 1 test suite ran. (0 ms total)
+7: [  PASSED  ] 5 tests.
+ 7/11 Test  #7: model5_tests .....................   Passed    0.43 sec
+test 8
+      Start  8: model6_tests
+
+8: Test Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+8: Test timeout computed to be: 5
+8: [==========] Running 5 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 5 tests from DataPipelineTest
+8: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+8: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+8: [ RUN      ] DataPipelineTest.EnableParallelismTest
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.03 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+9: Test timeout computed to be: 5
+9: [==========] Running 5 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 5 tests from DataPipelineTest
+9: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+9: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+9: [ RUN      ] DataPipelineTest.EnableParallelismTest
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.03 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+10: Test timeout computed to be: 5
+10: [==========] Running 5 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 5 tests from DataPipelineTest
+10: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+10: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+10: [ RUN      ] DataPipelineTest.EnableParallelismTest
+10/11 Test #10: model8_tests .....................***Timeout   5.03 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+11: Test timeout computed to be: 5
+11: [==========] Running 5 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 5 tests from DataPipelineTest
+11: [ RUN      ] DataPipelineTest.SingleThreadedBasic
+11: [       OK ] DataPipelineTest.SingleThreadedBasic (0 ms)
+11: [ RUN      ] DataPipelineTest.EnableParallelismTest
+11: terminate called without an active exception
+11/11 Test #11: model9_tests .....................Subprocess aborted***Exception:   0.65 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =  27.96 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Subprocess aborted)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.03 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................   Passed    0.04 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.03 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................   Passed    0.03 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.03 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................   Passed    0.03 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................   Passed    0.02 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.02 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.04 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Timeout   5.04 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................Subprocess aborted***Exception:   0.05 sec
+
+45% tests passed, 6 tests failed out of 11
+
+Total Test time (real) =  25.35 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Subprocess aborted)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/307570/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

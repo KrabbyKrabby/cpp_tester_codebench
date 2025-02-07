@@ -1,0 +1,380 @@
+Start testing: Feb 07 23:27 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"incorrect_solution_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Feb 07 23:27 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model1_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Feb 07 23:27 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model10_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+[       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+[ RUN      ] BilateralFilterTest.StressCase_LargeImage
+[       OK ] BilateralFilterTest.StressCase_LargeImage (127 ms)
+[ RUN      ] BilateralFilterTest.HighIntensityVariation
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:120: Failure
+Expected: (image[0][2]) > (128), actual: 0 vs 128
+
+[  FAILED  ] BilateralFilterTest.HighIntensityVariation (0 ms)
+[ RUN      ] BilateralFilterTest.HomogeneousImage
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:138: Failure
+Expected equality of these values:
+  image[i][j]
+    Which is: 0
+  100
+
+[  FAILED  ] BilateralFilterTest.HomogeneousImage (0 ms)
+[ RUN      ] BilateralFilterTest.BoundaryCheck
+[       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+[ RUN      ] BilateralFilterTest.VeryLargeSigma
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/test.cpp:194: Failure
+The difference between image[1][1] and average is 32.555555555555557, which exceeds 10, where
+image[1][1] evaluates to 49,
+average evaluates to 16.444444444444443, and
+10 evaluates to 10.
+
+[  FAILED  ] BilateralFilterTest.VeryLargeSigma (0 ms)
+[ RUN      ] BilateralFilterTest.VerySmallSigma
+[       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+[----------] 10 tests from BilateralFilterTest (128 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (128 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] BilateralFilterTest.HighIntensityVariation
+[  FAILED  ] BilateralFilterTest.HomogeneousImage
+[  FAILED  ] BilateralFilterTest.VeryLargeSigma
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Feb 07 23:27 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model2_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+[       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+[ RUN      ] BilateralFilterTest.StressCase_LargeImage
+[       OK ] BilateralFilterTest.StressCase_LargeImage (136 ms)
+[ RUN      ] BilateralFilterTest.HighIntensityVariation
+[       OK ] BilateralFilterTest.HighIntensityVariation (0 ms)
+[ RUN      ] BilateralFilterTest.HomogeneousImage
+[       OK ] BilateralFilterTest.HomogeneousImage (0 ms)
+[ RUN      ] BilateralFilterTest.BoundaryCheck
+[       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+[ RUN      ] BilateralFilterTest.VeryLargeSigma
+[       OK ] BilateralFilterTest.VeryLargeSigma (0 ms)
+[ RUN      ] BilateralFilterTest.VerySmallSigma
+[       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+[----------] 10 tests from BilateralFilterTest (137 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (137 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Feb 07 23:27 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model3_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Feb 07 23:27 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model4_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Feb 07 23:27 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model5_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Feb 07 23:27 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model6_tests
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model6_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Feb 07 23:27 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model7_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Feb 07 23:27 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model8_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+[       OK ] BilateralFilterTest.PositiveCase (0 ms)
+[ RUN      ] BilateralFilterTest.NegativeCase_NullImage
+[       OK ] BilateralFilterTest.NegativeCase_NullImage (0 ms)
+[ RUN      ] BilateralFilterTest.EdgeCase_SinglePixel
+[       OK ] BilateralFilterTest.EdgeCase_SinglePixel (0 ms)
+[ RUN      ] BilateralFilterTest.CornerCase_LargeKernel
+[       OK ] BilateralFilterTest.CornerCase_LargeKernel (0 ms)
+[ RUN      ] BilateralFilterTest.StressCase_LargeImage
+[       OK ] BilateralFilterTest.StressCase_LargeImage (169 ms)
+[ RUN      ] BilateralFilterTest.HighIntensityVariation
+[       OK ] BilateralFilterTest.HighIntensityVariation (0 ms)
+[ RUN      ] BilateralFilterTest.HomogeneousImage
+[       OK ] BilateralFilterTest.HomogeneousImage (0 ms)
+[ RUN      ] BilateralFilterTest.BoundaryCheck
+[       OK ] BilateralFilterTest.BoundaryCheck (0 ms)
+[ RUN      ] BilateralFilterTest.VeryLargeSigma
+[       OK ] BilateralFilterTest.VeryLargeSigma (0 ms)
+[ RUN      ] BilateralFilterTest.VerySmallSigma
+[       OK ] BilateralFilterTest.VerySmallSigma (0 ms)
+[----------] 10 tests from BilateralFilterTest (170 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (170 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Feb 07 23:27 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304035/build
+"model9_tests" start time: Feb 07 23:27 +06
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from BilateralFilterTest
+[ RUN      ] BilateralFilterTest.PositiveCase
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Feb 07 23:27 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:27 +06

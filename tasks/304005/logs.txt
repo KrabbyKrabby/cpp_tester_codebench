@@ -1,0 +1,422 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: incorrect_solution_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/incorrect_solution_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+1: Test timeout computed to be: 5
+1: [==========] Running 7 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 7 tests from StackTest
+1: [ RUN      ] StackTest.PositiveTest
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+1: Expected equality of these values:
+1:   stack.top()
+1:     Which is: 0
+1:   10
+1: After popping once, top should be 10.
+1: 
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+1: Value of: stack.isEmpty()
+1:   Actual: false
+1: Expected: true
+1: Stack should be empty after popping all elements.
+1: 
+1: [  FAILED  ] StackTest.PositiveTest (0 ms)
+1: [ RUN      ] StackTest.NegativeTest
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+1: Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+1: Should print underflow message when popping from an empty stack.
+1: 
+1: [  FAILED  ] StackTest.NegativeTest (0 ms)
+1: [ RUN      ] StackTest.CornerTest
+1: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+1: Value of: stack.isEmpty()
+1:   Actual: false
+1: Expected: true
+1: Stack should be empty after popping its only element.
+1: 
+1: [  FAILED  ] StackTest.CornerTest (0 ms)
+1: [ RUN      ] StackTest.EdgeTest
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.04 sec
+test 2
+      Start  2: model1_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model1_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+2: Test timeout computed to be: 5
+2: [==========] Running 7 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 7 tests from StackTest
+2: [ RUN      ] StackTest.PositiveTest
+2: [       OK ] StackTest.PositiveTest (0 ms)
+2: [ RUN      ] StackTest.NegativeTest
+ 2/11 Test  #2: model1_tests .....................***Timeout   5.04 sec
+test 3
+      Start  3: model10_tests
+
+3: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model10_tests
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+3: Test timeout computed to be: 5
+3: [==========] Running 7 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 7 tests from StackTest
+3: [ RUN      ] StackTest.PositiveTest
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+3: Expected equality of these values:
+3:   stack.top()
+3:     Which is: 0
+3:   10
+3: After popping once, top should be 10.
+3: 
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+3: Value of: stack.isEmpty()
+3:   Actual: false
+3: Expected: true
+3: Stack should be empty after popping all elements.
+3: 
+3: [  FAILED  ] StackTest.PositiveTest (0 ms)
+3: [ RUN      ] StackTest.NegativeTest
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+3: Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+3: Should print underflow message when popping from an empty stack.
+3: 
+3: [  FAILED  ] StackTest.NegativeTest (0 ms)
+3: [ RUN      ] StackTest.CornerTest
+3: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+3: Value of: stack.isEmpty()
+3:   Actual: false
+3: Expected: true
+3: Stack should be empty after popping its only element.
+3: 
+3: [  FAILED  ] StackTest.CornerTest (0 ms)
+3: [ RUN      ] StackTest.EdgeTest
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.04 sec
+test 4
+      Start  4: model2_tests
+
+4: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model2_tests
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+4: Test timeout computed to be: 5
+4: [==========] Running 7 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 7 tests from StackTest
+4: [ RUN      ] StackTest.PositiveTest
+ 4/11 Test  #4: model2_tests .....................***Timeout   5.03 sec
+test 5
+      Start  5: model3_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model3_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+5: Test timeout computed to be: 5
+5: [==========] Running 7 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 7 tests from StackTest
+5: [ RUN      ] StackTest.PositiveTest
+5: [       OK ] StackTest.PositiveTest (0 ms)
+5: [ RUN      ] StackTest.NegativeTest
+5: [       OK ] StackTest.NegativeTest (0 ms)
+5: [ RUN      ] StackTest.CornerTest
+5: [       OK ] StackTest.CornerTest (0 ms)
+5: [ RUN      ] StackTest.EdgeTest
+5: [       OK ] StackTest.EdgeTest (36 ms)
+5: [ RUN      ] StackTest.MultiThreadedTest
+5: [       OK ] StackTest.MultiThreadedTest (0 ms)
+5: [ RUN      ] StackTest.StressTest
+5: [       OK ] StackTest.StressTest (0 ms)
+5: [ RUN      ] StackTest.NullPointerTest
+5: [       OK ] StackTest.NullPointerTest (1 ms)
+5: [----------] 7 tests from StackTest (39 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 7 tests from 1 test suite ran. (39 ms total)
+5: [  PASSED  ] 7 tests.
+ 5/11 Test  #5: model3_tests .....................   Passed    0.40 sec
+test 6
+      Start  6: model4_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model4_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+6: Test timeout computed to be: 5
+6: [==========] Running 7 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 7 tests from StackTest
+6: [ RUN      ] StackTest.PositiveTest
+6: [       OK ] StackTest.PositiveTest (0 ms)
+6: [ RUN      ] StackTest.NegativeTest
+6: [       OK ] StackTest.NegativeTest (0 ms)
+6: [ RUN      ] StackTest.CornerTest
+6: [       OK ] StackTest.CornerTest (0 ms)
+6: [ RUN      ] StackTest.EdgeTest
+6: [       OK ] StackTest.EdgeTest (36 ms)
+6: [ RUN      ] StackTest.MultiThreadedTest
+6: [       OK ] StackTest.MultiThreadedTest (0 ms)
+6: [ RUN      ] StackTest.StressTest
+6: [       OK ] StackTest.StressTest (0 ms)
+6: [ RUN      ] StackTest.NullPointerTest
+6: [       OK ] StackTest.NullPointerTest (0 ms)
+6: [----------] 7 tests from StackTest (37 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 7 tests from 1 test suite ran. (38 ms total)
+6: [  PASSED  ] 7 tests.
+ 6/11 Test  #6: model4_tests .....................   Passed    0.39 sec
+test 7
+      Start  7: model5_tests
+
+7: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model5_tests
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+7: Test timeout computed to be: 5
+7: [==========] Running 7 tests from 1 test suite.
+7: [----------] Global test environment set-up.
+7: [----------] 7 tests from StackTest
+7: [ RUN      ] StackTest.PositiveTest
+7: [       OK ] StackTest.PositiveTest (0 ms)
+7: [ RUN      ] StackTest.NegativeTest
+7: [       OK ] StackTest.NegativeTest (0 ms)
+7: [ RUN      ] StackTest.CornerTest
+7: [       OK ] StackTest.CornerTest (0 ms)
+7: [ RUN      ] StackTest.EdgeTest
+7: [       OK ] StackTest.EdgeTest (42 ms)
+7: [ RUN      ] StackTest.MultiThreadedTest
+7: [       OK ] StackTest.MultiThreadedTest (0 ms)
+7: [ RUN      ] StackTest.StressTest
+7: [       OK ] StackTest.StressTest (0 ms)
+7: [ RUN      ] StackTest.NullPointerTest
+7: [       OK ] StackTest.NullPointerTest (0 ms)
+7: [----------] 7 tests from StackTest (43 ms total)
+7: 
+7: [----------] Global test environment tear-down
+7: [==========] 7 tests from 1 test suite ran. (43 ms total)
+7: [  PASSED  ] 7 tests.
+ 7/11 Test  #7: model5_tests .....................   Passed    0.40 sec
+test 8
+      Start  8: model6_tests
+
+8: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model6_tests
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+8: Test timeout computed to be: 5
+8: [==========] Running 7 tests from 1 test suite.
+8: [----------] Global test environment set-up.
+8: [----------] 7 tests from StackTest
+8: [ RUN      ] StackTest.PositiveTest
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+8: Expected equality of these values:
+8:   stack.top()
+8:     Which is: 0
+8:   10
+8: After popping once, top should be 10.
+8: 
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+8: Value of: stack.isEmpty()
+8:   Actual: false
+8: Expected: true
+8: Stack should be empty after popping all elements.
+8: 
+8: [  FAILED  ] StackTest.PositiveTest (0 ms)
+8: [ RUN      ] StackTest.NegativeTest
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+8: Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+8: Should print underflow message when popping from an empty stack.
+8: 
+8: [  FAILED  ] StackTest.NegativeTest (0 ms)
+8: [ RUN      ] StackTest.CornerTest
+8: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+8: Value of: stack.isEmpty()
+8:   Actual: false
+8: Expected: true
+8: Stack should be empty after popping its only element.
+8: 
+8: [  FAILED  ] StackTest.CornerTest (0 ms)
+8: [ RUN      ] StackTest.EdgeTest
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.03 sec
+test 9
+      Start  9: model7_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model7_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+9: Test timeout computed to be: 5
+9: [==========] Running 7 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 7 tests from StackTest
+9: [ RUN      ] StackTest.PositiveTest
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+9: Expected equality of these values:
+9:   stack.top()
+9:     Which is: 0
+9:   10
+9: After popping once, top should be 10.
+9: 
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+9: Value of: stack.isEmpty()
+9:   Actual: false
+9: Expected: true
+9: Stack should be empty after popping all elements.
+9: 
+9: [  FAILED  ] StackTest.PositiveTest (0 ms)
+9: [ RUN      ] StackTest.NegativeTest
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+9: Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+9: Should print underflow message when popping from an empty stack.
+9: 
+9: [  FAILED  ] StackTest.NegativeTest (0 ms)
+9: [ RUN      ] StackTest.CornerTest
+9: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+9: Value of: stack.isEmpty()
+9:   Actual: false
+9: Expected: true
+9: Stack should be empty after popping its only element.
+9: 
+9: [  FAILED  ] StackTest.CornerTest (0 ms)
+9: [ RUN      ] StackTest.EdgeTest
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.02 sec
+test 10
+      Start 10: model8_tests
+
+10: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model8_tests
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+10: Test timeout computed to be: 5
+10: [==========] Running 7 tests from 1 test suite.
+10: [----------] Global test environment set-up.
+10: [----------] 7 tests from StackTest
+10: [ RUN      ] StackTest.PositiveTest
+10/11 Test #10: model8_tests .....................***Timeout   5.03 sec
+test 11
+      Start 11: model9_tests
+
+11: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/model9_tests
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+11: Test timeout computed to be: 5
+11: [==========] Running 7 tests from 1 test suite.
+11: [----------] Global test environment set-up.
+11: [----------] 7 tests from StackTest
+11: [ RUN      ] StackTest.PositiveTest
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:20: Failure
+11: Expected equality of these values:
+11:   stack.top()
+11:     Which is: 0
+11:   10
+11: After popping once, top should be 10.
+11: 
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:24: Failure
+11: Value of: stack.isEmpty()
+11:   Actual: false
+11: Expected: true
+11: Stack should be empty after popping all elements.
+11: 
+11: [  FAILED  ] StackTest.PositiveTest (0 ms)
+11: [ RUN      ] StackTest.NegativeTest
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:42: Failure
+11: Expected: (output.find("Stack underflow")) != (std::string::npos), actual: 18446744073709551615 vs 18446744073709551615
+11: Should print underflow message when popping from an empty stack.
+11: 
+11: [  FAILED  ] StackTest.NegativeTest (0 ms)
+11: [ RUN      ] StackTest.CornerTest
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:55: Failure
+11: Value of: stack.isEmpty()
+11:   Actual: false
+11: Expected: true
+11: Stack should be empty after popping its only element.
+11: 
+11: [  FAILED  ] StackTest.CornerTest (0 ms)
+11: [ RUN      ] StackTest.EdgeTest
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:81: Failure
+11: Value of: stack.isEmpty()
+11:   Actual: false
+11: Expected: true
+11: Stack should be empty after popping all elements.
+11: 
+11: [  FAILED  ] StackTest.EdgeTest (39 ms)
+11: [ RUN      ] StackTest.MultiThreadedTest
+11: [       OK ] StackTest.MultiThreadedTest (0 ms)
+11: [ RUN      ] StackTest.StressTest
+11: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/test.cpp:139: Failure
+11: Expected equality of these values:
+11:   popCount
+11:     Which is: 12667
+11:   numOperations / 2
+11:     Which is: 5000
+11: After popping half, exactly half of the pushed elements should remain.
+11: 
+11: [  FAILED  ] StackTest.StressTest (0 ms)
+11: [ RUN      ] StackTest.NullPointerTest
+11: [       OK ] StackTest.NullPointerTest (0 ms)
+11: [----------] 7 tests from StackTest (40 ms total)
+11: 
+11: [----------] Global test environment tear-down
+11: [==========] 7 tests from 1 test suite ran. (41 ms total)
+11: [  PASSED  ] 2 tests.
+11: [  FAILED  ] 5 tests, listed below:
+11: [  FAILED  ] StackTest.PositiveTest
+11: [  FAILED  ] StackTest.NegativeTest
+11: [  FAILED  ] StackTest.CornerTest
+11: [  FAILED  ] StackTest.EdgeTest
+11: [  FAILED  ] StackTest.StressTest
+11: 
+11:  5 FAErrors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+ILED TESTS
+11/11 Test #11: model9_tests .....................***Failed    0.39 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =  36.82 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  2 - model1_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  4 - model2_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Failed)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build
+      Start  1: incorrect_solution_tests
+ 1/11 Test  #1: incorrect_solution_tests .........***Timeout   5.04 sec
+      Start  2: model1_tests
+ 2/11 Test  #2: model1_tests .....................***Timeout   5.03 sec
+      Start  3: model10_tests
+ 3/11 Test  #3: model10_tests ....................***Timeout   5.03 sec
+      Start  4: model2_tests
+ 4/11 Test  #4: model2_tests .....................***Timeout   5.04 sec
+      Start  5: model3_tests
+ 5/11 Test  #5: model3_tests .....................   Passed    0.07 sec
+      Start  6: model4_tests
+ 6/11 Test  #6: model4_tests .....................   Passed    0.05 sec
+      Start  7: model5_tests
+ 7/11 Test  #7: model5_tests .....................   Passed    0.06 sec
+      Start  8: model6_tests
+ 8/11 Test  #8: model6_tests .....................***Timeout   5.03 sec
+      Start  9: model7_tests
+ 9/11 Test  #9: model7_tests .....................***Timeout   5.03 sec
+      Start 10: model8_tests
+10/11 Test #10: model8_tests .....................***Timeout   5.04 sec
+      Start 11: model9_tests
+11/11 Test #11: model9_tests .....................***Failed    0.07 sec
+
+27% tests passed, 8 tests failed out of 11
+
+Total Test time (real) =  35.48 sec
+
+The following tests FAILED:
+	  1 - incorrect_solution_tests (Timeout)
+	  2 - model1_tests (Timeout)
+	  3 - model10_tests (Timeout)
+	  4 - model2_tests (Timeout)
+	  8 - model6_tests (Timeout)
+	  9 - model7_tests (Timeout)
+	 10 - model8_tests (Timeout)
+	 11 - model9_tests (Failed)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304005/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

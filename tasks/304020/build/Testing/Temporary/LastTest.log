@@ -1,0 +1,1255 @@
+Start testing: Feb 07 23:26 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"incorrect_solution_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1620 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:147: Failure
+Expected: (maxError.load()) < (1e-6), actual: 0.99978116391304206 vs 1e-06
+Concurrency caused large reconstruction error
+
+[  FAILED  ] FFTTest.ConcurrencyTest (4 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:196: Failure
+Expected: (maxError) < (1e-6), actual: 999.11415327503801 vs 1e-06
+FFT/IFFT reconstruction has excessive error
+
+[  FAILED  ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1627 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1627 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FFTTest.PositiveFFT
+[  FAILED  ] FFTTest.ConcurrencyTest
+[  FAILED  ] FFTTest.InverseFFTNormalization
+[  FAILED  ] FFTTest.NumericPrecisionStressTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   1.66 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Feb 07 23:26 +06
+"incorrect_solution_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model1_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1298 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1301 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1301 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   1.33 sec
+----------------------------------------------------------
+Test Passed.
+"model1_tests" end time: Feb 07 23:26 +06
+"model1_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model10_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1397 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:147: Failure
+Expected: (maxError.load()) < (1e-6), actual: 0.99978116391304206 vs 1e-06
+Concurrency caused large reconstruction error
+
+[  FAILED  ] FFTTest.ConcurrencyTest (4 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:196: Failure
+Expected: (maxError) < (1e-6), actual: 999.11415327503801 vs 1e-06
+FFT/IFFT reconstruction has excessive error
+
+[  FAILED  ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1404 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1404 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FFTTest.PositiveFFT
+[  FAILED  ] FFTTest.ConcurrencyTest
+[  FAILED  ] FFTTest.InverseFFTNormalization
+[  FAILED  ] FFTTest.NumericPrecisionStressTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Feb 07 23:26 +06
+"model10_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model2_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1292 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (0 ms)
+[----------] 9 tests from FFTTest (1294 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1294 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   1.32 sec
+----------------------------------------------------------
+Test Passed.
+"model2_tests" end time: Feb 07 23:26 +06
+"model2_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model3_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1264 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (0 ms)
+[----------] 9 tests from FFTTest (1266 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1266 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"model3_tests" end time: Feb 07 23:26 +06
+"model3_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model4_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1228 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (0 ms)
+[----------] 9 tests from FFTTest (1230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1230 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"model4_tests" end time: Feb 07 23:26 +06
+"model4_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model5_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+[       OK ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1328 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+[       OK ] FFTTest.ConcurrencyTest (1 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+[       OK ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+[       OK ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1330 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1330 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   1.36 sec
+----------------------------------------------------------
+Test Passed.
+"model5_tests" end time: Feb 07 23:26 +06
+"model5_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model6_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1412 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:147: Failure
+Expected: (maxError.load()) < (1e-6), actual: 0.99978116391304206 vs 1e-06
+Concurrency caused large reconstruction error
+
+[  FAILED  ] FFTTest.ConcurrencyTest (4 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:196: Failure
+Expected: (maxError) < (1e-6), actual: 999.11415327503801 vs 1e-06
+FFT/IFFT reconstruction has excessive error
+
+[  FAILED  ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1418 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1418 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FFTTest.PositiveFFT
+[  FAILED  ] FFTTest.ConcurrencyTest
+[  FAILED  ] FFTTest.InverseFFTNormalization
+[  FAILED  ] FFTTest.NumericPrecisionStressTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   1.45 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Feb 07 23:26 +06
+"model6_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model7_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1401 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:147: Failure
+Expected: (maxError.load()) < (1e-6), actual: 0.99978116391304206 vs 1e-06
+Concurrency caused large reconstruction error
+
+[  FAILED  ] FFTTest.ConcurrencyTest (4 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:196: Failure
+Expected: (maxError) < (1e-6), actual: 999.11415327503801 vs 1e-06
+FFT/IFFT reconstruction has excessive error
+
+[  FAILED  ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1407 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1407 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FFTTest.PositiveFFT
+[  FAILED  ] FFTTest.ConcurrencyTest
+[  FAILED  ] FFTTest.InverseFFTNormalization
+[  FAILED  ] FFTTest.NumericPrecisionStressTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Feb 07 23:26 +06
+"model7_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model8_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+[       OK ] FFTTest.HandleEmptyInputSignal (0 ms)
+[ RUN      ] FFTTest.FailingTestIncorrectRecovery
+[       OK ] FFTTest.FailingTestIncorrectRecovery (0 ms)
+[ RUN      ] FFTTest.MaxSignalLength
+[       OK ] FFTTest.MaxSignalLength (1436 ms)
+[ RUN      ] FFTTest.MinSignalLength
+[       OK ] FFTTest.MinSignalLength (0 ms)
+[ RUN      ] FFTTest.ConcurrencyTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:147: Failure
+Expected: (maxError.load()) < (1e-6), actual: 0.99978116391304206 vs 1e-06
+Concurrency caused large reconstruction error
+
+[  FAILED  ] FFTTest.ConcurrencyTest (4 ms)
+[ RUN      ] FFTTest.InverseFFTNormalization
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:166: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.875, which exceeds 1e-6, where
+signal[i].real() evaluates to 0.125,
+originalSignal[i].real() evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] FFTTest.InverseFFTNormalization (0 ms)
+[ RUN      ] FFTTest.NumericPrecisionStressTest
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:196: Failure
+Expected: (maxError) < (1e-6), actual: 999.11415327503801 vs 1e-06
+FFT/IFFT reconstruction has excessive error
+
+[  FAILED  ] FFTTest.NumericPrecisionStressTest (1 ms)
+[----------] 9 tests from FFTTest (1443 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (1443 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] FFTTest.PositiveFFT
+[  FAILED  ] FFTTest.ConcurrencyTest
+[  FAILED  ] FFTTest.InverseFFTNormalization
+[  FAILED  ] FFTTest.NumericPrecisionStressTest
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Feb 07 23:26 +06
+"model8_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/build
+"model9_tests" start time: Feb 07 23:26 +06
+Output:
+----------------------------------------------------------
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from FFTTest
+[ RUN      ] FFTTest.PositiveFFT
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438523, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.0059794286307045304,
+originalSignal[i].real() evaluates to 0.38268343236508978, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039804,
+originalSignal[i].real() evaluates to 0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488857,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.015625,
+originalSignal[i].real() evaluates to 1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579789, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.014435617695488859,
+originalSignal[i].real() evaluates to 0.92387953251128674, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050779, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.011048543456039808,
+originalSignal[i].real() evaluates to 0.70710678118654757, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438534, which exceeds 1e-1, where
+signal[i].real() evaluates to 0.005979428630704527,
+originalSignal[i].real() evaluates to 0.38268343236508989, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438512, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045287,
+originalSignal[i].real() evaluates to -0.38268343236508967, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.69605823773050768, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039804,
+originalSignal[i].real() evaluates to -0.70710678118654746, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579767, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488854,
+originalSignal[i].real() evaluates to -0.92387953251128652, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.984375, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.015625,
+originalSignal[i].real() evaluates to -1, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.90944391481579778, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.014435617695488855,
+originalSignal[i].real() evaluates to -0.92387953251128663, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.6960582377305079, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.011048543456039808,
+originalSignal[i].real() evaluates to -0.70710678118654768, and
+1e-1 evaluates to 0.10000000000000001.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/304020/test.cpp:24: Failure
+The difference between signal[i].real() and originalSignal[i].real() is 0.37670400373438584, which exceeds 1e-1, where
+signal[i].real() evaluates to -0.0059794286307045356,
+originalSignal[i].real() evaluates to -0.38268343236509039, and
+1e-1 evaluates to 0.10000000000000001.
+
+[  FAILED  ] FFTTest.PositiveFFT (0 ms)
+[ RUN      ] FFTTest.EdgeCaseSingleElement
+[       OK ] FFTTest.EdgeCaseSingleElement (0 ms)
+[ RUN      ] FFTTest.HandleEmptyInputSignal
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Feb 07 23:26 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:26 +06

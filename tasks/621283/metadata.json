@@ -1,8 +1,0 @@
-{
-    "time_to_develop_prompt": "< 10",
-    "programming_language": "C++",
-    "task_type": "Bug Fix",
-    "difficulty": "3",
-    "estimated_skill_requirements": "Data Structure and Algorithms",
-    "user_prompt": "provide your prompt using the following format:\n\nBase Code:\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\n\nusing namespace std;\n\nint solution(int n, int k, std::vector<int> a) {\n    sort(a.begin(), a.end());\n    for (int i = 0; i < k; i++) {\n        a[i] *= -1;\n    }\n    int sum = 0;\n    for (int i = 0; i < n; i++) {\n        sum += a[i];\n    }\n    return sum;\n}\n```\n\nPrompt:\nThe problem statement is that you are given a sequence of n integers representing a company's income. Perform exactly k sign changes (multiplying an integer by -1) on the sequence to maximize the total sum of the numbers. A number's sign can be changed multiple times. Output the maximum possible total sum after k changes. The provided code is not working properly. Please find the bug and fix it. \n"
-}

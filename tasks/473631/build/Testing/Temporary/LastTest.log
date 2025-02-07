@@ -1,0 +1,461 @@
+Start testing: Feb 07 23:32 +06
+----------------------------------------------------------
+1/11 Testing: incorrect_solution_tests
+1/11 Test: incorrect_solution_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/incorrect_solution_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"incorrect_solution_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 1022, 1024, 1024, 2047, 2048, 2049, 2046, 2048, 2048, 4095, 4096, 4097, 4094, 4096, 4096, 8191, 8192, 8193, 8190, 8192, 8192, 16383, 16384, 16385, 16382, 16384, 16384, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SolutionTest.test4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_solution_tests" end time: Feb 07 23:32 +06
+"incorrect_solution_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: model1_tests
+2/11 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model1_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 1022, 1024, 1024, 2047, 2048, 2049, 2046, 2048, 2048, 4095, 4096, 4097, 4094, 4096, 4096, 8191, 8192, 8193, 8190, 8192, 8192, 16383, 16384, 16385, 16382, 16384, 16384, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SolutionTest.test4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Feb 07 23:32 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: model10_tests
+3/11 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model10_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+[       OK ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"model10_tests" end time: Feb 07 23:32 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: model2_tests
+4/11 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model2_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+Expected equality of these values:
+  output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 4, 4, 5, 6, 7, 7, 1, 1, 2, 2, 2, 3, 3, 5, 5, 6, 1, 2, ... }
+  expected_output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+
+[  FAILED  ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 767, 768, 769, 2047, 2048, 2049, 1535, 1536, 1537, 4095, 4096, 4097, 3071, 3072, 3073, 8191, 8192, 8193, 6143, 6144, 6145, 16383, 16384, 16385, 12287, 12288, 12289, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] SolutionTest.test3
+[  FAILED  ] SolutionTest.test4
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Feb 07 23:32 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: model3_tests
+5/11 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model3_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+Expected equality of these values:
+  output
+    Which is: { 1, 1, 2, 6, 1 }
+  expected_output
+    Which is: { 3, 2, 2, 6, 1 }
+
+[  FAILED  ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+Expected equality of these values:
+  output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 1, 4, 2, 4, 2, 6, 4, 4, 1, 1, 1, 1, 2, 2, 1, 1, 3, 4, 1, 1, ... }
+  expected_output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+
+[  FAILED  ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 32, 44, 38, 2047, 2048, 2049, 42, 54, 50, 4095, 4096, 4097, 44, 58, 54, 8191, 8192, 8193, 96, 110, 106, 16383, 16384, 16385, 150, 166, 158, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] SolutionTest.test1
+[  FAILED  ] SolutionTest.test3
+[  FAILED  ] SolutionTest.test4
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Feb 07 23:32 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: model4_tests
+6/11 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model4_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+Expected equality of these values:
+  output
+    Which is: { 3, 3, 2, 6, 1 }
+  expected_output
+    Which is: { 3, 2, 2, 6, 1 }
+
+[  FAILED  ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+Expected equality of these values:
+  output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 1, 2, 3, 3, 4, 5, 5, 6, 7, 1, 2, ... }
+  expected_output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+
+[  FAILED  ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 1023, 1024, 1025, 2047, 2048, 2049, 2047, 2048, 2049, 4095, 4096, 4097, 4095, 4096, 4097, 8191, 8192, 8193, 8191, 8192, 8193, 16383, 16384, 16385, 16383, 16384, 16385, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] SolutionTest.test1
+[  FAILED  ] SolutionTest.test3
+[  FAILED  ] SolutionTest.test4
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Feb 07 23:32 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: model5_tests
+7/11 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model5_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:20: Failure
+Expected equality of these values:
+  output
+    Which is: { 5, 2, 2, 6, 1 }
+  expected_output
+    Which is: { 3, 2, 2, 6, 1 }
+
+[  FAILED  ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:73: Failure
+Expected equality of these values:
+  output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 4, 4, 6, 6, 8, 7, 9, 1, 1, 3, 2, 2, 5, 5, 5, 8, 8, 1, 1, ... }
+  expected_output
+    Which is: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4, 1, 2, ... }
+
+[  FAILED  ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/test.cpp:127: Failure
+Expected equality of these values:
+  output
+    Which is: { 1023, 1024, 1025, 993, 994, 994, 2047, 2048, 2049, 2003, 2005, 2005, 4095, 4096, 4097, 4033, 4034, 4034, 8191, 8192, 8193, 8102, 8104, 8104, 16383, 16384, 16385, 16257, 16258, 16258, 32767, 32768, ... }
+  expected_output
+    Which is: { 1023, 1024, 1025, 512, 513, 513, 2047, 2048, 2049, 1024, 1025, 1025, 4095, 4096, 4097, 2048, 2049, 2049, 8191, 8192, 8193, 4096, 4097, 4097, 16383, 16384, 16385, 8192, 8193, 8193, 32767, 32768, ... }
+
+[  FAILED  ] SolutionTest.test4 (4 ms)
+[----------] 4 tests from SolutionTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] SolutionTest.test1
+[  FAILED  ] SolutionTest.test3
+[  FAILED  ] SolutionTest.test4
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Feb 07 23:32 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: model6_tests
+8/11 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model6_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+[       OK ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"model6_tests" end time: Feb 07 23:32 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: model7_tests
+9/11 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model7_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+[       OK ] SolutionTest.test4 (0 ms)
+[----------] 4 tests from SolutionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"model7_tests" end time: Feb 07 23:32 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model8_tests
+10/11 Testing: model8_tests
+10/11 Test: model8_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model8_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model8_tests" end time: Feb 07 23:32 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: model9_tests
+11/11 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build
+"model9_tests" start time: Feb 07 23:32 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_codebench/tasks/473631/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SolutionTest
+[ RUN      ] SolutionTest.test1
+[       OK ] SolutionTest.test1 (0 ms)
+[ RUN      ] SolutionTest.test2
+[       OK ] SolutionTest.test2 (0 ms)
+[ RUN      ] SolutionTest.test3
+[       OK ] SolutionTest.test3 (0 ms)
+[ RUN      ] SolutionTest.test4
+[       OK ] SolutionTest.test4 (11 ms)
+[----------] 4 tests from SolutionTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (11 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"model9_tests" end time: Feb 07 23:32 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 23:32 +06
